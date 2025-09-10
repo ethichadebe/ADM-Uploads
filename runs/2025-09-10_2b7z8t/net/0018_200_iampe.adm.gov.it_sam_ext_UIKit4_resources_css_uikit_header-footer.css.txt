@@ -1,0 +1,144 @@
+/*!
+ * Sogei UI Kit 4
+ * author: dgalloppa
+ */
+
+html {
+	background-color: #30373d;
+}
+#page-header h1,
+#page-footer h1 {
+	margin-bottom: 0;
+}
+#page-header .logo,
+#page-footer .logo {
+	max-height: 3rem;
+	max-width: 100%;
+}
+
+/* HEADER */
+#agenzia-header {
+	background-color: #30373d;
+}
+#agenzia-header p {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+}
+#agenzia-header p > a,
+#agenzia-header p > a:hover,
+#agenzia-header p > a:visited {
+    color: #fff !important;
+}
+#page-header {
+	border-bottom: 1px solid transparent;
+}
+#page-header h1 > small {
+	color: inherit;
+	display: block;
+	font-size: .75em;
+	font-weight: 600;
+}
+.btn-rounded .btn {
+	border: 0;
+	border-radius: 50%;
+	height: 2rem;
+	line-height: 2rem;
+	padding: 0 !important;
+	width: 2rem;
+}
+
+/* SITI */
+.language > .list-inline-item:not(:last-child) {
+	margin-right: .25rem;
+}
+.language {
+	margin-bottom: 0;
+}
+.language .btn {
+	border-radius: 0;
+	color: #fff;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+}
+.social > .list-inline-item:not(:last-child) {
+	margin-right: .5rem;
+}
+
+/* APP */
+#user-info {
+	background-color: #fff;
+	color: #19191a;
+	padding: .5rem 1rem;
+}
+#open-user-info {
+	background-color: transparent;
+	border: 0;
+	padding: 0;
+}
+#open-user-info::before {
+	content: '\f077';
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+}
+#open-user-info.collapsed::before {
+	content: '\f078';
+}
+.header-links > .btn:not(:last-child) {
+	margin-right: .5em;
+}
+
+/* FOOTER */
+#page-footer {
+	background-color: #30373d;
+	color: #c6cace;
+}
+#page-footer h1,
+#page-footer h2,
+#page-footer h3,
+#page-footer h4,
+#page-footer a:hover {
+	color: #fff;
+}
+#page-footer hr {
+	border-color: #444e57;
+}
+#page-footer hr.sm {
+	margin: .5rem 0;
+}
+#page-footer a {
+	color: #75ebe7;
+	font-weight: 600;
+	text-decoration: underline;
+}
+#page-footer .btn-primary.btn-alt {
+	background-color: #75ebe7;
+	border-color: #75ebe7;
+	color: #30373d;
+}
+#page-footer .btn-primary.btn-alt:hover {
+	background-color: #fff;
+	border-color: #fff;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+	#page-header .logo,
+	#page-footer .logo {
+		max-height: 4.75rem;
+	}
+	#page-header .logo-sm,
+	#page-footer .logo-sm {
+		max-height: 3rem !important;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+	/* SITI */
+	.header-links.flex-lg-column > .btn:not(:last-child) {
+		margin-right: 0;
+		margin-bottom: .5rem;
+	}
+}

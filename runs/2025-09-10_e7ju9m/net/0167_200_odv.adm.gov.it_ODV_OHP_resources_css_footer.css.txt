@@ -1,0 +1,29 @@
+#footer {
+	width: 99%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;	
+	background-color: #FFF;
+	border-top: 1px solid #E5E1E2;
+}
+#footer ul {
+	
+	width: 100%;
+	margin: 0;
+	padding: 20px 0 0 0;
+}
+#footer LI {
+	display: inline; 
+	margin: 0px 0.1em;
+	list-style: none; 
+}
+#footer li a:link, #footer li a:visited  {
+	display: inline;
+	text-decoration: underline;
+	color: #333;
+
+}
+#footer li a:hover {
+	text-decoration: none;
+}
+

@@ -1,0 +1,121 @@
+	//Funzione che permette di passare da un app all altra passando i parametri di codice e descrizione ufficio
+	function extLink(link){
+	
+		//alert("link prima del parametro: "+link);
+		//alert("idEnteHidden: "+$('#idEnteHidden').val());
+	
+		link = link + "?idEnteNew="+$('#idEnteHidden').val();
+		//alert(link);
+		window.location.href = link;
+		return false;
+	
+	}
+
+	function confermaSalva(tipoSalva) {
+	// alert("confermaSalva inizio");
+		var messaggio = "";
+		if (tipoSalva.equals("salva")) {
+			messaggioSalva = "Confermando i dati inseriti si procede con il salvataggio.";
+		}
+		if (tipoSalva.equals("valida")) {
+			messaggioSalva = "Confermando i dati inseriti si procede con il salvataggio e la validazione dei moduli critici.";
+		} else { // modifica
+			messaggioSalva = "Confermando i dati inseriti si procede con la modifica, l'annullamento della validazione dei moduli critici ed un nuovo tentativo di validazione degli stessi.";
+		}
+		
+		
+		var sezioneEsito = $('[id$=radioEsito]').val();
+		//alert("sezioneEsito" +sezioneEsito);
+		var esito = $("input[name='formAcqController:esitoIstanza']:checked").val();
+		var capofila = $('[id$=capofila]').val();
+		var subversione = $('[id$=elencoVersSoftware]').val();
+		var moduliPresenti = $('[id$=moduliPresenti]').val();
+		var statoProtEnte = $('[id$=statoProtEnte]').val();
+		var listaModuliCritici = $('[id$=dataTableModuliCriticiDett]').length;
+		var note = $('[id$=note]').val();
+		
+		subversione = subversione.substring(subversione.indexOf(".")+1);
+		
+		//alert("note: "+note);
+		//alert("esito: *"+esito+"*");
+		//alert("capofila: *"+capofila+"*");
+		//alert("subversione: *"+subversione+"*");
+		//alert("moduliPresenti: *"+moduliPresenti+"*");
+		//alert("statoProtEnte: *"+statoProtEnte+"*");
+		//alert("listaModuliCritici: "+listaModuliCritici);
+		
+		if(note != undefined && note != ""){
+			if(note.length > 2500){
+				alert("Il campo note non puo' superare i 2500 caratteri.");
+				return false;
+			}
+		}
+		
+		//se la sezione dell'esito � visualizzata allora controllo che l'esito sia stato selezionto
+		
+		if(sezioneEsito != undefined){
+			//Esito negativo, ente trasmittente � capofila, no sub-versione, no protocollazione moduli critici gi� associati
+			if(esito == "2" && capofila == "si" && subversione == "0" && statoProtEnte == "0" && moduliPresenti == "si"){
+				messaggio = "Attenzione! con l'inserimento dell'esito negativo verranno eliminati tutti i moduli critici per l'istanza selezionata. Si desidera continuare?";
+			}
+			//esito negativo, ente trasmittente � capofila, no sub-versione, no protocollazione, non sono stati precedentemente associati moduli critici al progetto
+			else if(esito == "2" && capofila == "si" && subversione == "0" && statoProtEnte == "0" && moduliPresenti == "no"){
+				messaggio = "Si conferma l'inserimento dell'esito negativo per l'istanza selezionata?";
+			}
+			//Esito = Nessun selezionato
+			else if(esito == "0" && tipoSalva == "salva"){
+				messaggio = "Attenzione! Procedendo con l'operazione verranno eliminati tutti i moduli critici attualmente inseriti. Si desidera continuare?";
+			}
+			//non � stato selezionato alcun modulo critico e non si richiede la validazione
+			else if(listaModuliCritici == 0 && tipoSalva == "salva"){
+				messaggio = "Attenzione! Procedendo con l'operazione verranno eliminati tutti i moduli critici attualmente inseriti. Si desidera continuare?";
+			}
+			else{
+				if(esito == undefined || esito == ""){
+					alert("Non e' stata selezionata nessuna opzione per l'esito.");
+					return false;
+				}
+			}
+		}
+		else{
+			//controllo i moduli critici
+			if(listaModuliCritici == 0 && tipoSalva == "salva"){
+//				messaggio = "Attenzione! Moduli critici obbligatori.";
+				alert("Attenzione! Moduli critici obbligatori.");
+				return false;
+			}
+		}
+		
+		
+		return messaggio;
+    }
+	
+	function confermaRiprotocolla(){
+		//alert("sono confermaRiprotocolla");
+		var messaggio = "Richiedendo la riprotocollazione le informazioni relative alla precedente protocollazione di questa istanza verrano perse.";
+		
+		return messaggio;
+	}
+	
+	function selezionaVersione(versione){
+		//alert("versione selezionata: "+versione);
+		
+		$(versione).button({
+	        icons: {
+	            primary: ("ui-icon-check")
+	        }
+	    });
+	}
+	
+	function selezionaAllCheck(){
+		//alert("sono selezionaAllCheck");
+
+		if($( '[id$=idSelTutti]').is(':checked')){
+			//alert("seleziono");
+			$( '[id$=idCom]').prop('checked', true);
+		}
+		else{
+			//alert("NON seleziono");
+			$( '[id$=idCom]').prop('checked', false);
+		}
+	}

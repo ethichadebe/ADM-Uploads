@@ -3,7 +3,7 @@ import { waitForProjectList } from "./waitForProjectList.js";
 
 // Picks the first projectValue that exists in the list.
 // Returns { ok, chosen, available } where chosen is the selected {value,label} or null.
-export async function selectProjectFromValues(page, projectValues, screenshotPath) {
+export async function selectProjectFromValues(page, projectValues, screenshotPath, logger) {
   const SEL = "#formAcqController\\:elencoGiocoPiatt";
   await waitForProjectList(page, 20000);
 
@@ -21,6 +21,9 @@ export async function selectProjectFromValues(page, projectValues, screenshotPat
 
   if (!match) {
     if (screenshotPath) await page.screenshot({ path: screenshotPath, fullPage: true });
+    logger?.warn?.("project:no-match", { provided: projectValues, availableCount: available.length });
+    // Save available options for analysis
+    try { await logger?.saveJSON?.(`insights/available_${Date.now()}.json`, available); } catch {}
     return { ok: false, chosen: null, available, reason: "no-match" };
   }
 
@@ -30,5 +33,6 @@ export async function selectProjectFromValues(page, projectValues, screenshotPat
   await page.waitForTimeout(200);
 
   if (screenshotPath) await page.screenshot({ path: screenshotPath, fullPage: true });
+  logger?.info?.("project:selected", { chosen: match });
   return { ok: true, chosen: match, available };
 }

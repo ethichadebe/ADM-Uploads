@@ -1,0 +1,563 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<partial-response><changes><update id="formAcqController"><![CDATA[
+<form id="formAcqController" name="formAcqController" method="post" action="/ODV_GAD/pages/acquisizioneCertificazione.xhtml" enctype="multipart/form-data">
+<input type="hidden" name="formAcqController" value="formAcqController" />
+<div id="formAcqController:messages" class="ui-messages ui-widget" aria-live="polite"></div><fieldset id="formAcqController:j_idt50" class="ui-fieldset ui-widget ui-widget-content ui-corner-all ui-hidden-container fieldSet95" data-widget="widget_formAcqController_j_idt50"><legend class="ui-fieldset-legend ui-corner-all ui-state-default">Acquisizione Certificazione</legend><div class="ui-fieldset-content"><table>
+<tbody>
+<tr>
+<td><label for="formAcqController:elencoConc" title="Concessionario">Concessionario:</label></td>
+</tr>
+<tr>
+<td><select id="formAcqController:elencoConc" name="formAcqController:elencoConc" class="form-control" size="1" title="Concessionario selezionato" onchange="mojarra.ab(this,event,'change',0,'@form')">	<option value="">Selezionare il concessionario:</option>
+	<option value="15003">15003 - DOMUS BET S.R.L</option>
+	<option value="15007">15007 - BETFLAG S.P.A.</option>
+	<option value="15011">15011 - LEO VEGAS GAMING P.L.C.</option>
+	<option value="15014">15014 - 888 ITALIA LIMITED</option>
+	<option value="15015">15015 - BPG S.R.L.</option>
+	<option value="15016">15016 - EUROBET ITALIA S.R.L. UNIPERSONALE</option>
+	<option value="15017">15017 - GOLDBET BETTER ORGANIZATION ITALY S.P.A. IN BREVE GBO ITALY S.P.A.</option>
+	<option value="15023">15023 - TSG ITALY SRL</option>
+	<option value="15026">15026 - EUROBET ITALIA S.R.L. UNIPERSONALE</option>
+	<option value="15028">15028 - EUROBET ITALIA S.R.L. UNIPERSONALE</option>
+	<option value="15038">15038 - WILLIAM HILL MALTA PLC</option>
+	<option value="15075">15075 - HIT D.D. NOVA GORICA S.P.A.</option>
+	<option value="15096">15096 - ADMIRAL SPORT S.R.L.</option>
+	<option value="15099">15099 - TOTOSI' S.R.L.</option>
+	<option value="15112" selected="selected">15112 - MICROGAME S.P.A.</option>
+	<option value="15125">15125 - SCOMMETTENDO S.R.L.</option>
+	<option value="15131">15131 - BETPOINT S.R.L.</option>
+	<option value="15133">15133 - MULTIGIOCO S.R.L.</option>
+	<option value="15155">15155 - SISAL ITALIA S.P.A.</option>
+	<option value="15200">15200 - VINCITU' S.R.L.</option>
+	<option value="15201">15201 - VINCITU' S.R.L.</option>
+	<option value="15202">15202 - AZZURRI LIMITED</option>
+	<option value="15210">15210 - BET CLASS ITALIA S.R.L.</option>
+	<option value="15211">15211 - BETFAIR ITALIA S.R.L.</option>
+	<option value="15215">15215 - SNAITECH SPA</option>
+	<option value="15216">15216 - BETWAY LIMITED</option>
+	<option value="15220">15220 - E-PLAY24 ITALIA S.R.L.</option>
+	<option value="15221">15221 - HBG ON LINE GAMING S.R.L</option>
+	<option value="15226">15226 - GOLDBET BETTER ORGANIZATION ITALY S.P.A. IN BREVE GBO ITALY S.P.A.</option>
+	<option value="15227">15227 - GI.LU.PI. S.R.L.</option>
+	<option value="15228">15228 - UNIBET (ITALIA) LTD</option>
+	<option value="15230">15230 - AZZURRI LIMITED</option>
+	<option value="15232">15232 - E-PLAY 24 ITA LIMITED</option>
+	<option value="15234">15234 - REPLATZ S.R.L.</option>
+	<option value="15235">15235 - APOLLO ENTERTAINMENT LTD</option>
+	<option value="15237">15237 - STAKE ITALY S.R.L.</option>
+	<option value="15241">15241 - UNIBET (ITALIA) LTD</option>
+	<option value="15242">15242 - PWO S.P.A.</option>
+	<option value="15247">15247 - STANLEYBET MALTA LIMITED</option>
+	<option value="15252">15252 - BGAME S.P.A. SOCIETA' BENEFIT</option>
+	<option value="15253">15253 - HILLSIDE (NEW MEDIA MALTA) PLC</option>
+	<option value="15427">15427 - VIDEOSLOTS LTD</option>
+	<option value="15432">15432 - NETWIN ITALIA S.P.A.</option>
+	<option value="15442">15442 - GAME DIVISION ITALY SRL</option>
+	<option value="15454">15454 - SPORTBET S.R.L.</option>
+	<option value="15455">15455 - SOGNO DI TOLOSA LTD</option>
+	<option value="15463">15463 - BI & BI SRLS</option>
+	<option value="15464">15464 - IFLEX LIMITED</option>
+	<option value="15469">15469 - SLOT PLUS S.R.L.</option>
+</select></td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td><label title="Selezionare un tipo di progetto:">Selezionare un tipo di progetto:</label></td>
+</tr>
+<tr>
+<td><table id="formAcqController:tipoProgetto" class="tipologiaFldset radiobtnText">
+	<tr>
+<td>
+<input type="radio" name="formAcqController:tipoProgetto" id="formAcqController:tipoProgetto:0" value="P" onclick="mojarra.ab(this,event,'click',0,'@form')" /><label for="formAcqController:tipoProgetto:0"> Piattaforma</label></td>
+	</tr>
+	<tr>
+<td>
+<input type="radio" checked="checked" name="formAcqController:tipoProgetto" id="formAcqController:tipoProgetto:1" value="G" onclick="mojarra.ab(this,event,'click',0,'@form')" /><label for="formAcqController:tipoProgetto:1"> Gioco</label></td>
+	</tr>
+</table></td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td><label for="formAcqController:elencoVersSoftware" title="Selezionare un progetto">Selezionare un progetto:</label></td>
+</tr>
+<tr>
+<td><select id="formAcqController:elencoGiocoPiatt" name="formAcqController:elencoGiocoPiatt" class="form-control" size="1" title="Gioco/Piattaforma selezionato" onchange="mojarra.ab(this,event,'change',0,'@form')">	<option value="">Selezionare un progetto:</option>
+	<option value="80227">80227 - DRAGON FRUIT</option>
+	<option value="80228">80228 - BOOK OF BABYLON</option>
+	<option value="80229">80229 - FRANKIE HOLIDAY</option>
+	<option value="80230">80230 - CHEEKY CHESHIRE</option>
+	<option value="80231">80231 - DRAGON LORD</option>
+	<option value="80233">80233 - TOIN OF GOLD</option>
+	<option value="80235">80235 - NEON LIGHT</option>
+	<option value="80236">80236 - HAMMER OF FORTUNE</option>
+	<option value="80237">80237 - AZTEC FORTUNE</option>
+	<option value="80238">80238 - HIGH NOON KO</option>
+	<option value="80239">80239 - CASINO BLOCKS</option>
+	<option value="80245">80245 - SON OF MIDAS</option>
+	<option value="80246">80246 - FRUIT PUNCH</option>
+	<option value="123491" selected="selected">123491 - BOOK OF SLINGO </option>
+	<option value="123494">123494 - SLINGO DAVINCI DIAMONDS </option>
+	<option value="123499">123499 - SLINGO LOBESTERMANIA</option>
+	<option value="123505">123505 - SLINGO SWEET BONANZA</option>
+	<option value="123511">123511 - SLINGO  STARBUST</option>
+	<option value="123515">123515 - SLINGOOAL</option>
+	<option value="123516">123516 - SLINGO DEAL NO DEAL</option>
+	<option value="123517">123517 - SLINGO CLEOPATRA</option>
+	<option value="196507">196507 - THUNDERSTRUCK FLYX</option>
+	<option value="207535">207535 - AMAZING LINK CLUCKIN&AMP;#039; RICHES</option>
+	<option value="213178">213178 - 3 LUCKY HIPPOS 2</option>
+	<option value="213179">213179 - BLAZING BISON GOLD BLITZ ULTIMATE DOUBLE X</option>
+	<option value="216914">216914 - STARLITE FRUITS</option>
+	<option value="216916">216916 - SUGAR CRAZE BONANZA</option>
+	<option value="216922">216922 - AREA LINK PIGGY BANK</option>
+	<option value="216924">216924 - BISON MOON ULTRA LINK&AMP;AMP;WIN</option>
+	<option value="216925">216925 - JOKER ICE FRENZY EPIC STRIKE</option>
+	<option value="216926">216926 - BLAZING LAKE LINK &AMP;AMP; WIN</option>
+	<option value="216927">216927 - DEVILISH FORTUNES</option>
+	<option value="216929">216929 - ACTION CASH RA&AMP;#039;S RICHES</option>
+	<option value="216930">216930 - LUCKY RUMBLE</option>
+	<option value="216932">216932 - ACTION BOOST TIKI TREASURES</option>
+	<option value="216933">216933 - ACTION CASH LIGHTNING BOUNTY</option>
+	<option value="216935">216935 - BULLET TRAIN BANDITS</option>
+	<option value="216937">216937 - AMAZING LEGENDS LUCKY DEVIL</option>
+	<option value="216938">216938 - BASS CASH X UP</option>
+	<option value="216940">216940 - HOUSE OF SPINS</option>
+	<option value="216941">216941 - AREA LINK PHOENIX FIRESTORM</option>
+	<option value="216944">216944 - FISHING FLOATS DOWN UNDER CONNECTIFY PAYS</option>
+	<option value="216946">216946 - ZEUS HYPER FRAMES</option>
+	<option value="216949">216949 - HELLFIRE HIGHWAY GOLD BLITZ</option>
+	<option value="216951">216951 - HYPER STAR MULTICHASE</option>
+	<option value="216985">216985 - FLAMING BELLS: HOLD AND WIN</option>
+</select></td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td><label for="formAcqController:elencoVersSoftware" title="Selezionare il progressivo richiesta">Selezionare il progressivo richiesta:</label></td>
+</tr>
+<tr>
+<td><select id="formAcqController:elencoVersSoftware" name="formAcqController:elencoVersSoftware" class="form-control" size="1" title="Progressivo richiesta selezionata" onchange="mojarra.ab(this,event,'change',0,'@form')">	<option value="">Selezionare una versione:</option>
+	<option value="1.0" selected="selected">1.0</option>
+</select></td>
+</tr>
+</tbody>
+</table>
+</div></fieldset><script id="formAcqController:j_idt50_s" type="text/javascript">PrimeFaces.cw("Fieldset","widget_formAcqController_j_idt50",{id:"formAcqController:j_idt50"});</script><fieldset id="formAcqController:j_idt68" class="ui-fieldset ui-widget ui-widget-content ui-corner-all ui-hidden-container fieldSet95" data-widget="widget_formAcqController_j_idt68"><legend class="ui-fieldset-legend ui-corner-all ui-state-default">ODV del progetto</legend><div class="ui-fieldset-content"><table class="noBorder">
+<tbody>
+<tr>
+<td><label title="ODV certificatore" class="grassetto">ODV certificatore:</label></td>
+<td><span title="ODV certificatore">EGAMING COMPLIANCE SERVICES LTD</span></td>
+</tr>
+<tr>
+<td><label title="ODV ausiliari" class="grassetto">ODV ausiliari:</label></td>
+<td><span title="ODV ausiliari">QUINEL LIMITEDQUINEL LIMITED</span></td>
+</tr>
+</tbody>
+</table>
+</div></fieldset><script id="formAcqController:j_idt68_s" type="text/javascript">PrimeFaces.cw("Fieldset","widget_formAcqController_j_idt68",{id:"formAcqController:j_idt68"});</script><fieldset id="formAcqController:j_idt74" class="ui-fieldset ui-widget ui-widget-content ui-corner-all ui-hidden-container fieldSet95" data-widget="widget_formAcqController_j_idt74"><legend class="ui-fieldset-legend ui-corner-all ui-state-default">Dettagli del progetto</legend><div class="ui-fieldset-content"><table class="noBorder">
+<tbody>
+<tr>
+<td><span class="grassetto" title="ID Istanza">ID Istanza:</span></td>
+<td><span id="formAcqController:idIstanza" title="A2315112G282202">A2315112G282202</span></td>
+<td></td>
+</tr>
+<tr>
+<td><span class="grassetto" title="Tipo Istanza">Tipo Istanza:</span></td>
+<td><span id="formAcqController:idTipoIstanza" title="Gioco">Gioco</span></td>
+<td></td>
+</tr>
+<tr>
+<td><span class="grassetto" title="Produttore">Produttore:</span></td>
+<td><select id="formAcqController:codProduttore" name="formAcqController:codProduttore" class="form-control " size="1" title="Produttore selezionato">	<option value="-1">Selezionare un produttore:</option>
+	<option value="1">Ainsworth</option>
+	<option value="2">Amaya</option>
+	<option value="3">Aristocrat</option>
+	<option value="4">BALLY</option>
+	<option value="5">Barcrest</option>
+	<option value="6">BetSoft</option>
+	<option value="7">Capecod</option>
+	<option value="8">Emaster</option>
+	<option value="9">Eurobet</option>
+	<option value="10">Evolution</option>
+	<option value="11">GOL</option>
+	<option value="12">GTS</option>
+	<option value="13">Game 360</option>
+	<option value="14">Game Account</option>
+	<option value="22">Gamomat</option>
+	<option value="23">High Flyer Game</option>
+	<option value="24">Incredible Technologies</option>
+	<option value="25">Konami</option>
+	<option value="26">Media Live</option>
+	<option value="27">Microgame</option>
+	<option value="28">Microgaming</option>
+	<option value="29">Multimedia Games</option>
+	<option value="30">NeoGames</option>
+	<option value="31">Net Ent</option>
+	<option value="32">Nextgen</option>
+	<option value="33">Oboent</option>
+	<option value="34">Play'n GO</option>
+	<option value="35">Playtech</option>
+	<option value="36">Playson</option>
+	<option value="37">Reel Time Gaming</option>
+	<option value="38">SG GAMING</option>
+	<option value="39">Tuko Pro</option>
+	<option value="40">Viaden</option>
+	<option value="41">WorldMatch </option>
+	<option value="42">Novomatic</option>
+	<option value="43">Pragmatic Play</option>
+	<option value="44">ISB Technology Sarl</option>
+	<option value="45">Ezugi</option>
+	<option value="46">Wholesale Games</option>
+	<option value="47">ELK Studios</option>
+	<option value="48">Leander Games</option>
+	<option value="49">Leap Gaming</option>
+	<option value="50">Skywind Group</option>
+	<option value="51">Stakelogic</option>
+	<option value="52">WMG S.r.l.</option>
+	<option value="53">ISB Services Ltd</option>
+	<option value="54">Fils Italia srl</option>
+	<option value="56">Prima Networks Limited (PNL)</option>
+	<option value="58">Games Inc.</option>
+	<option value="60">Seven A.b.c.</option>
+	<option value="62">tombola International Malta Plc</option>
+	<option value="65">Booming Games</option>
+	<option value="66">Yggdrasil Gaming Ltd.</option>
+	<option value="67">RED RAKE TECH SL</option>
+	<option value="68">Exalogic Srl</option>
+	<option value="69">PIXELO S.R.L.</option>
+	<option value="70">Talenta Labs S.r.l.</option>
+	<option value="71">Capecod Gaming - Novomatic Italia S.p.A.</option>
+	<option value="72">Get Bet S.r.l.</option>
+	<option value="73">888 Italia Limited</option>
+	<option value="74">FOOTBALL 1x2 LIMITED</option>
+	<option value="75">Sisal</option>
+	<option value="76">Lottomatica</option>
+	<option value="77">CRISTALTEC S.P.A.</option>
+	<option value="78">LiveG24 Ltd</option>
+	<option value="79">bwin Italia S.r.l.</option>
+	<option value="80">WorldMatch srl</option>
+	<option value="81">Playson Limited</option>
+	<option value="82">Wirex S.r.l.</option>
+	<option value="83">Authentic Gaming Limited</option>
+	<option value="84">Replatz s.r.l</option>
+	<option value="85">EGT</option>
+	<option value="86">Xterra Games Ltd</option>
+	<option value="87">Eurasian Gaming Limited</option>
+	<option value="88">IGT</option>
+	<option value="89">Evolution Malta Limited</option>
+	<option value="90">TV Žaidimai Ltd</option>
+	<option value="91">Evoplay Entertainment B.V.</option>
+	<option value="92">Greentube</option>
+	<option value="93">TSG Interactive</option>
+	<option value="94">Octavian Lab S.r.l.</option>
+	<option value="95">Jeyweb Solution Srl</option>
+	<option value="96">Instant Win Gaming</option>
+	<option value="97">Giocaonline S.r.l.</option>
+	<option value="98">Quickspin AB</option>
+	<option value="99">GST Gaming S.r.l.</option>
+	<option value="100">Spribe OU</option>
+	<option value="101">Thunderkick Malta Limited</option>
+	<option value="102">Blox Limited</option>
+	<option value="103">Nazionale Elettronica S.r.l.</option>
+	<option value="104">Technologies HUB Ltd</option>
+	<option value="105">NoLimit City Limited</option>
+	<option value="106">Spinmatic Ltd</option>
+	<option value="107">Habanero Systems Limited</option>
+	<option value="108">Gamevy Limited</option>
+	<option value="109">Videoslots Limited</option>
+	<option value="110">Blueprint Gaming Ltd</option>
+	<option value="111">William Hill Malta Plc</option>
+	<option value="112">GameArt Ltd</option>
+	<option value="113">Synot W</option>
+	<option value="114">AlchemyBet</option>
+	<option value="115">Totopartners S.r.l.</option>
+	<option value="116">BETPOINT S.r.l.</option>
+	<option value="117">Tuko Productions S.r.l.</option>
+	<option value="118">Baldo Line s.r.l.</option>
+	<option value="119">Slot Plus S.R.L.</option>
+	<option value="120">SKS365 Malta LTD</option>
+	<option value="121">Game360 S.r.l.</option>
+	<option value="122">Pariplay Ltd</option>
+	<option value="123">Inspired Gaming Group</option>
+	<option value="124">BPG</option>
+	<option value="125">Kalamba Games Limited</option>
+	<option value="126">CT Interactive EOOD</option>
+	<option value="127">Consulabs SRL</option>
+	<option value="128">Triple Cherry SL</option>
+	<option value="129">Cristaltec Entertainment S.r.l</option>
+	<option value="130">FourSeven Play Limited</option>
+	<option value="131">Thunderkick Malta Ltd</option>
+	<option value="132">Capecod Gaming - Capecod Solutions S.r.l.</option>
+	<option value="133">Pocket Games Software Limited</option>
+	<option value="134">FAZI d.o.o.</option>
+	<option value="135">Onseo Affiliates Limited</option>
+	<option value="136">Wholesale Limited</option>
+	<option value="137">Core Gaming</option>
+	<option value="138">Leovegas Gaming Plc</option>
+	<option value="139">EveryMatrix Software Ltd</option>
+	<option value="140">G Gaming Limited</option>
+	<option value="141">Casinò di Venezia Gioco S.p.A.</option>
+	<option value="142">High 5 Games</option>
+	<option value="143">FUGASO Limited</option>
+	<option value="144">eCOGRA Limited</option>
+	<option value="145">GOLDBET SPA</option>
+	<option value="146">BML Group Limited</option>
+	<option value="147">Digital Software Ltd</option>
+	<option value="148">PYR Software d/b/a Stars Technologies Services</option>
+	<option value="149">Smartsoft LLC</option>
+	<option value="150">Octavian S.r.l.</option>
+	<option value="151">Consulabs S.r.l.</option>
+	<option value="152">Relax Gaming Limited</option>
+	<option value="153">Widerpoker S.r.l.</option>
+	<option value="154">Green Jade</option>
+	<option value="155">Simple Software Limited</option>
+	<option value="156">Gameiom Technologies Limited</option>
+	<option value="157">ISB Ena Ltd</option>
+	<option value="158">GAMEART LIMITED</option>
+	<option value="159">GAMING CORPS MALTA LTD</option>
+	<option value="160">Endorphina Limited</option>
+	<option value="161">GameCo LLC</option>
+	<option value="162">Wazdan Holding Limited</option>
+	<option value="163">JVL</option>
+	<option value="164">PSM TECH SRL</option>
+	<option value="165">Betclic Limited</option>
+	<option value="166">Lottomatica S.p.A.</option>
+	<option value="167">ASTOR S.R.L.</option>
+	<option value="168">CMOBet s.r.l.</option>
+	<option value="169">EGC Services Limited</option>
+	<option value="170">OnPlay s.r.l.</option>
+	<option value="171">OIA Services Ltd</option>
+	<option value="172">Amusnet Interactive Ltd</option>
+	<option value="173">ISB Ena limited</option>
+	<option value="174">Online Gaming Solutions Ltd</option>
+	<option value="175">Admiral Sport S.r.l.</option>
+	<option value="176">Hacksaw Gaming</option>
+	<option value="177">Genius s.r.l.</option>
+	<option value="178">Softwaregrid Ltd</option>
+	<option value="179">E.Lab Games s.r.l</option>
+	<option value="180">Gromada Games Ltd</option>
+	<option value="181">ELETTRONICA VIDEO GAMES SRL</option>
+	<option value="182">Novateq Global DOO</option>
+	<option value="183">Oryx razvojne storitve d.o.o.</option>
+	<option value="184">1X2 Network</option>
+	<option value="185">EGT Digital EOOD</option>
+	<option value="186">APOLLO SOFT s.r.o.</option>
+	<option value="187">Greentube Malta Ltd.</option>
+	<option value="188">Pinter S.r.l.</option>
+	<option value="189">Playzido</option>
+	<option value="190">Platipus Limited</option>
+	<option value="191">Spinthon Ltd</option>
+	<option value="192">Projekt Group S.r.l.</option>
+	<option value="193">GBO Italy S.p.A.</option>
+	<option value="194">Leap Limited</option>
+	<option value="195">Push Gaming Malta Limited</option>
+	<option value="196">HBG Online Gaming S.r.l.</option>
+	<option value="197">46 To Shinjuku MediaLab, S.L.</option>
+	<option value="198">Seven Abc Solution CH SA</option>
+	<option value="199">Vitalgames Project Slot S.r.l.</option>
+	<option value="200">BETBUS S.r.l.</option>
+	<option value="201">SubTech Ltd.</option>
+	<option value="202">Apco Systems Limited</option>
+	<option value="203">LLC Betsolutions</option>
+	<option value="204">Street Web S.r.l.</option>
+	<option value="205">Top Gaming Network</option>
+	<option value="206">Rubyplay Limited</option>
+	<option value="207">Religa Limited</option>
+	<option value="208">Arrise Solutions (Malta) Limited</option>
+	<option value="209">BetFlag Spa</option>
+	<option value="210">E-Play24 ITALIA S.r.l.</option>
+	<option value="211">LNW Gaming Malta Limited</option>
+	<option value="212">Evoplay LTD</option>
+	<option value="213">Papito Entertainment NV</option>
+	<option value="214">Quantico Games s.r.l.</option>
+	<option value="215">Fun Fiesta</option>
+	<option value="216">Xterra Games Ltd - Leander Malta Ltd.</option>
+	<option value="217">TRONIUS d.o.o.</option>
+	<option value="218">Twisterplay S.r.l.</option>
+	<option value="219">MAC S.r.l. Unipersonale</option>
+	<option value="220">Galois Srl</option>
+	<option value="221">Development MT Limited</option>
+	<option value="222">Bee-Fee Limited</option>
+	<option value="223">Highlight Games Limited</option>
+	<option value="224">TaDa Gaming</option>
+	<option value="225">SpinArt Ltd </option>
+	<option value="226">3 Oaks Gaming</option>
+	<option value="227">TSG Interactive Services (Ireland) Limited</option>
+	<option value="228">TaDa Gaming Ltd</option>
+	<option value="229">The New Ear S.r.l</option>
+	<option value="230">BAKOO Spa</option>
+	<option value="231">Blueprint Technologies (Malta) Ltd</option>
+	<option value="232">Fantabetter S.r.l.</option>
+	<option value="233">Virtual Gaming Technologies</option>
+	<option value="234">MMS Technology doo Leskovac</option>
+	<option value="235">Sands Digital Services OPCO Inc</option>
+	<option value="236">Uniquent Limited</option>
+	<option value="237">Stable Games Ltd</option>
+	<option value="238">SPORT-TECH S.R.L.</option>
+	<option value="239">Pate Play Ltd</option>
+	<option value="240">Mondogaming SRL</option>
+	<option value="241">Gameshop Malta Limited</option>
+	<option value="242">Skill On Net Ltd</option>
+	<option value="243">Jelly Entertainment Ltd</option>
+	<option value="244">Everi Interactive</option>
+	<option value="245">Games Gang</option>
+	<option value="246">Entain Operations Limited</option>
+	<option value="247">MONGIBELLO TECH S.R.L.</option>
+	<option value="248">R. Franco</option>
+	<option value="249">CENTER GAME SRL</option>
+	<option value="250">PWO S.p.A.</option>
+	<option value="251">Kiverly Ltd</option>
+	<option value="252">RS Reevo Services Ltd</option>
+	<option value="253">Cloudbridge LTD</option>
+	<option value="254">Solvited B.V.</option>
+	<option value="255">Audere Gaming Co., Ltd.</option>
+	<option value="256">Playnetic Ltd</option>
+	<option value="257">Azzurri Limited</option>
+	<option value="258">Galaxsys LLC</option>
+	<option value="259">ImagineLive LLC</option>
+	<option value="260">Swintt Malta Limited</option>
+</select></td>
+<td></td>
+</tr>
+<tr>
+<td><span class="grassetto" title="Id. versione produttore">Id. versione produttore:</span></td>
+<td><input id="formAcqController:idVersProduttore" type="text" name="formAcqController:idVersProduttore" autocomplete="off" class="form-control ui-panelgrid-cell " title="id versione produttore input" /></td>
+<td></td>
+</tr>
+<tr>
+<td><span class="grassetto" title="Percentuale RTP di riferimento">Percentuale RTP di riferimento:</span></td>
+<td><span id="formAcqController:idPercRTPRif" class="ui-spinner ui-widget ui-corner-all form-control ui-panelgrid-cell input-spinner "><input id="formAcqController:idPercRTPRif_input" name="formAcqController:idPercRTPRif_input" type="text" class="ui-spinner-input ui-inputfield ui-state-default ui-corner-all" autocomplete="off" title="percentuale RTP di riferimento input" /><a class="ui-spinner-button ui-spinner-up ui-corner-tr ui-button ui-widget ui-state-default ui-button-text-only"><span class="ui-button-text"><span class="ui-icon ui-icon-triangle-1-n ui-c"></span></span></a><a class="ui-spinner-button ui-spinner-down ui-corner-br ui-button ui-widget ui-state-default ui-button-text-only"><span class="ui-button-text"><span class="ui-icon ui-icon-triangle-1-s ui-c"></span></span></a></span><script id="formAcqController:idPercRTPRif_s" type="text/javascript">PrimeFaces.cw("Spinner","widget_formAcqController_idPercRTPRif",{id:"formAcqController:idPercRTPRif",step:0.001,min:0.0,max:999.999});</script></td>
+<td></td>
+</tr>
+<tr>
+<td><span class="grassetto" title="Di cui RTP a jackpot/premi speciali">Di cui RTP a jackpot/premi speciali:</span></td>
+<td><span id="formAcqController:idQuotaJackpot" class="ui-spinner ui-widget ui-corner-all form-control ui-panelgrid-cell input-spinner "><input id="formAcqController:idQuotaJackpot_input" name="formAcqController:idQuotaJackpot_input" type="text" class="ui-spinner-input ui-inputfield ui-state-default ui-corner-all" autocomplete="off" title="quota parte RTP jackpot/premi speciali input" /><a class="ui-spinner-button ui-spinner-up ui-corner-tr ui-button ui-widget ui-state-default ui-button-text-only"><span class="ui-button-text"><span class="ui-icon ui-icon-triangle-1-n ui-c"></span></span></a><a class="ui-spinner-button ui-spinner-down ui-corner-br ui-button ui-widget ui-state-default ui-button-text-only"><span class="ui-button-text"><span class="ui-icon ui-icon-triangle-1-s ui-c"></span></span></a></span><script id="formAcqController:idQuotaJackpot_s" type="text/javascript">PrimeFaces.cw("Spinner","widget_formAcqController_idQuotaJackpot",{id:"formAcqController:idQuotaJackpot",step:0.001,min:0.0,max:999.999});</script></td>
+<td></td>
+</tr>
+<tr>
+<td><span class="grassetto" title="Deviazione standard">Deviazione standard:</span></td>
+<td><span id="formAcqController:idDevStd" class="ui-spinner ui-widget ui-corner-all form-control ui-panelgrid-cell input-spinner "><input id="formAcqController:idDevStd_input" name="formAcqController:idDevStd_input" type="text" class="ui-spinner-input ui-inputfield ui-state-default ui-corner-all" autocomplete="off" title="Deviazione standard" /><a class="ui-spinner-button ui-spinner-up ui-corner-tr ui-button ui-widget ui-state-default ui-button-text-only"><span class="ui-button-text"><span class="ui-icon ui-icon-triangle-1-n ui-c"></span></span></a><a class="ui-spinner-button ui-spinner-down ui-corner-br ui-button ui-widget ui-state-default ui-button-text-only"><span class="ui-button-text"><span class="ui-icon ui-icon-triangle-1-s ui-c"></span></span></a></span><script id="formAcqController:idDevStd_s" type="text/javascript">PrimeFaces.cw("Spinner","widget_formAcqController_idDevStd",{id:"formAcqController:idDevStd",step:0.1,min:0.0,max:9.9999999999E9});</script></td>
+<td></td>
+</tr>
+<tr>
+<td><span class="grassetto" title="Probabilità di vincita">Probabilità di vincita:</span></td>
+<td><span id="formAcqController:idProbVincita" class="ui-spinner ui-widget ui-corner-all form-control ui-panelgrid-cell input-spinner "><input id="formAcqController:idProbVincita_input" name="formAcqController:idProbVincita_input" type="text" class="ui-spinner-input ui-inputfield ui-state-default ui-corner-all" autocomplete="off" title="probabilità di vincita input" /><a class="ui-spinner-button ui-spinner-up ui-corner-tr ui-button ui-widget ui-state-default ui-button-text-only"><span class="ui-button-text"><span class="ui-icon ui-icon-triangle-1-n ui-c"></span></span></a><a class="ui-spinner-button ui-spinner-down ui-corner-br ui-button ui-widget ui-state-default ui-button-text-only"><span class="ui-button-text"><span class="ui-icon ui-icon-triangle-1-s ui-c"></span></span></a></span><script id="formAcqController:idProbVincita_s" type="text/javascript">PrimeFaces.cw("Spinner","widget_formAcqController_idProbVincita",{id:"formAcqController:idProbVincita",step:0.01,min:0.0,max:1.0});</script></td>
+<td></td>
+</tr>
+<tr>
+<td><span class="grassetto" title="Message digest SHA1 o MD5 della documentazione completa">Message digest SHA1 o MD5 della documentazione completa:</span></td>
+<td><input id="formAcqController:idMessageDigest" type="text" name="formAcqController:idMessageDigest" autocomplete="off" class="form-control ui-panelgrid-cell " title="message digest input" /></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div></fieldset><script id="formAcqController:j_idt74_s" type="text/javascript">PrimeFaces.cw("Fieldset","widget_formAcqController_j_idt74",{id:"formAcqController:j_idt74"});</script><fieldset id="formAcqController:j_idt95" class="ui-fieldset ui-widget ui-widget-content ui-corner-all ui-hidden-container fieldSet95" data-widget="widget_formAcqController_j_idt95"><legend class="ui-fieldset-legend ui-corner-all ui-state-default">Caricamento moduli critici</legend><div class="ui-fieldset-content"><table class="myStyle ui-grid noBorder">
+<tbody>
+<tr>
+<td>
+									<span class="sr-only"> Apre una nuova finestra </span><button id="formAcqController:btnCopiaProgetto" name="formAcqController:btnCopiaProgetto" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only btn btn-default" onclick="PrimeFaces.ab({s:&quot;formAcqController:btnCopiaProgetto&quot;,u:&quot;formAcqController:copiaModuli&quot;});return false;" title="Copia moduli trasmessi in altro progetto" type="submit"><span class="ui-button-text ui-c">Copia moduli trasmessi in altro progetto</span></button><script id="formAcqController:btnCopiaProgetto_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_formAcqController_btnCopiaProgetto",{id:"formAcqController:btnCopiaProgetto"});</script></td>
+</tr>
+</tbody>
+</table>
+<div id="formAcqController:j_idt98" class="ui-panelgrid ui-widget noBorder" style="text-align:right;"><div id="formAcqController:j_idt98_content" class="ui-panelgrid-content ui-widget-content ui-grid ui-grid-responsive"><div class="ui-g"><div class="ui-panelgrid-cell ui-g-12 ui-md-12">
+										<i class="fa fa-info-circle fa-lg" aria-hidden="true" title="Selezionare il file CSV con i moduli critici da caricare" onclick="PF('guidaCsv').show();" style="cursor:pointer;">
+											<span class="sr-only"> Apre una nuova finestra </span>
+										</i><div id="formAcqController:fileDoc1" class="ui-fileupload ui-widget ui-fileupload-responsive myStyle ui-widget-header ui-fileupload-content btn btn-default" style="font-size: 1em !important; border: none !important; background: transparent !important;"><div class="ui-fileupload-buttonbar ui-widget-header ui-corner-top"><span class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left ui-fileupload-choose" tabindex="0" role="button" aria-labelledby="formAcqController:fileDoc1_label"><span class="ui-button-icon-left ui-icon ui-c ui-icon-plusthick"></span><span id="formAcqController:fileDoc1_label" class="ui-button-text ui-c">CSV</span><input type="file" id="formAcqController:fileDoc1_input" name="formAcqController:fileDoc1_input" tabindex="-1" /></span></div><div class="ui-fileupload-content ui-widget-content ui-corner-bottom"><div class="ui-fileupload-files"><div></div></div></div></div><script id="formAcqController:fileDoc1_s" type="text/javascript">PrimeFaces.cw("FileUpload","widget_formAcqController_fileDoc1",{id:"formAcqController:fileDoc1",auto:true,update:"formAcqController",allowTypes:/(\.|\/)(csv)$/i});</script></div></div></div></div><span id="formAcqController:j_idt101_summary" class="ui-datatable-summary">Elenco moduli critici</span><div id="formAcqController:j_idt101" class="ui-datatable ui-widget dataTable"><div class="ui-datatable-tablewrapper"><table role="grid" summary="Elenco moduli critici" aria-describedby="formAcqController:j_idt101_summary"><caption style="display:none;">Elenco moduli critici</caption><thead id="formAcqController:j_idt101_head"><tr role="row"><th id="formAcqController:j_idt101:j_idt102" class="ui-state-default" role="columnheader" aria-label="Nome modulo:" scope="col"><span class="ui-column-title">Nome modulo:</span></th><th id="formAcqController:j_idt101:j_idt103" class="ui-state-default" role="columnheader" aria-label="Hash code:" scope="col"><span class="ui-column-title">Hash code:</span></th><th id="formAcqController:j_idt101:j_idt104" class="ui-state-default" role="columnheader" aria-label="Ente certificante:" scope="col"><span class="ui-column-title">Ente certificante:</span></th><th id="formAcqController:j_idt101:j_idt106" class="ui-state-default alignCenter" role="columnheader" aria-label="Aggiungi" scope="col"><span class="ui-column-title">Aggiungi</span></th></tr></thead><tbody id="formAcqController:j_idt101_data" class="ui-datatable-data ui-widget-content"><tr data-ri="0" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell"><input id="formAcqController:j_idt101:0:nomeModulo" type="text" name="formAcqController:j_idt101:0:nomeModulo" class="form-control" title="Nome modulo" /></td><td role="gridcell"><input id="formAcqController:j_idt101:0:hashCode" type="text" name="formAcqController:j_idt101:0:hashCode" class="form-control" maxlength="40" title="Hashcode" /></td><td role="gridcell"><select id="formAcqController:j_idt101:0:elencoEntiCertificanti" name="formAcqController:j_idt101:0:elencoEntiCertificanti" class="form-control" size="1" title="Ente certificante selezionato">	<option value="9">EGAMING COMPLIANCE SERVICES LTD</option>
+	<option value="8">QUINEL LIMITED</option>
+</select></td><td role="gridcell" class="alignCenter"><a id="formAcqController:j_idt101:0:btnAggiungi" href="#" title="Aggiungi" onclick="mojarra.jsfcljs(document.getElementById('formAcqController'),{'formAcqController:j_idt101:0:btnAggiungi':'formAcqController:j_idt101:0:btnAggiungi'},'');return false" class="btn btn-default">
+											<i class="fa fa-plus" aria-hidden="true" title="Aggiungi"></i></a></td></tr></tbody></table></div></div><script id="formAcqController:j_idt101_s" type="text/javascript">PrimeFaces.cw("DataTable","widget_formAcqController_j_idt101",{id:"formAcqController:j_idt101",groupColumnIndexes:[]});</script></div></fieldset><script id="formAcqController:j_idt95_s" type="text/javascript">PrimeFaces.cw("Fieldset","widget_formAcqController_j_idt95",{id:"formAcqController:j_idt95"});</script><input id="formAcqController:capofila" type="hidden" name="formAcqController:capofila" value="si" /><input id="formAcqController:moduliPresenti" type="hidden" name="formAcqController:moduliPresenti" value="no" /><input id="formAcqController:statoProtEnte" type="hidden" name="formAcqController:statoProtEnte" value="0" /><fieldset id="formAcqController:j_idt117" class="ui-fieldset ui-widget ui-widget-content ui-corner-all ui-hidden-container fieldSet95" data-widget="widget_formAcqController_j_idt117"><legend class="ui-fieldset-legend ui-corner-all ui-state-default">Esito</legend><div class="ui-fieldset-content">
+								
+								<i class="fa fa-info-circle" aria-hidden="true" title="Selezionare l'esito" onclick="PF('guidaEsito').show();" style="cursor:pointer;">
+				            		<span class="sr-only"> Apre una nuova finestra </span>
+				            	</i>
+				            	<span></span><label title="Selezionare un esito" class="grassettoNota">Selezionare un esito:</label><table id="formAcqController:radioEsito">
+<tbody>
+<tr>
+<td><table id="formAcqController:esitoIstanza" class="tipologiaFldset radiobtnText">
+	<tr>
+<td>
+<input type="radio" name="formAcqController:esitoIstanza" id="formAcqController:esitoIstanza:0" value="-1" disabled="disabled" onclick="mojarra.ab(this,event,'click',0,'@form')" /><label for="formAcqController:esitoIstanza:0"> Positivo</label></td>
+	</tr>
+	<tr>
+<td>
+<input type="radio" name="formAcqController:esitoIstanza" id="formAcqController:esitoIstanza:1" value="2" onclick="mojarra.ab(this,event,'click',0,'@form')" /><label for="formAcqController:esitoIstanza:1"> Negativo</label></td>
+	</tr>
+	<tr>
+<td>
+<input type="radio" checked="checked" name="formAcqController:esitoIstanza" id="formAcqController:esitoIstanza:2" value="0" onclick="mojarra.ab(this,event,'click',0,'@form')" /><label for="formAcqController:esitoIstanza:2"> Nessun selezionato</label></td>
+	</tr>
+</table></td>
+</tr>
+<tr>
+<td><label for="formAcqController:note" title="Note">Note:</label></td>
+</tr>
+<tr>
+<td><textarea id="formAcqController:note" name="formAcqController:note" class="form-control" rows="3" style="padding: 0px !important; height: 60px !important; width: 80%;" title="Note">Nulla da dichiarare</textarea></td>
+</tr>
+</tbody>
+</table>
+</div></fieldset><script id="formAcqController:j_idt117_s" type="text/javascript">PrimeFaces.cw("Fieldset","widget_formAcqController_j_idt117",{id:"formAcqController:j_idt117"});</script><table>
+<tbody>
+<tr>
+<td>
+								<span class="sr-only">Apre una nuova finestra</span><button id="formAcqController:btnSalva" name="formAcqController:btnSalva" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only btn btn-default" onclick="PrimeFaces.onPost();" title="Salva" type="submit"><span class="ui-button-text ui-c">Salva</span></button><script id="formAcqController:btnSalva_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_formAcqController_btnSalva",{id:"formAcqController:btnSalva"});</script></td>
+<td><button id="formAcqController:btnSalvaValida" name="formAcqController:btnSalvaValida" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ui-state-disabled btn btn-default" onclick="PrimeFaces.onPost();" title="Salva e valida dall’ODV Certificatore" type="submit" disabled="disabled"><span class="ui-button-text ui-c">Salva e valida dall’ODV Certificatore</span></button><script id="formAcqController:btnSalvaValida_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_formAcqController_btnSalvaValida",{id:"formAcqController:btnSalvaValida"});</script></td>
+</tr>
+</tbody>
+</table>
+<div id="formAcqController:copiaModuli" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container dialogAcqEsito"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="formAcqController:copiaModuli_title" class="ui-dialog-title">Copia moduli</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content"><table>
+<tbody>
+<tr>
+<td><label title="Selezionare un tipo di progetto">Selezionare un tipo di progetto:</label></td>
+</tr>
+<tr>
+<td><table id="formAcqController:tipoProgettoCopia" class="tipologiaFldset radiobtnText">
+	<tr>
+<td>
+<input type="radio" name="formAcqController:tipoProgettoCopia" id="formAcqController:tipoProgettoCopia:0" value="P" onclick="mojarra.ab(this,event,'click',0,'@form')" /><label for="formAcqController:tipoProgettoCopia:0"> Piattaforma</label></td>
+	</tr>
+	<tr>
+<td>
+<input type="radio" name="formAcqController:tipoProgettoCopia" id="formAcqController:tipoProgettoCopia:1" value="G" onclick="mojarra.ab(this,event,'click',0,'@form')" /><label for="formAcqController:tipoProgettoCopia:1"> Gioco</label></td>
+	</tr>
+</table></td>
+</tr>
+</tbody>
+</table>
+</div></div><script id="formAcqController:copiaModuli_s" type="text/javascript">PrimeFaces.cw("Dialog","copiaModuli",{id:"formAcqController:copiaModuli",modal:true,showEffect:"fade",hideEffect:"fade",closeOnEscape:true});</script><div id="formAcqController:guidaCsv" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container dialogGuidaCsv"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="formAcqController:guidaCsv_title" class="ui-dialog-title">Guida CSV</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content"></div></div><script id="formAcqController:guidaCsv_s" type="text/javascript">PrimeFaces.cw("Dialog","guidaCsv",{id:"formAcqController:guidaCsv",resizable:false,modal:true,dynamic:true,closeOnEscape:true});</script><div id="formAcqController:guidaEsito" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container dialogGuidaEsito"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="formAcqController:guidaEsito_title" class="ui-dialog-title">Guida esito</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content">
+							<p>L'esito positivo può essere selezionato solo se è presente </p>
+							<p>almeno una certificazione per un modulo critico.</p><table class="noBorder">
+<tbody>
+<tr>
+<td><button id="formAcqController:btnAnnulla2" name="formAcqController:btnAnnulla2" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only btn btn-default" onclick="PrimeFaces.bcn(this,event,[function(event){guidaEsito.hide();},function(event){PrimeFaces.ab({s:&quot;formAcqController:btnAnnulla2&quot;,u:&quot;formAcqController&quot;});return false;}]);" title="Annulla" type="submit"><span class="ui-button-text ui-c">Annulla</span></button><script id="formAcqController:btnAnnulla2_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_formAcqController_btnAnnulla2",{id:"formAcqController:btnAnnulla2"});</script></td>
+</tr>
+</tbody>
+</table>
+</div></div><script id="formAcqController:guidaEsito_s" type="text/javascript">PrimeFaces.cw("Dialog","guidaEsito",{id:"formAcqController:guidaEsito",resizable:false,modal:true,showEffect:"fade",hideEffect:"fade",closeOnEscape:true});</script><div id="formAcqController:confirmElimina" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container dialogConfermaElimina"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="formAcqController:confirmElimina_title" class="ui-dialog-title">Conferma elimina</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content">
+							<p>Attenzione si vuole eliminare il modulo selezionato? </p><table class="noBorder">
+<tbody>
+<tr>
+<td><button id="formAcqController:btnConferma" name="formAcqController:btnConferma" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only btn-confer" onclick="PrimeFaces.ab({s:&quot;formAcqController:btnConferma&quot;,u:&quot;formAcqController&quot;});return false;" title="Conferma" type="submit"><span class="ui-button-text ui-c">Conferma</span></button><script id="formAcqController:btnConferma_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_formAcqController_btnConferma",{id:"formAcqController:btnConferma"});</script></td>
+<td><button id="formAcqController:btnAnnulla3" name="formAcqController:btnAnnulla3" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only btn-confer" onclick="PrimeFaces.bcn(this,event,[function(event){confirmElimina.hide();},function(event){PrimeFaces.ab({s:&quot;formAcqController:btnAnnulla3&quot;,u:&quot;formAcqController&quot;});return false;}]);" title="Annulla" type="submit"><span class="ui-button-text ui-c">Annulla</span></button><script id="formAcqController:btnAnnulla3_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_formAcqController_btnAnnulla3",{id:"formAcqController:btnAnnulla3"});</script></td>
+</tr>
+</tbody>
+</table>
+</div></div><script id="formAcqController:confirmElimina_s" type="text/javascript">PrimeFaces.cw("Dialog","confirmElimina",{id:"formAcqController:confirmElimina",resizable:false,modal:true,showEffect:"fade",hideEffect:"fade",closeOnEscape:true});</script><div id="formAcqController:confirmSalva" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container dialogConfermaElimina"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="formAcqController:confirmSalva_title" class="ui-dialog-title">Conferma salva</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content">
+							<p>  </p><table class="noBorder">
+<tbody>
+<tr>
+<td><button id="formAcqController:btnConfermaSalva" name="formAcqController:btnConfermaSalva" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only btn btn-default" onclick="PrimeFaces.ab({s:&quot;formAcqController:btnConfermaSalva&quot;,u:&quot;formAcqController&quot;});return false;" title="Conferma" type="submit"><span class="ui-button-text ui-c">Conferma</span></button><script id="formAcqController:btnConfermaSalva_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_formAcqController_btnConfermaSalva",{id:"formAcqController:btnConfermaSalva"});</script></td>
+<td><button id="formAcqController:j_idt149" name="formAcqController:j_idt149" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only btn btn-default" onclick="PrimeFaces.bcn(this,event,[function(event){confirmSalva.hide();},function(event){PrimeFaces.ab({s:&quot;formAcqController:j_idt149&quot;,u:&quot;formAcqController&quot;});return false;}]);" title="Annulla" type="submit"><span class="ui-button-text ui-c">Annulla</span></button><script id="formAcqController:j_idt149_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_formAcqController_j_idt149",{id:"formAcqController:j_idt149"});</script></td>
+</tr>
+</tbody>
+</table>
+</div></div><script id="formAcqController:confirmSalva_s" type="text/javascript">PrimeFaces.cw("Dialog","confirmSalva",{id:"formAcqController:confirmSalva",resizable:false,modal:true,showEffect:"fade",hideEffect:"fade",closeOnEscape:true});</script>
+</form>]]></update><update id="javax.faces.ViewState"><![CDATA[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]]></update></changes></partial-response>

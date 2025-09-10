@@ -4,6 +4,7 @@ import express from "express";
 import { createRunDir } from "./utils/artifacts.js";
 import { uploadSelectProjectsBatch } from "./automation/uploadSelectProjectsBatch.js";
 import { navToUploadPage } from "./automation/navToUploadPage.js";
+import { createRunLogger } from "./utils/logger.js";
 
 const app = express();
 app.use(express.json({ limit: "2mb" }));
@@ -19,7 +20,8 @@ app.post("/api/nav/upload", async (req, res, next) => {
     if (!username || !password) throw Object.assign(new Error("username and password are required"), { status: 400 });
 
     const runDir = createRunDir();
-    const nav = await navToUploadPage({ username, password }, runDir);
+    const logger = createRunLogger(runDir);
+    const nav = await navToUploadPage({ username, password }, runDir, logger);
     res.json({ runDir, ok: true, ...nav, browser: undefined, context: undefined, page: undefined });
   } catch (e) { next(e); }
 });
@@ -34,7 +36,8 @@ app.post("/api/upload/select-projects-batch", async (req, res, next) => {
     }
 
     const runDir = createRunDir();
-    const result = await uploadSelectProjectsBatch({ username, password, providers }, runDir);
+    const logger = createRunLogger(runDir);
+    const result = await uploadSelectProjectsBatch({ username, password, providers }, runDir, logger);
     res.json({ runDir, ...result });
   } catch (e) { next(e); }
 });

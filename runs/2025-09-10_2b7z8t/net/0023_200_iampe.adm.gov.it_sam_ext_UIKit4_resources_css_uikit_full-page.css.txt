@@ -1,0 +1,41 @@
+/*!
+ * Sogei UI Kit 4
+ * author: dgalloppa
+ */
+
+#full-page,
+#full-page > body {
+	background-color: transparent;
+	height: 100%;
+}
+#full-page #page-header {
+	background-color: transparent;
+	margin-bottom: 1rem;
+	padding-bottom: 1rem;
+}
+#login-form,
+.login-form {
+	background-color: #fff;
+	padding: 1rem 1.5rem;
+	max-width: 20rem;
+}
+#full-page #page-footer {
+	background-color: transparent;
+	border-top: 1px solid transparent;
+	font-weight: 600;
+	margin-top: 1rem;
+	padding-top: 1rem;
+	text-align: center;
+}
+#full-page .container-fluid > hr {
+	display: none;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	#login-form,
+	.login-form {
+		padding: 2rem;
+		max-width: 25rem;
+	}
+}

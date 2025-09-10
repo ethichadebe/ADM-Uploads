@@ -1,0 +1,15 @@
+ //Funzione che permette di passare da un app all altra passando i parametri di codice e descrizione ufficio
+ function extLink(link){
+//	alert("link prima del parametro: "+link);
+//	try{
+//		alert("idEnteHidden: "+$('#idEnteHidden').val());
+//	}
+//	catch(err){
+//		alert("errore: "+err.message);
+//	}
+	
+	link = link + "?idEnteNew="+$('#idEnteHidden').val();
+//	alert(link);
+	window.location.href = link;
+	return false;
+ }
