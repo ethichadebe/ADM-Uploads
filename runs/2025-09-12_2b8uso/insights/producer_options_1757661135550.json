@@ -1,0 +1,1242 @@
+[
+  {
+    "value": "-1",
+    "label": "Selezionare un produttore:",
+    "disabled": false
+  },
+  {
+    "value": "1",
+    "label": "Ainsworth",
+    "disabled": false
+  },
+  {
+    "value": "2",
+    "label": "Amaya",
+    "disabled": false
+  },
+  {
+    "value": "3",
+    "label": "Aristocrat",
+    "disabled": false
+  },
+  {
+    "value": "4",
+    "label": "BALLY",
+    "disabled": false
+  },
+  {
+    "value": "5",
+    "label": "Barcrest",
+    "disabled": false
+  },
+  {
+    "value": "6",
+    "label": "BetSoft",
+    "disabled": false
+  },
+  {
+    "value": "7",
+    "label": "Capecod",
+    "disabled": false
+  },
+  {
+    "value": "8",
+    "label": "Emaster",
+    "disabled": false
+  },
+  {
+    "value": "9",
+    "label": "Eurobet",
+    "disabled": false
+  },
+  {
+    "value": "10",
+    "label": "Evolution",
+    "disabled": false
+  },
+  {
+    "value": "11",
+    "label": "GOL",
+    "disabled": false
+  },
+  {
+    "value": "12",
+    "label": "GTS",
+    "disabled": false
+  },
+  {
+    "value": "13",
+    "label": "Game 360",
+    "disabled": false
+  },
+  {
+    "value": "14",
+    "label": "Game Account",
+    "disabled": false
+  },
+  {
+    "value": "22",
+    "label": "Gamomat",
+    "disabled": false
+  },
+  {
+    "value": "23",
+    "label": "High Flyer Game",
+    "disabled": false
+  },
+  {
+    "value": "24",
+    "label": "Incredible Technologies",
+    "disabled": false
+  },
+  {
+    "value": "25",
+    "label": "Konami",
+    "disabled": false
+  },
+  {
+    "value": "26",
+    "label": "Media Live",
+    "disabled": false
+  },
+  {
+    "value": "27",
+    "label": "Microgame",
+    "disabled": false
+  },
+  {
+    "value": "28",
+    "label": "Microgaming",
+    "disabled": false
+  },
+  {
+    "value": "29",
+    "label": "Multimedia Games",
+    "disabled": false
+  },
+  {
+    "value": "30",
+    "label": "NeoGames",
+    "disabled": false
+  },
+  {
+    "value": "31",
+    "label": "Net Ent",
+    "disabled": false
+  },
+  {
+    "value": "32",
+    "label": "Nextgen",
+    "disabled": false
+  },
+  {
+    "value": "33",
+    "label": "Oboent",
+    "disabled": false
+  },
+  {
+    "value": "34",
+    "label": "Play'n GO",
+    "disabled": false
+  },
+  {
+    "value": "35",
+    "label": "Playtech",
+    "disabled": false
+  },
+  {
+    "value": "36",
+    "label": "Playson",
+    "disabled": false
+  },
+  {
+    "value": "37",
+    "label": "Reel Time Gaming",
+    "disabled": false
+  },
+  {
+    "value": "38",
+    "label": "SG GAMING",
+    "disabled": false
+  },
+  {
+    "value": "39",
+    "label": "Tuko Pro",
+    "disabled": false
+  },
+  {
+    "value": "40",
+    "label": "Viaden",
+    "disabled": false
+  },
+  {
+    "value": "41",
+    "label": "WorldMatch",
+    "disabled": false
+  },
+  {
+    "value": "42",
+    "label": "Novomatic",
+    "disabled": false
+  },
+  {
+    "value": "43",
+    "label": "Pragmatic Play",
+    "disabled": false
+  },
+  {
+    "value": "44",
+    "label": "ISB Technology Sarl",
+    "disabled": false
+  },
+  {
+    "value": "45",
+    "label": "Ezugi",
+    "disabled": false
+  },
+  {
+    "value": "46",
+    "label": "Wholesale Games",
+    "disabled": false
+  },
+  {
+    "value": "47",
+    "label": "ELK Studios",
+    "disabled": false
+  },
+  {
+    "value": "48",
+    "label": "Leander Games",
+    "disabled": false
+  },
+  {
+    "value": "49",
+    "label": "Leap Gaming",
+    "disabled": false
+  },
+  {
+    "value": "50",
+    "label": "Skywind Group",
+    "disabled": false
+  },
+  {
+    "value": "51",
+    "label": "Stakelogic",
+    "disabled": false
+  },
+  {
+    "value": "52",
+    "label": "WMG S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "53",
+    "label": "ISB Services Ltd",
+    "disabled": false
+  },
+  {
+    "value": "54",
+    "label": "Fils Italia srl",
+    "disabled": false
+  },
+  {
+    "value": "56",
+    "label": "Prima Networks Limited (PNL)",
+    "disabled": false
+  },
+  {
+    "value": "58",
+    "label": "Games Inc.",
+    "disabled": false
+  },
+  {
+    "value": "60",
+    "label": "Seven A.b.c.",
+    "disabled": false
+  },
+  {
+    "value": "62",
+    "label": "tombola International Malta Plc",
+    "disabled": false
+  },
+  {
+    "value": "65",
+    "label": "Booming Games",
+    "disabled": false
+  },
+  {
+    "value": "66",
+    "label": "Yggdrasil Gaming Ltd.",
+    "disabled": false
+  },
+  {
+    "value": "67",
+    "label": "RED RAKE TECH SL",
+    "disabled": false
+  },
+  {
+    "value": "68",
+    "label": "Exalogic Srl",
+    "disabled": false
+  },
+  {
+    "value": "69",
+    "label": "PIXELO S.R.L.",
+    "disabled": false
+  },
+  {
+    "value": "70",
+    "label": "Talenta Labs S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "71",
+    "label": "Capecod Gaming - Novomatic Italia S.p.A.",
+    "disabled": false
+  },
+  {
+    "value": "72",
+    "label": "Get Bet S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "73",
+    "label": "888 Italia Limited",
+    "disabled": false
+  },
+  {
+    "value": "74",
+    "label": "FOOTBALL 1x2 LIMITED",
+    "disabled": false
+  },
+  {
+    "value": "75",
+    "label": "Sisal",
+    "disabled": false
+  },
+  {
+    "value": "76",
+    "label": "Lottomatica",
+    "disabled": false
+  },
+  {
+    "value": "77",
+    "label": "CRISTALTEC S.P.A.",
+    "disabled": false
+  },
+  {
+    "value": "78",
+    "label": "LiveG24 Ltd",
+    "disabled": false
+  },
+  {
+    "value": "79",
+    "label": "bwin Italia S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "80",
+    "label": "WorldMatch srl",
+    "disabled": false
+  },
+  {
+    "value": "81",
+    "label": "Playson Limited",
+    "disabled": false
+  },
+  {
+    "value": "82",
+    "label": "Wirex S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "83",
+    "label": "Authentic Gaming Limited",
+    "disabled": false
+  },
+  {
+    "value": "84",
+    "label": "Replatz s.r.l",
+    "disabled": false
+  },
+  {
+    "value": "85",
+    "label": "EGT",
+    "disabled": false
+  },
+  {
+    "value": "86",
+    "label": "Xterra Games Ltd",
+    "disabled": false
+  },
+  {
+    "value": "87",
+    "label": "Eurasian Gaming Limited",
+    "disabled": false
+  },
+  {
+    "value": "88",
+    "label": "IGT",
+    "disabled": false
+  },
+  {
+    "value": "89",
+    "label": "Evolution Malta Limited",
+    "disabled": false
+  },
+  {
+    "value": "90",
+    "label": "TV Žaidimai Ltd",
+    "disabled": false
+  },
+  {
+    "value": "91",
+    "label": "Evoplay Entertainment B.V.",
+    "disabled": false
+  },
+  {
+    "value": "92",
+    "label": "Greentube",
+    "disabled": false
+  },
+  {
+    "value": "93",
+    "label": "TSG Interactive",
+    "disabled": false
+  },
+  {
+    "value": "94",
+    "label": "Octavian Lab S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "95",
+    "label": "Jeyweb Solution Srl",
+    "disabled": false
+  },
+  {
+    "value": "96",
+    "label": "Instant Win Gaming",
+    "disabled": false
+  },
+  {
+    "value": "97",
+    "label": "Giocaonline S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "98",
+    "label": "Quickspin AB",
+    "disabled": false
+  },
+  {
+    "value": "99",
+    "label": "GST Gaming S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "100",
+    "label": "Spribe OU",
+    "disabled": false
+  },
+  {
+    "value": "101",
+    "label": "Thunderkick Malta Limited",
+    "disabled": false
+  },
+  {
+    "value": "102",
+    "label": "Blox Limited",
+    "disabled": false
+  },
+  {
+    "value": "103",
+    "label": "Nazionale Elettronica S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "104",
+    "label": "Technologies HUB Ltd",
+    "disabled": false
+  },
+  {
+    "value": "105",
+    "label": "NoLimit City Limited",
+    "disabled": false
+  },
+  {
+    "value": "106",
+    "label": "Spinmatic Ltd",
+    "disabled": false
+  },
+  {
+    "value": "107",
+    "label": "Habanero Systems Limited",
+    "disabled": false
+  },
+  {
+    "value": "108",
+    "label": "Gamevy Limited",
+    "disabled": false
+  },
+  {
+    "value": "109",
+    "label": "Videoslots Limited",
+    "disabled": false
+  },
+  {
+    "value": "110",
+    "label": "Blueprint Gaming Ltd",
+    "disabled": false
+  },
+  {
+    "value": "111",
+    "label": "William Hill Malta Plc",
+    "disabled": false
+  },
+  {
+    "value": "112",
+    "label": "GameArt Ltd",
+    "disabled": false
+  },
+  {
+    "value": "113",
+    "label": "Synot W",
+    "disabled": false
+  },
+  {
+    "value": "114",
+    "label": "AlchemyBet",
+    "disabled": false
+  },
+  {
+    "value": "115",
+    "label": "Totopartners S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "116",
+    "label": "BETPOINT S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "117",
+    "label": "Tuko Productions S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "118",
+    "label": "Baldo Line s.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "119",
+    "label": "Slot Plus S.R.L.",
+    "disabled": false
+  },
+  {
+    "value": "120",
+    "label": "SKS365 Malta LTD",
+    "disabled": false
+  },
+  {
+    "value": "121",
+    "label": "Game360 S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "122",
+    "label": "Pariplay Ltd",
+    "disabled": false
+  },
+  {
+    "value": "123",
+    "label": "Inspired Gaming Group",
+    "disabled": false
+  },
+  {
+    "value": "124",
+    "label": "BPG",
+    "disabled": false
+  },
+  {
+    "value": "125",
+    "label": "Kalamba Games Limited",
+    "disabled": false
+  },
+  {
+    "value": "126",
+    "label": "CT Interactive EOOD",
+    "disabled": false
+  },
+  {
+    "value": "127",
+    "label": "Consulabs SRL",
+    "disabled": false
+  },
+  {
+    "value": "128",
+    "label": "Triple Cherry SL",
+    "disabled": false
+  },
+  {
+    "value": "129",
+    "label": "Cristaltec Entertainment S.r.l",
+    "disabled": false
+  },
+  {
+    "value": "130",
+    "label": "FourSeven Play Limited",
+    "disabled": false
+  },
+  {
+    "value": "131",
+    "label": "Thunderkick Malta Ltd",
+    "disabled": false
+  },
+  {
+    "value": "132",
+    "label": "Capecod Gaming - Capecod Solutions S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "133",
+    "label": "Pocket Games Software Limited",
+    "disabled": false
+  },
+  {
+    "value": "134",
+    "label": "FAZI d.o.o.",
+    "disabled": false
+  },
+  {
+    "value": "135",
+    "label": "Onseo Affiliates Limited",
+    "disabled": false
+  },
+  {
+    "value": "136",
+    "label": "Wholesale Limited",
+    "disabled": false
+  },
+  {
+    "value": "137",
+    "label": "Core Gaming",
+    "disabled": false
+  },
+  {
+    "value": "138",
+    "label": "Leovegas Gaming Plc",
+    "disabled": false
+  },
+  {
+    "value": "139",
+    "label": "EveryMatrix Software Ltd",
+    "disabled": false
+  },
+  {
+    "value": "140",
+    "label": "G Gaming Limited",
+    "disabled": false
+  },
+  {
+    "value": "141",
+    "label": "Casinò di Venezia Gioco S.p.A.",
+    "disabled": false
+  },
+  {
+    "value": "142",
+    "label": "High 5 Games",
+    "disabled": false
+  },
+  {
+    "value": "143",
+    "label": "FUGASO Limited",
+    "disabled": false
+  },
+  {
+    "value": "144",
+    "label": "eCOGRA Limited",
+    "disabled": false
+  },
+  {
+    "value": "145",
+    "label": "GOLDBET SPA",
+    "disabled": false
+  },
+  {
+    "value": "146",
+    "label": "BML Group Limited",
+    "disabled": false
+  },
+  {
+    "value": "147",
+    "label": "Digital Software Ltd",
+    "disabled": false
+  },
+  {
+    "value": "148",
+    "label": "PYR Software d/b/a Stars Technologies Services",
+    "disabled": false
+  },
+  {
+    "value": "149",
+    "label": "Smartsoft LLC",
+    "disabled": false
+  },
+  {
+    "value": "150",
+    "label": "Octavian S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "151",
+    "label": "Consulabs S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "152",
+    "label": "Relax Gaming Limited",
+    "disabled": false
+  },
+  {
+    "value": "153",
+    "label": "Widerpoker S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "154",
+    "label": "Green Jade",
+    "disabled": false
+  },
+  {
+    "value": "155",
+    "label": "Simple Software Limited",
+    "disabled": false
+  },
+  {
+    "value": "156",
+    "label": "Gameiom Technologies Limited",
+    "disabled": false
+  },
+  {
+    "value": "157",
+    "label": "ISB Ena Ltd",
+    "disabled": false
+  },
+  {
+    "value": "158",
+    "label": "GAMEART LIMITED",
+    "disabled": false
+  },
+  {
+    "value": "159",
+    "label": "GAMING CORPS MALTA LTD",
+    "disabled": false
+  },
+  {
+    "value": "160",
+    "label": "Endorphina Limited",
+    "disabled": false
+  },
+  {
+    "value": "161",
+    "label": "GameCo LLC",
+    "disabled": false
+  },
+  {
+    "value": "162",
+    "label": "Wazdan Holding Limited",
+    "disabled": false
+  },
+  {
+    "value": "163",
+    "label": "JVL",
+    "disabled": false
+  },
+  {
+    "value": "164",
+    "label": "PSM TECH SRL",
+    "disabled": false
+  },
+  {
+    "value": "165",
+    "label": "Betclic Limited",
+    "disabled": false
+  },
+  {
+    "value": "166",
+    "label": "Lottomatica S.p.A.",
+    "disabled": false
+  },
+  {
+    "value": "167",
+    "label": "ASTOR S.R.L.",
+    "disabled": false
+  },
+  {
+    "value": "168",
+    "label": "CMOBet s.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "169",
+    "label": "EGC Services Limited",
+    "disabled": false
+  },
+  {
+    "value": "170",
+    "label": "OnPlay s.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "171",
+    "label": "OIA Services Ltd",
+    "disabled": false
+  },
+  {
+    "value": "172",
+    "label": "Amusnet Interactive Ltd",
+    "disabled": false
+  },
+  {
+    "value": "173",
+    "label": "ISB Ena limited",
+    "disabled": false
+  },
+  {
+    "value": "174",
+    "label": "Online Gaming Solutions Ltd",
+    "disabled": false
+  },
+  {
+    "value": "175",
+    "label": "Admiral Sport S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "176",
+    "label": "Hacksaw Gaming",
+    "disabled": false
+  },
+  {
+    "value": "177",
+    "label": "Genius s.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "178",
+    "label": "Softwaregrid Ltd",
+    "disabled": false
+  },
+  {
+    "value": "179",
+    "label": "E.Lab Games s.r.l",
+    "disabled": false
+  },
+  {
+    "value": "180",
+    "label": "Gromada Games Ltd",
+    "disabled": false
+  },
+  {
+    "value": "181",
+    "label": "ELETTRONICA VIDEO GAMES SRL",
+    "disabled": false
+  },
+  {
+    "value": "182",
+    "label": "Novateq Global DOO",
+    "disabled": false
+  },
+  {
+    "value": "183",
+    "label": "Oryx razvojne storitve d.o.o.",
+    "disabled": false
+  },
+  {
+    "value": "184",
+    "label": "1X2 Network",
+    "disabled": false
+  },
+  {
+    "value": "185",
+    "label": "EGT Digital EOOD",
+    "disabled": false
+  },
+  {
+    "value": "186",
+    "label": "APOLLO SOFT s.r.o.",
+    "disabled": false
+  },
+  {
+    "value": "187",
+    "label": "Greentube Malta Ltd.",
+    "disabled": false
+  },
+  {
+    "value": "188",
+    "label": "Pinter S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "189",
+    "label": "Playzido",
+    "disabled": false
+  },
+  {
+    "value": "190",
+    "label": "Platipus Limited",
+    "disabled": false
+  },
+  {
+    "value": "191",
+    "label": "Spinthon Ltd",
+    "disabled": false
+  },
+  {
+    "value": "192",
+    "label": "Projekt Group S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "193",
+    "label": "GBO Italy S.p.A.",
+    "disabled": false
+  },
+  {
+    "value": "194",
+    "label": "Leap Limited",
+    "disabled": false
+  },
+  {
+    "value": "195",
+    "label": "Push Gaming Malta Limited",
+    "disabled": false
+  },
+  {
+    "value": "196",
+    "label": "HBG Online Gaming S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "197",
+    "label": "46 To Shinjuku MediaLab, S.L.",
+    "disabled": false
+  },
+  {
+    "value": "198",
+    "label": "Seven Abc Solution CH SA",
+    "disabled": false
+  },
+  {
+    "value": "199",
+    "label": "Vitalgames Project Slot S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "200",
+    "label": "BETBUS S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "201",
+    "label": "SubTech Ltd.",
+    "disabled": false
+  },
+  {
+    "value": "202",
+    "label": "Apco Systems Limited",
+    "disabled": false
+  },
+  {
+    "value": "203",
+    "label": "LLC Betsolutions",
+    "disabled": false
+  },
+  {
+    "value": "204",
+    "label": "Street Web S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "205",
+    "label": "Top Gaming Network",
+    "disabled": false
+  },
+  {
+    "value": "206",
+    "label": "Rubyplay Limited",
+    "disabled": false
+  },
+  {
+    "value": "207",
+    "label": "Religa Limited",
+    "disabled": false
+  },
+  {
+    "value": "208",
+    "label": "Arrise Solutions (Malta) Limited",
+    "disabled": false
+  },
+  {
+    "value": "209",
+    "label": "BetFlag Spa",
+    "disabled": false
+  },
+  {
+    "value": "210",
+    "label": "E-Play24 ITALIA S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "211",
+    "label": "LNW Gaming Malta Limited",
+    "disabled": false
+  },
+  {
+    "value": "212",
+    "label": "Evoplay LTD",
+    "disabled": false
+  },
+  {
+    "value": "213",
+    "label": "Papito Entertainment NV",
+    "disabled": false
+  },
+  {
+    "value": "214",
+    "label": "Quantico Games s.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "215",
+    "label": "Fun Fiesta",
+    "disabled": false
+  },
+  {
+    "value": "216",
+    "label": "Xterra Games Ltd - Leander Malta Ltd.",
+    "disabled": false
+  },
+  {
+    "value": "217",
+    "label": "TRONIUS d.o.o.",
+    "disabled": false
+  },
+  {
+    "value": "218",
+    "label": "Twisterplay S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "219",
+    "label": "MAC S.r.l. Unipersonale",
+    "disabled": false
+  },
+  {
+    "value": "220",
+    "label": "Galois Srl",
+    "disabled": false
+  },
+  {
+    "value": "221",
+    "label": "Development MT Limited",
+    "disabled": false
+  },
+  {
+    "value": "222",
+    "label": "Bee-Fee Limited",
+    "disabled": false
+  },
+  {
+    "value": "223",
+    "label": "Highlight Games Limited",
+    "disabled": false
+  },
+  {
+    "value": "224",
+    "label": "TaDa Gaming",
+    "disabled": false
+  },
+  {
+    "value": "225",
+    "label": "SpinArt Ltd",
+    "disabled": false
+  },
+  {
+    "value": "226",
+    "label": "3 Oaks Gaming",
+    "disabled": false
+  },
+  {
+    "value": "227",
+    "label": "TSG Interactive Services (Ireland) Limited",
+    "disabled": false
+  },
+  {
+    "value": "228",
+    "label": "TaDa Gaming Ltd",
+    "disabled": false
+  },
+  {
+    "value": "229",
+    "label": "The New Ear S.r.l",
+    "disabled": false
+  },
+  {
+    "value": "230",
+    "label": "BAKOO Spa",
+    "disabled": false
+  },
+  {
+    "value": "231",
+    "label": "Blueprint Technologies (Malta) Ltd",
+    "disabled": false
+  },
+  {
+    "value": "232",
+    "label": "Fantabetter S.r.l.",
+    "disabled": false
+  },
+  {
+    "value": "233",
+    "label": "Virtual Gaming Technologies",
+    "disabled": false
+  },
+  {
+    "value": "234",
+    "label": "MMS Technology doo Leskovac",
+    "disabled": false
+  },
+  {
+    "value": "235",
+    "label": "Sands Digital Services OPCO Inc",
+    "disabled": false
+  },
+  {
+    "value": "236",
+    "label": "Uniquent Limited",
+    "disabled": false
+  },
+  {
+    "value": "237",
+    "label": "Stable Games Ltd",
+    "disabled": false
+  },
+  {
+    "value": "238",
+    "label": "SPORT-TECH S.R.L.",
+    "disabled": false
+  },
+  {
+    "value": "239",
+    "label": "Pate Play Ltd",
+    "disabled": false
+  },
+  {
+    "value": "240",
+    "label": "Mondogaming SRL",
+    "disabled": false
+  },
+  {
+    "value": "241",
+    "label": "Gameshop Malta Limited",
+    "disabled": false
+  },
+  {
+    "value": "242",
+    "label": "Skill On Net Ltd",
+    "disabled": false
+  },
+  {
+    "value": "243",
+    "label": "Jelly Entertainment Ltd",
+    "disabled": false
+  },
+  {
+    "value": "244",
+    "label": "Everi Interactive",
+    "disabled": false
+  },
+  {
+    "value": "245",
+    "label": "Games Gang",
+    "disabled": false
+  },
+  {
+    "value": "246",
+    "label": "Entain Operations Limited",
+    "disabled": false
+  },
+  {
+    "value": "247",
+    "label": "MONGIBELLO TECH S.R.L.",
+    "disabled": false
+  },
+  {
+    "value": "248",
+    "label": "R. Franco",
+    "disabled": false
+  },
+  {
+    "value": "249",
+    "label": "CENTER GAME SRL",
+    "disabled": false
+  },
+  {
+    "value": "250",
+    "label": "PWO S.p.A.",
+    "disabled": false
+  },
+  {
+    "value": "251",
+    "label": "Kiverly Ltd",
+    "disabled": false
+  },
+  {
+    "value": "252",
+    "label": "RS Reevo Services Ltd",
+    "disabled": false
+  },
+  {
+    "value": "253",
+    "label": "Cloudbridge LTD",
+    "disabled": false
+  },
+  {
+    "value": "254",
+    "label": "Solvited B.V.",
+    "disabled": false
+  },
+  {
+    "value": "255",
+    "label": "Audere Gaming Co., Ltd.",
+    "disabled": false
+  },
+  {
+    "value": "256",
+    "label": "Playnetic Ltd",
+    "disabled": false
+  },
+  {
+    "value": "257",
+    "label": "Azzurri Limited",
+    "disabled": false
+  },
+  {
+    "value": "258",
+    "label": "Galaxsys LLC",
+    "disabled": false
+  },
+  {
+    "value": "259",
+    "label": "ImagineLive LLC",
+    "disabled": false
+  },
+  {
+    "value": "260",
+    "label": "Swintt Malta Limited",
+    "disabled": false
+  }
+]

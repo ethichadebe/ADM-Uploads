@@ -1,0 +1,450 @@
+/*!
+ * Sogei UI Kit 4
+ * author: dgalloppa
+ */
+
+/* INPUT */
+.form-row {
+    margin-bottom: 1rem;
+}
+label,
+.label {
+	font-weight: 600;
+	margin-bottom: .25rem;
+}
+.label {
+    display: block;
+}
+.form-control,
+.custom-select {
+	border-color: #919294;
+	color: #19191a;
+	font-size: 1rem;
+}
+.form-control:focus {
+	color: #19191a;
+	border-color: #0073e6;
+	box-shadow: 0 0 0 .2rem rgba(0,115,230,.25);
+}
+textarea {
+	resize: none;
+}
+.custom-file {
+	margin-bottom: 1rem;
+}
+.custom-file-label {
+	color: #19191a;
+	border-color: #919294;
+}
+.custom-file-label::after {
+	content: "\f574";
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+}
+.custom-file-input:not(:disabled) ~ .custom-file-label::after {
+	background-color: #0073e6;
+	border-color: #0073e6;
+	color: #fff;
+}
+fieldset {
+	margin-bottom: 1rem;
+	border: 1px solid #cbccce;
+	border-radius: .25rem;
+	padding: 0 1rem;
+}
+legend {
+	font-size: 1rem;
+	font-weight: 600;
+	max-width: 100%;
+	width: auto;
+}
+fieldset label {
+	font-weight: normal;
+}
+fieldset > .form-check,
+fieldset > .custom-control {
+	margin-bottom: .25rem;
+}
+fieldset > .form-check:last-child,
+fieldset > .custom-control:last-child {
+	margin-bottom: .75rem;
+}
+fieldset > .custom-control-inline:last-child {
+	margin-right: 0;
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+	border-color: #0073e6;
+	background-color: #0073e6;
+}
+.custom-control-label::before {
+	border-color: #717274;
+}
+.form-check-input:not(:disabled) ~ .form-check-label,
+.custom-control-input:not(:disabled) ~ .custom-control-label,
+.custom-file-input:not(:disabled) {
+	cursor: pointer;
+}
+.input-group-text {
+	background-color: #f0f1f3;
+	border-color: #919294;
+	color: #19191a;
+}
+.custom-switch {
+	padding-left: 3rem;
+}
+.custom-switch .custom-control-label::before {
+	border-radius: .75rem;
+	height: 1.375rem;
+	margin-top: -.125rem;
+	left: -3rem;
+	width: 2.375rem;
+}
+.custom-switch .custom-control-label::after {
+	background-color: #919294;
+	border-radius: .75rem;
+	height: calc(1.375rem - 4px);
+	margin-top: -.125rem;
+	left: calc(-3rem + 2px);
+	width: calc(1.375rem - 4px);
+}
+.custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+	-webkit-transform: translateX(1rem);
+	transform: translateX(1rem);
+}
+.form-group.role-group label {
+	display: block;
+}
+.form-group.role-group .form-control {
+	display: inline;
+	margin-right: .25rem;
+	width: auto;
+}
+.form-control::-ms-reveal {
+	display: none;
+}
+
+/* POPOVER */
+.popover {
+	border-color: #cbccce;
+	box-shadow: none;
+	font-size: 1rem;
+}
+
+/* DATEPICKER */
+.datepicker.dropdown-menu {
+	border-color: #cbccce;
+	box-shadow: none;
+	color: #19191a;
+	font-size: 1rem;
+	min-width: 322px;
+}
+.datepicker table tr th {
+	border-radius: 0;
+}
+.datepicker table tr td.new,
+.datepicker table tr td.old {
+	color: #919294;
+}
+.datepicker table tr td.today {
+	background-color: #d1e7ff;
+	border-color: #d1e7ff;
+}
+.datepicker table tr td.day:hover,
+.datepicker table tr td.focused {
+	background-color: #ecedef;
+}
+.datepicker table tr td.today.active,
+.datepicker table tr td.today.active.focus,
+.datepicker table tr td.today.active:focus,
+.datepicker table tr td.today.active:hover,
+.datepicker table tr td.today.focus,
+.datepicker table tr td.today.focused,
+.datepicker table tr td.today:active,
+.datepicker table tr td.today:active.focus,
+.datepicker table tr td.today:active:focus,
+.datepicker table tr td.today:active:hover,
+.datepicker table tr td.today:focus,
+.datepicker table tr td.today:hover {
+	background-color: #d4e9ff;
+	border-color: #d4e9ff;
+}
+.datepicker table tr td.active.active,
+.datepicker table tr td.active.highlighted.active,
+.datepicker table tr td.active.highlighted:active,
+.datepicker table tr td.active:active,
+.datepicker table tr td span.active.active,
+.datepicker table tr td span.active.disabled.active,
+.datepicker table tr td span.active.disabled:active,
+.datepicker table tr td span.active.disabled:hover.active,
+.datepicker table tr td span.active.disabled:hover:active,
+.datepicker table tr td span.active:active,
+.datepicker table tr td span.active:hover.active,
+.datepicker table tr td span.active:hover:active {
+	background-color: #0073e6;
+	border-color: #0073e6;
+}
+.datepicker table tr td.active.active.focus,
+.datepicker table tr td.active.active:focus,
+.datepicker table tr td.active.active:hover,
+.datepicker table tr td.active.highlighted.active.focus,
+.datepicker table tr td.active.highlighted.active:focus,
+.datepicker table tr td.active.highlighted.active:hover,
+.datepicker table tr td.active.highlighted:active.focus,
+.datepicker table tr td.active.highlighted:active:focus,
+.datepicker table tr td.active.highlighted:active:hover,
+.datepicker table tr td.active:active.focus,
+.datepicker table tr td.active:active:focus,
+.datepicker table tr td.active:active:hover,
+.datepicker table tr td span.active.active.focus,
+.datepicker table tr td span.active.active:focus,
+.datepicker table tr td span.active.active:hover,
+.datepicker table tr td span.active.disabled.active.focus,
+.datepicker table tr td span.active.disabled.active:focus,
+.datepicker table tr td span.active.disabled.active:hover,
+.datepicker table tr td span.active.disabled:active.focus,
+.datepicker table tr td span.active.disabled:active:focus,
+.datepicker table tr td span.active.disabled:active:hover,
+.datepicker table tr td span.active.disabled:hover.active.focus,
+.datepicker table tr td span.active.disabled:hover.active:focus,
+.datepicker table tr td span.active.disabled:hover.active:hover,
+.datepicker table tr td span.active.disabled:hover:active.focus,
+.datepicker table tr td span.active.disabled:hover:active:focus,
+.datepicker table tr td span.active.disabled:hover:active:hover,
+.datepicker table tr td span.active:active.focus,
+.datepicker table tr td span.active:active:focus,
+.datepicker table tr td span.active:active:hover,
+.datepicker table tr td span.active:hover.active.focus,
+.datepicker table tr td span.active:hover.active:focus,
+.datepicker table tr td span.active:hover.active:hover,
+.datepicker table tr td span.active:hover:active.focus,
+.datepicker table tr td span.active:hover:active:focus,
+.datepicker table tr td span.active:hover:active:hover {
+	background-color: #0060bf;
+	border-color: #0059b3;
+}
+
+/* TREE VIEW */
+.tree-view .custom-control {
+	display: inline-block;
+}
+
+/* BUTTON */
+.btn {
+	font-weight: 600;
+}
+.btn-primary,
+.btn-primary:focus,
+.btn-primary[disabled]:hover,
+.btn-primary:disabled,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+	background-color: #0073e6;
+	border-color: #0073e6;
+	color: #fff;
+}
+.btn-primary:active,
+.btn-primary:hover,
+.btn-primary:active:hover,
+.btn-primary:active:focus,
+.btn-default:active,
+.btn-default:hover,
+.btn-default:active:hover,
+.btn-default:active:focus {
+	background-color: #0060bf;
+	border-color: #0059b3;
+	color: #fff;
+}
+.btn.disabled,
+.btn:disabled {
+	cursor: auto;
+	opacity: .5;
+}
+.btn-default,
+.btn-default:focus,
+.btn-default[disabled]:hover,
+.btn-default:disabled,
+.btn-default:not(:disabled):not(.disabled).active,
+.btn-default:not(:disabled):not(.disabled):active,
+.show > .btn-default.dropdown-toggle {
+	background-color: #fff;
+	border-color: #0073e6;
+	color: #0073e6;
+}
+.btn-danger,
+.btn-danger:focus,
+.btn-danger[disabled]:hover,
+.btn-danger:disabled,
+.btn-danger:not(:disabled):not(.disabled).active,
+.btn-danger:not(:disabled):not(.disabled):active,
+.show > .btn-danger.dropdown-toggle {
+	background-color: #d9364f;
+	border-color: #d9364f;
+}
+.btn-danger:active,
+.btn-danger:hover,
+.btn-danger:active:hover,
+.btn-danger:active:focus {
+	background-color: #c3253d;
+	border-color: #b9233a;
+	color: #fff;
+}
+.btn-danger-alt,
+.btn-danger-alt:focus,
+.btn-danger-alt[disabled]:hover,
+.btn-danger-alt:disabled,
+.btn-danger-alt:not(:disabled):not(.disabled).active,
+.btn-danger-alt:not(:disabled):not(.disabled):active,
+.show > .btn-danger.dropdown-toggle {
+	background-color: #fff;
+	border-color: #d9364f;
+	color: #d9364f;
+}
+.btn-link {
+	color: #0073e6;
+}
+.btn-link:hover {
+	color: #004d99;
+}
+.btn.active,
+.btn:active {
+	box-shadow: none;
+}
+a.btn-default:active,
+a.btn-default:hover,
+a.btn-default:active:hover {
+	background-color: #fff;
+	border-color: #004d99;
+	color: #004d99;
+}
+
+/* CHIPS */
+.chip {
+	background-color: #fff;
+	border: 1px solid #919294;
+	color: #5c6f82;
+	display: inline-block;
+	font-size: .9em;
+	font-weight: 600;
+	padding: .125rem .5rem;
+	text-decoration: none !important;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.chip:hover {
+	background-color: #f0f1f3;
+}
+.chip .chip-icon {
+	margin-right: .25rem;
+}
+.chip .chip-btn {
+	color: #5c6f82;
+	padding: 0 .5rem;
+	vertical-align: inherit;
+}
+
+/* VALIDAZIONE */
+fieldset.is-valid,
+.form-group.is-valid .form-control {
+	border-color: #008758;
+}
+fieldset.is-valid legend,
+.form-group.is-valid label {
+	color: #008758;
+}
+.is-valid .form-control:focus {
+	box-shadow: 0 0 0 .2rem rgba(0,135,88,.25);
+}
+fieldset.is-invalid,
+.form-group.is-invalid .form-control {
+	border-color: #d9364f;
+}
+fieldset.is-invalid legend,
+.form-group.is-invalid label {
+	color: #d9364f;
+}
+.is-invalid .form-control:focus {
+	box-shadow: 0 0 0 .2rem rgba(217,54,79,.25);
+}
+
+/* STATO */
+.form-control-plaintext {
+	color: #19191a;
+	font-size: 1rem;
+}
+.form-control:disabled,
+.form-control[disabled],
+.form-control[readonly],
+.custom-control-input:disabled ~ .custom-control-label::before,
+.custom-control-input[disabled] ~ .custom-control-label::before {
+	background-color: #f0f1f3;
+}
+.form-control:disabled,
+.form-control[disabled],
+.custom-control-input:disabled ~ .custom-control-label,
+.custom-control-input[disabled] ~ .custom-control-label {
+	color: #919294;
+}
+.custom-control-input:disabled ~ .custom-control-label::before,
+.custom-control-input[disabled] ~ .custom-control-label::before {
+	border-color: #919294;
+}
+
+/* DIMENSIONI */
+.form-control-sm:not(textarea),
+.custom-select-sm,
+.input-group-sm > .form-control,
+.input-group-sm > .custom-select,
+.input-group-sm > .input-group-append > .btn,
+.input-group-sm > .input-group-append > .input-group-text,
+.input-group-sm > .input-group-prepend > .btn,
+.input-group-sm > .input-group-prepend > .input-group-text {
+	font-size: 1rem;
+}
+.form-control-lg:not(textarea),
+.custom-select-lg,
+.input-group-lg > .form-control,
+.input-group-lg > .custom-select,
+.input-group-lg > .input-group-append > .btn,
+.input-group-lg > .input-group-append > .input-group-text,
+.input-group-lg > .input-group-prepend > .btn,
+.input-group-lg > .input-group-prepend > .input-group-text {
+	font-size: 1rem;
+}
+.btn-group-xs > .btn,
+.btn-xs {
+	padding: 0 .25rem;
+}
+.btn-group-sm > .btn,
+.btn-sm {
+	font-size: 1rem;
+}
+.btn-group-lg > .btn,
+.btn-lg {
+	font-size: 1rem;
+}
+
+/* CAPTCHA */
+#img-captcha {
+	height: 100px;
+	margin-bottom: 20px;
+	max-width: 100%;
+	width: 200px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+	/* FORM INLINE */
+	.form-inline .form-group {
+		width: 100%;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+	/* FORM INLINE */
+	.form-inline .form-group {
+		margin-right: 1rem;
+	}
+}

@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<partial-response><changes><update id="formAcqController"><![CDATA[
+<form id="formAcqController" name="formAcqController" method="post" action="/ODV_GAD/pages/acquisizioneCertificazione.xhtml" enctype="multipart/form-data">
+<input type="hidden" name="formAcqController" value="formAcqController" />
+<div id="formAcqController:messages" class="ui-messages ui-widget" aria-live="polite"></div><fieldset id="formAcqController:j_idt50" class="ui-fieldset ui-widget ui-widget-content ui-corner-all ui-hidden-container fieldSet95" data-widget="widget_formAcqController_j_idt50"><legend class="ui-fieldset-legend ui-corner-all ui-state-default">Acquisizione Certificazione</legend><div class="ui-fieldset-content"><table>
+<tbody>
+<tr>
+<td><label for="formAcqController:elencoConc" title="Concessionario">Concessionario:</label></td>
+</tr>
+<tr>
+<td><select id="formAcqController:elencoConc" name="formAcqController:elencoConc" class="form-control" size="1" title="Concessionario selezionato" onchange="mojarra.ab(this,event,'change',0,'@form')">	<option value="">Selezionare il concessionario:</option>
+	<option value="15003">15003 - DOMUS BET S.R.L</option>
+	<option value="15007">15007 - BETFLAG S.P.A.</option>
+	<option value="15011">15011 - LEO VEGAS GAMING P.L.C.</option>
+	<option value="15014">15014 - 888 ITALIA LIMITED</option>
+	<option value="15015" selected="selected">15015 - BPG S.R.L.</option>
+	<option value="15016">15016 - EUROBET ITALIA S.R.L. UNIPERSONALE</option>
+	<option value="15017">15017 - GOLDBET BETTER ORGANIZATION ITALY S.P.A. IN BREVE GBO ITALY S.P.A.</option>
+	<option value="15023">15023 - TSG ITALY SRL</option>
+	<option value="15026">15026 - EUROBET ITALIA S.R.L. UNIPERSONALE</option>
+	<option value="15028">15028 - EUROBET ITALIA S.R.L. UNIPERSONALE</option>
+	<option value="15038">15038 - WILLIAM HILL MALTA PLC</option>
+	<option value="15075">15075 - HIT D.D. NOVA GORICA S.P.A.</option>
+	<option value="15096">15096 - ADMIRAL SPORT S.R.L.</option>
+	<option value="15099">15099 - TOTOSI' S.R.L.</option>
+	<option value="15112">15112 - MICROGAME S.P.A.</option>
+	<option value="15125">15125 - SCOMMETTENDO S.R.L.</option>
+	<option value="15131">15131 - BETPOINT S.R.L.</option>
+	<option value="15133">15133 - MULTIGIOCO S.R.L.</option>
+	<option value="15155">15155 - SISAL ITALIA S.P.A.</option>
+	<option value="15200">15200 - VINCITU' S.R.L.</option>
+	<option value="15201">15201 - VINCITU' S.R.L.</option>
+	<option value="15202">15202 - AZZURRI LIMITED</option>
+	<option value="15210">15210 - BET CLASS ITALIA S.R.L.</option>
+	<option value="15211">15211 - BETFAIR ITALIA S.R.L.</option>
+	<option value="15215">15215 - SNAITECH SPA</option>
+	<option value="15216">15216 - BETWAY LIMITED</option>
+	<option value="15220">15220 - E-PLAY24 ITALIA S.R.L.</option>
+	<option value="15221">15221 - HBG ON LINE GAMING S.R.L</option>
+	<option value="15226">15226 - GOLDBET BETTER ORGANIZATION ITALY S.P.A. IN BREVE GBO ITALY S.P.A.</option>
+	<option value="15227">15227 - GI.LU.PI. S.R.L.</option>
+	<option value="15228">15228 - UNIBET (ITALIA) LTD</option>
+	<option value="15230">15230 - AZZURRI LIMITED</option>
+	<option value="15232">15232 - E-PLAY 24 ITA LIMITED</option>
+	<option value="15234">15234 - REPLATZ S.R.L.</option>
+	<option value="15235">15235 - APOLLO ENTERTAINMENT LTD</option>
+	<option value="15237">15237 - STAKE ITALY S.R.L.</option>
+	<option value="15241">15241 - UNIBET (ITALIA) LTD</option>
+	<option value="15242">15242 - PWO S.P.A.</option>
+	<option value="15247">15247 - STANLEYBET MALTA LIMITED</option>
+	<option value="15252">15252 - BGAME S.P.A. SOCIETA' BENEFIT</option>
+	<option value="15253">15253 - HILLSIDE (NEW MEDIA MALTA) PLC</option>
+	<option value="15427">15427 - VIDEOSLOTS LTD</option>
+	<option value="15432">15432 - NETWIN ITALIA S.P.A.</option>
+	<option value="15442">15442 - GAME DIVISION ITALY SRL</option>
+	<option value="15454">15454 - SPORTBET S.R.L.</option>
+	<option value="15455">15455 - SOGNO DI TOLOSA LTD</option>
+	<option value="15463">15463 - BI & BI SRLS</option>
+	<option value="15464">15464 - IFLEX LIMITED</option>
+	<option value="15469">15469 - SLOT PLUS S.R.L.</option>
+</select></td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td><label title="Selezionare un tipo di progetto:">Selezionare un tipo di progetto:</label></td>
+</tr>
+<tr>
+<td><table id="formAcqController:tipoProgetto" class="tipologiaFldset radiobtnText">
+	<tr>
+<td>
+<input type="radio" name="formAcqController:tipoProgetto" id="formAcqController:tipoProgetto:0" value="P" onclick="mojarra.ab(this,event,'click',0,'@form')" /><label for="formAcqController:tipoProgetto:0"> Piattaforma</label></td>
+	</tr>
+	<tr>
+<td>
+<input type="radio" name="formAcqController:tipoProgetto" id="formAcqController:tipoProgetto:1" value="G" onclick="mojarra.ab(this,event,'click',0,'@form')" /><label for="formAcqController:tipoProgetto:1"> Gioco</label></td>
+	</tr>
+</table></td>
+</tr>
+</tbody>
+</table>
+</div></fieldset><script id="formAcqController:j_idt50_s" type="text/javascript">PrimeFaces.cw("Fieldset","widget_formAcqController_j_idt50",{id:"formAcqController:j_idt50"});</script><div id="formAcqController:copiaModuli" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container dialogAcqEsito"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="formAcqController:copiaModuli_title" class="ui-dialog-title">Copia moduli</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content"><table>
+<tbody>
+<tr>
+<td><label title="Selezionare un tipo di progetto">Selezionare un tipo di progetto:</label></td>
+</tr>
+<tr>
+<td><table id="formAcqController:tipoProgettoCopia" class="tipologiaFldset radiobtnText">
+	<tr>
+<td>
+<input type="radio" name="formAcqController:tipoProgettoCopia" id="formAcqController:tipoProgettoCopia:0" value="P" onclick="mojarra.ab(this,event,'click',0,'@form')" /><label for="formAcqController:tipoProgettoCopia:0"> Piattaforma</label></td>
+	</tr>
+	<tr>
+<td>
+<input type="radio" name="formAcqController:tipoProgettoCopia" id="formAcqController:tipoProgettoCopia:1" value="G" onclick="mojarra.ab(this,event,'click',0,'@form')" /><label for="formAcqController:tipoProgettoCopia:1"> Gioco</label></td>
+	</tr>
+</table></td>
+</tr>
+</tbody>
+</table>
+</div></div><script id="formAcqController:copiaModuli_s" type="text/javascript">PrimeFaces.cw("Dialog","copiaModuli",{id:"formAcqController:copiaModuli",modal:true,showEffect:"fade",hideEffect:"fade",closeOnEscape:true});</script><div id="formAcqController:guidaCsv" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container dialogGuidaCsv"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="formAcqController:guidaCsv_title" class="ui-dialog-title">Guida CSV</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content"></div></div><script id="formAcqController:guidaCsv_s" type="text/javascript">PrimeFaces.cw("Dialog","guidaCsv",{id:"formAcqController:guidaCsv",resizable:false,modal:true,dynamic:true,closeOnEscape:true});</script><div id="formAcqController:guidaEsito" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container dialogGuidaEsito"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="formAcqController:guidaEsito_title" class="ui-dialog-title">Guida esito</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content">
+							<p>L'esito positivo può essere selezionato solo se è presente </p>
+							<p>almeno una certificazione per un modulo critico.</p><table class="noBorder">
+<tbody>
+<tr>
+<td><button id="formAcqController:btnAnnulla2" name="formAcqController:btnAnnulla2" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only btn btn-default" onclick="PrimeFaces.bcn(this,event,[function(event){guidaEsito.hide();},function(event){PrimeFaces.ab({s:&quot;formAcqController:btnAnnulla2&quot;,u:&quot;formAcqController&quot;});return false;}]);" title="Annulla" type="submit"><span class="ui-button-text ui-c">Annulla</span></button><script id="formAcqController:btnAnnulla2_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_formAcqController_btnAnnulla2",{id:"formAcqController:btnAnnulla2"});</script></td>
+</tr>
+</tbody>
+</table>
+</div></div><script id="formAcqController:guidaEsito_s" type="text/javascript">PrimeFaces.cw("Dialog","guidaEsito",{id:"formAcqController:guidaEsito",resizable:false,modal:true,showEffect:"fade",hideEffect:"fade",closeOnEscape:true});</script><div id="formAcqController:confirmElimina" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container dialogConfermaElimina"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="formAcqController:confirmElimina_title" class="ui-dialog-title">Conferma elimina</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content">
+							<p>Attenzione si vuole eliminare il modulo selezionato? </p><table class="noBorder">
+<tbody>
+<tr>
+<td><button id="formAcqController:btnConferma" name="formAcqController:btnConferma" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only btn-confer" onclick="PrimeFaces.ab({s:&quot;formAcqController:btnConferma&quot;,u:&quot;formAcqController&quot;});return false;" title="Conferma" type="submit"><span class="ui-button-text ui-c">Conferma</span></button><script id="formAcqController:btnConferma_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_formAcqController_btnConferma",{id:"formAcqController:btnConferma"});</script></td>
+<td><button id="formAcqController:btnAnnulla3" name="formAcqController:btnAnnulla3" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only btn-confer" onclick="PrimeFaces.bcn(this,event,[function(event){confirmElimina.hide();},function(event){PrimeFaces.ab({s:&quot;formAcqController:btnAnnulla3&quot;,u:&quot;formAcqController&quot;});return false;}]);" title="Annulla" type="submit"><span class="ui-button-text ui-c">Annulla</span></button><script id="formAcqController:btnAnnulla3_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_formAcqController_btnAnnulla3",{id:"formAcqController:btnAnnulla3"});</script></td>
+</tr>
+</tbody>
+</table>
+</div></div><script id="formAcqController:confirmElimina_s" type="text/javascript">PrimeFaces.cw("Dialog","confirmElimina",{id:"formAcqController:confirmElimina",resizable:false,modal:true,showEffect:"fade",hideEffect:"fade",closeOnEscape:true});</script><div id="formAcqController:confirmSalva" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container dialogConfermaElimina"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="formAcqController:confirmSalva_title" class="ui-dialog-title">Conferma salva</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content">
+							<p>  </p><table class="noBorder">
+<tbody>
+<tr>
+<td><button id="formAcqController:btnConfermaSalva" name="formAcqController:btnConfermaSalva" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only btn btn-default" onclick="PrimeFaces.ab({s:&quot;formAcqController:btnConfermaSalva&quot;,u:&quot;formAcqController&quot;});return false;" title="Conferma" type="submit"><span class="ui-button-text ui-c">Conferma</span></button><script id="formAcqController:btnConfermaSalva_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_formAcqController_btnConfermaSalva",{id:"formAcqController:btnConfermaSalva"});</script></td>
+<td><button id="formAcqController:j_idt149" name="formAcqController:j_idt149" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only btn btn-default" onclick="PrimeFaces.bcn(this,event,[function(event){confirmSalva.hide();},function(event){PrimeFaces.ab({s:&quot;formAcqController:j_idt149&quot;,u:&quot;formAcqController&quot;});return false;}]);" title="Annulla" type="submit"><span class="ui-button-text ui-c">Annulla</span></button><script id="formAcqController:j_idt149_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_formAcqController_j_idt149",{id:"formAcqController:j_idt149"});</script></td>
+</tr>
+</tbody>
+</table>
+</div></div><script id="formAcqController:confirmSalva_s" type="text/javascript">PrimeFaces.cw("Dialog","confirmSalva",{id:"formAcqController:confirmSalva",resizable:false,modal:true,showEffect:"fade",hideEffect:"fade",closeOnEscape:true});</script>
+</form>]]></update><update id="javax.faces.ViewState"><![CDATA[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]]></update></changes></partial-response>

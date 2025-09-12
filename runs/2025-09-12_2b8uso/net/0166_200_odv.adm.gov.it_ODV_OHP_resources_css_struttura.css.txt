@@ -1,0 +1,477 @@
+/* Struttura pagine interne Wireframe - associate al Javascript absfooter.js */
+
+html {
+	margin: 0 auto;
+	padding: 0;
+	background-color: #eee;
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100.01%;
+	position:relative;
+	color: #000;
+	/*text-align: center;*/
+	/* margin: 0 auto 20px auto; */
+	padding: 0;
+	/* width: 98%; */
+	background-color: #FFF;
+	/* max-width: 1280px; */
+	min-width: 980px;
+	border: 3px solid #E5E1E0;
+	border-top: 0 none;
+	min-height: 600px;
+	height: auto !important;
+	/* height: 600px;	 */
+	
+/* 	-moz-box-shadow: 2px 2px 0 rgba(170,160,130,.5), 4px 4px 0 rgba(200,190,165,.5);
+  	-webkit-box-shadow: 2px 2px 0 rgba(170,160,130,.5), 4px 4px 0 rgba(200,190,165,.5);
+  	box-shadow: 2px 2px 0 rgba(170,160,130,.5), 4px 4px 0 rgba(200,190,165,.5); */
+
+}
+
+.skiplink, .skipheader {
+	position : absolute; 
+	left : -10000px; 
+	width : 0px;
+	height: 0;
+}
+.noscreen {
+	display: none;
+}
+a {	
+	color: #0000EE;
+	color: #295C83;
+	text-decoration: none;
+}
+a:visited {
+	color: #800080;
+}
+a:hover {
+	color: #FF0000;
+	color: #AE1B13;
+
+}
+
+p, ul, ol, table {	
+	font-size: 80%;
+}
+ul ul, ol ol, p a, ul li a {	
+	font-size: 100%;
+}
+dl {
+	font-size:80%;
+}
+dt {
+	font-weight:bold;
+	padding-left:10px;
+}
+dd {
+	margin-bottom:10px;
+	padding-left:10px;
+}
+dl a {
+/*	font-size:100%;
+*/}
+
+.clearer{
+	height:1px;
+	overflow:hidden;
+	margin-top:-1px;
+	clear:both;
+}
+img {
+	border: none;
+}
+
+#contenitore {
+	margin: 0 10px;
+	padding: 0;
+}
+
+/* Inizio titroviin */
+
+#ti_trovi {
+	clear: both;
+	color: #000;
+	padding: 0;
+	margin: 15px 15px 25px 10px;
+	font-size: 80%;
+	text-align: left;
+}
+
+#ti_trovi a, #ti_trovi a:visited {
+/*	color: #555;
+*/	
+	text-decoration: underline;
+}
+#ti_trovi a:hover  {
+	text-decoration: none;
+}
+
+/* Fine titroviin */
+
+/* Inizio struttura 2 colonne */
+#canale_agenzia, #canale_operatore, #canale_viaggiatore, #canale_home {
+	position: relative; 
+	clear: both;
+	width: 99%; 
+	margin: 0 auto;
+	padding: 0;
+	text-align:left;
+	background-color: #FFF;
+	border-bottom: 1px solid #E5E1E2;
+}   
+
+#canale_home {border-bottom:none;}
+
+/* Struttura Home Page */
+#colonna1_hp { 
+	margin: 10px 60% 30px 0; 
+	padding: 0 10px 0 5px;
+	background-color: #FFF; 
+	min-height: 55em; 
+	height: auto !important; 
+ 	height: 55em; 
+	border: 0px solid #000;
+	border-right: 1px solid #E5E1E2;
+}
+#colonna2_hp { 
+	position:absolute; 
+	top: 0; 
+	right: 0; 
+	width: 58%; 
+	margin: 10px 0 30px 0; 
+	padding: 0 0 10px 0;
+	border: 0px solid red;
+}
+/* Fine Struttura Home Page */
+
+
+/* Struttura pagine interne */
+#colonna1 { 
+	margin: 20px 300px 30px 0; 
+	padding: 0 15px;
+	background-color: #FFF; 
+	min-height: 55em; 
+	height: auto !important; 
+ 	height: 55em; 
+	border: 0px solid #000;
+	border-right: 1px solid #E5E1E2;
+}
+
+#colonna1 a, #colonna1 a:visited {
+	text-decoration:underline;
+}
+
+#colonna1 a:hover {
+	text-decoration:none;
+} 
+
+/*#canale_agenzia #colonna1 {
+	border-right: 1px solid #E6C93F;
+}
+#canale_operatore #colonna1 {
+	border-right: 1px solid #CC6C6E;
+}
+#canale_viaggiatore #colonna1 {
+	border-right: 1px solid #BC8CB6;
+}
+*/
+#colonna2 { 
+	position:absolute; 
+	top: 75px; 
+	right: 0; 
+	width: 250px; 
+	margin: 0 30px 0 10px; 
+	padding: 0 0 10px 0;
+}
+
+/* Struttura pagine interne */
+
+/* Fine struttura 2 colonne */
+
+
+#contenuti_una_colonna { 
+	min-height: 22em; 
+	height: auto !important;
+	height: 22em;
+}
+
+/* Struttura a due colonne con il menu a sinistra e i link correalti a destra */
+#contenuti_due_colonne {
+	position: relative; 
+	clear: both;
+	width: 99%; 
+	margin: 5px 0 0 0;
+	padding: 0;
+	text-align:left;
+	border-bottom: 1px solid #E5E1E2;
+	background-image:url(../img/sfondo_menu_sx.gif);
+	background-repeat: repeat-y;	 
+	background-position: top left;
+}
+#contenuti_due_colonne #colonna1 { 
+	margin: 0 0 0 265px; 
+	background-color: #FFF; 
+	padding: 0 10px;
+	min-height: 55em; 
+	height: auto !important; 
+ 	height: 55em; 
+	border: 0px solid #000; 
+}
+
+#contenuti_una_colonna #colonna1 { 
+	background-color: #FFF; 
+	padding: 0 10px;
+	min-height: 55em; 
+	height: auto !important; 
+ 	height: 55em; 
+	border: 0px solid #000;
+	margin:0;
+}
+#contenuti_due_colonne #colonna2 { 
+	position:absolute; 
+	top: 0; 
+	left: 0; 
+	width: 260px; 
+	padding: 0;
+	margin: 0; 
+	border: 0px solid red; 
+	background-color: #F3F3F3;
+}
+#cont_due_blocchi {
+	clear: both;
+	position: relative; 
+	width: 100%; 
+	margin:0 0 30px 0;
+	padding: 0;
+	text-align:left;
+	background-color: #FFF;
+}   
+
+#double_box { 
+	margin:0 26% 0 0; 
+	background-color: #FFF; 
+	padding:0 10px;
+	min-height: 55em; 
+	height: auto !important; 
+ 	height: 55em; 
+	border-right: 1px solid #E5E1E2; 
+}
+#box_right { 
+	position:absolute; 
+	top: 0; 
+	right: 0; 
+	width: 25%; 
+	padding: 0 0 30px 0;
+	margin: 0 0 30px 0;
+}
+
+#contenuti_due_colonne #ti_trovi, #contenuti_una_colonna #colonna1 #ti_trovi  {
+	clear: both;
+	color: #000;
+	padding: 0;
+	margin: 5px 10px 30px 5px;
+	font-size: 80%;
+	text-align: left;
+}
+#contenuti_due_colonne #colonna1 ul, #contenuti_una_colonna #colonna1 ul {
+	padding: 0;
+	margin: 1em 0 1em 15px;
+}
+
+
+#contenuti_una_colonna #colonna1 ul  li {
+ 	 background-image: url("../resources/img/bullet_operatore.gif"); 
+ }
+
+ /*inserito 28082012 fabio-carla*/
+#contenuti_una_colonna ul li {
+/*	height:26px; questo comando crea problemi*/
+
+
+	padding: 0 0 0 15px;
+	list-style: none;
+	background-image: url(../img/bullet_agenzia.gif);
+	background-repeat: no-repeat;
+	background-position: 0 5px;
+	color: #333;
+}
+ 
+/* Menu di sinistra */ 
+
+/* Primo livello */
+#contenuti_due_colonne #colonna2 ul {
+	clear: both;
+	padding: 0;
+	margin: 10px 0 10px 0;
+	list-style: none;
+	width: 100%;
+}
+#contenuti_due_colonne #colonna2 ul li {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+#contenuti_due_colonne #colonna2 ul li a, #contenuti_due_colonne #colonna2 ul li a:visited {
+	color: #333;
+	color: #295C83;
+	display: block;
+	background-image:url(../resources/img/bullet_menu_sx.gif);
+	background-repeat: no-repeat;	 
+	background-position: 10px 14px;
+	padding: 10px 0 10px 25px;
+	border-bottom: 2px solid #FFF;
+}
+#contenuti_due_colonne #colonna2 ul li a:hover {
+	text-decoration: underline;
+	background-color: #FFF;
+}
+#contenuti_due_colonne #colonna2 ul li a.selected, #contenuti_due_colonne #colonna2 ul li a:visited.selected  {
+	background-color: #FFF;
+	font-weight: bold;
+	background-image:url(../resources/img/bullet_menu_in.gif);
+}
+
+/* Menu Secondo livello */
+#contenuti_due_colonne #colonna2 ul ul, #contenuti_due_colonne #colonna2 ul li.indent {
+	margin: 0;
+	padding: 0 10px 0 15px;
+	list-style: none;
+	background-color: #FFF;
+	width: 90%;
+}
+
+
+#contenuti_due_colonne #colonna2 ul li ul li {
+	margin: 0;
+	padding: 0;
+}
+#contenuti_due_colonne #colonna2 ul li ul li a, #contenuti_due_colonne #colonna2 ul li ul li a:visited, 
+#contenuti_due_colonne #colonna2 ul li.indent a, #contenuti_due_colonne #colonna2 ul li.indent a:visited {
+	color: #333;
+	color: #295C83;
+	display: block;
+	background-image:url(../resources/img/bullet_menu_sx2.gif);
+	background-repeat: no-repeat;	 
+	background-position: 10px 14px;
+	padding: 10px 0 10px 25px;
+	margin: 0;
+	border-bottom: 2px solid #FFF;
+}
+#contenuti_due_colonne #colonna2 ul li ul li a:hover, #contenuti_due_colonne #colonna2 ul li.indent a:hover {
+	text-decoration: underline;
+	background-color: #FFF;
+}
+#contenuti_due_colonne #colonna2 ul li ul li a.selected, #contenuti_due_colonne #colonna2 ul li ul li a:visited.selected,
+#contenuti_due_colonne #colonna2 ul li.indent a.selected, #contenuti_due_colonne #colonna2 ul li.indent a:visited.selected  {
+	background-color: #FFF;
+	font-weight: bold;
+	background-image:url(../img/triangolino_blu.gif);
+}
+
+
+
+/*fabio */
+ #contenuti_due_colonne #colonna2 ul li.indent a.current, #contenuti_due_colonne #colonna2 ul li.indent a.current:visited {
+ 	 background-color: #FFF;
+	font-weight: bold;
+ background-image:url(../img/triangolino_blu.gif);}
+ 	 
+#contenuti_due_colonne #colonna2 ul li a.current, #contenuti_due_colonne #colonna2 ul li a.current:visited{
+    background-color: #FFFFFF;
+    background-image: url("../resources/img/bullet_menu_in.gif");
+  font-weight: bold;
+}
+/*fine fabio */
+
+
+#canale_agenzia #colonna1 p, #canale_operatore #colonna1 p, #canale_viaggiatore #colonna1 p, 
+#cont_due_blocchi p {
+	line-height: 1.3em;
+	margin: 1.5em 0 1.5em 0;
+}
+
+#colonna1 ul p {
+	font-size: 100%;
+}
+#canale_agenzia #colonna1 ul, #canale_operatore #colonna1 ul, #canale_viaggiatore #colonna1 ul {
+	margin: 1em 0 1em 10px;
+	padding: 0;
+}
+
+
+.key_richiedere {clear:both;float:left;margin-bottom:25px;width:100%;}
+.key_richiedere img{float:left;margin-right:10px;}
+.key_richiedere p{border-bottom:1px solid #a5a5a5;width:90%;margin:5px 10px 15px 15px;padding:15px;float:left;display:block;}
+.key_richiedere p span {margin-top:0;padding:0;}
+
+
+
+/* INSERITO DA FABIO BOZZA 07052012 */ 
+
+.indcart_gn{
+	border: 0px solid;
+	margin: 0 1em;
+	padding: 0 0 1em 3em;
+	background: #FFF;
+	color: #000;
+	clear: left;
+	font-size: 100%;
+}
+
+.indcart_gn img {
+	float: left;
+	border: 0px solid #900;
+	margin: 0 10px 0 0;
+}
+
+.indcart_gn p {
+	margin: 0 0 0 30px; 
+	padding: 0;
+	height: 1%;
+}
+
+.indcart_gn p.blu {
+	margin: 0; 
+	padding: 0;
+	color: #073357;
+}
+
+#contenitore .indcart_gn {
+	padding: 12px 0 6px 0;
+	background-color: transparent;
+}
+
+#contenitore .indcart_gn p {
+	margin: 0;
+	padding: 0;
+	line-height: normal;
+}
+
+#contenitore .indcart_gn p a {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+#contenitore .indcart_gn img {
+	border: 0 solid #990000;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+#contenitore .indcart_gn p span{
+	float:left;
+	font-weight:bold;
+	clear:right;
+	width:100%;
+	padding-bottom:6px;
+	margin-top:2px;
+}
+
+
+

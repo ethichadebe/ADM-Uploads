@@ -1,0 +1,96 @@
+
+.tab_calendario {
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse; 
+	border-spacing: 0;	
+	text-align: center;
+	border: none;
+	background-color: #F5F5F5;
+	width: 100%;	
+}
+
+.tab_calendario caption {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	background-color: transparent;	
+	color: #333;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-decoration: none;
+	font-size: 170%;
+	border-bottom: 5px solid #C3C3C3;
+}
+
+.tab_calendario .nascondi {
+	position: absolute;	
+	top: -10000px; 
+	left: -10000px;
+}
+
+.tab_calendario th {
+	margin: 0;
+	padding: 0;
+	border-bottom: 5px solid #C3C3C3;
+	padding: 5px 2px; 
+	font-size: 80%; 
+	color: #333;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.tab_calendario td {
+	border: 1px solid #FFF;
+	color: #333;
+}
+
+.tab_calendario tbody td span {
+	position: absolute; 
+	top: -10000px; 
+	left: -10000px;
+}
+
+
+/* Modifiche per evidenziare la data corrente */
+.tab_calendario tbody td a,
+.tab_calendario tbody td a:hover,
+.tab_calendario tbody td a:active,
+.tab_calendario tbody td a:visited {
+	 display: block;
+	 color: #333;
+	 font-weight: bold;
+	 border-bottom: 3px solid #C3C3C3;
+}
+
+.tab_calendario .curdate {
+	 border: 1px #C3C3C3 solid;
+	 background-color: #FFF;
+	 color: #333;
+}
+
+.tab_calendario .curdate a,
+.tab_calendario .curdate a:hover,
+.tab_calendario .curdate a:active,
+.tab_calendario .curdate a:visited {
+	 border-bottom: 3px solid #C3C3C3;
+	 color: #333;
+}
+
+#box_calendario p {
+	margin: 10px 0 40px 0;
+	padding: 0;
+}
+
+#box_calendario p a {
+	margin: 0;
+	padding: 5px 2px;
+	border: 1px solid #ccc;
+	display: block;
+	color: #333;
+	text-decoration: underline;
+}
+
+#colonna1 a.g_scadenza, #colonna1 a.g_scadenza:visited, #colonna1 a.g_scadenza:hover {
+	text-decoration:none;
+	color:#295C83;
+}
+
