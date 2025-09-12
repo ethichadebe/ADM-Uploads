@@ -1,0 +1,4 @@
+# Ignore automation artifacts and local runner scripts
+runs/
+scripts/
+
