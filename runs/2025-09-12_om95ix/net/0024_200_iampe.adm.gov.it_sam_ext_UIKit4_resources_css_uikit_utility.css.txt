@@ -1,0 +1,774 @@
+/*!
+ * Sogei UI Kit 4
+ * author: dgalloppa
+ */
+
+/* UTILITY */
+.main-min-vh {
+	min-height: 60vh;
+}
+.section-grey {
+	background-color: #f0f1f3;
+}
+.section-dark-grey {
+	background-color: #5c6f82;
+}
+hr {
+	border-color: #dcdddf;
+}
+code {
+	color: #d0a;
+	font-size: 1rem;
+	font-weight: 600;
+	padding: 0 .25rem;
+}
+
+/* COLOR */
+.icon-danger,
+.text-danger {
+	color: #d9364f !important;
+}
+.icon-info,
+.text-info {
+	color: #0073e6 !important;
+}
+.icon-success,
+.text-success {
+	color: #008758 !important;
+}
+.icon-warning,
+.text-warning {
+	color: #a66300 !important;
+}
+.icon-muted,
+.text-muted {
+	color: #5c6f82 !important;
+}
+.icon-light,
+.text-light {
+	color: #5c6f82 !important;
+	opacity: .2;
+}
+.icon-white,
+.text-white {
+	color: #fff !important;
+}
+.icon-black,
+.text-black {
+	color: #19191a !important;
+}
+.bg-danger {
+	background-color: #d9364f !important;
+}
+.bg-info {
+	background-color: #0073e6 !important;
+}
+.bg-success {
+	background-color: #008758 !important;
+}
+.bg-warning {
+	background-color: #a66300 !important;
+}
+.bg-muted {
+	background-color: #5c6f82 !important;
+}
+.bg-light {
+	background-color: #f4f5f7 !important;
+}
+.bg-white {
+	background-color: #fff !important;
+}
+.bg-black {
+	background-color: #19191a !important;
+}
+.border,
+.border-bottom,
+.border-left,
+.border-right,
+.border-top {
+	border-color: #cbccce !important;
+}
+.border-danger {
+	border-color: #d9364f !important;
+}
+.border-info {
+	border-color: #0073e6 !important;
+}
+.border-success {
+	border-color: #008758 !important;
+}
+.border-warning {
+	border-color: #a66300 !important;
+}
+.border-muted {
+	border-color: #5c6f82 !important;
+}
+.border-white {
+	border-color: #fff !important;
+}
+.border-black {
+	border-color: #19191a !important;
+}
+
+/* IMAGE */
+.img-rounded {
+	border-radius: .5rem !important;
+}
+.img-circle {
+	border-radius: 50% !important;
+}
+
+/* PROGRESS INDICATOR */
+.perc-1 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-1 1s linear forwards 1s;
+}
+.perc-2 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-2 1s linear forwards 1s;
+}
+.perc-3 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-3 1s linear forwards 1s;
+}
+.perc-4 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-4 1s linear forwards 1s;
+}
+.perc-5 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-5 1s linear forwards 1s;
+}
+.perc-6 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-6 1s linear forwards 1s;
+}
+.perc-7 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-7 1s linear forwards 1s;
+}
+.perc-8 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-8 1s linear forwards 1s;
+}
+.perc-9 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-9 1s linear forwards 1s;
+}
+.perc-10 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-10 1s linear forwards 1s;
+}
+.perc-11 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-11 1s linear forwards 1s;
+}
+.perc-12 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-12 1s linear forwards 1s;
+}
+.perc-13 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-13 1s linear forwards 1s;
+}
+.perc-14 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-14 1s linear forwards 1s;
+}
+.perc-15 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-15 1s linear forwards 1s;
+}
+.perc-16 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-16 1s linear forwards 1s;
+}
+.perc-17 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-17 1s linear forwards 1s;
+}
+.perc-18 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-18 1s linear forwards 1s;
+}
+.perc-19 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-19 1s linear forwards 1s;
+}
+.perc-20 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-20 1s linear forwards 1s;
+}
+.perc-21 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-21 1s linear forwards 1s;
+}
+.perc-22 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-22 1s linear forwards 1s;
+}
+.perc-23 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-23 1s linear forwards 1s;
+}
+.perc-24 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-24 1s linear forwards 1s;
+}
+.perc-25 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-25 1s linear forwards 1s;
+}
+.perc-26 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-26 1s linear forwards 1s;
+}
+.perc-27 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-27 1s linear forwards 1s;
+}
+.perc-28 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-28 1s linear forwards 1s;
+}
+.perc-29 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-29 1s linear forwards 1s;
+}
+.perc-30 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-30 1s linear forwards 1s;
+}
+.perc-31 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-31 1s linear forwards 1s;
+}
+.perc-32 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-32 1s linear forwards 1s;
+}
+.perc-33 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-33 1s linear forwards 1s;
+}
+.perc-34 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-34 1s linear forwards 1s;
+}
+.perc-35 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-35 1s linear forwards 1s;
+}
+.perc-36 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-36 1s linear forwards 1s;
+}
+.perc-37 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-37 1s linear forwards 1s;
+}
+.perc-38 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-38 1s linear forwards 1s;
+}
+.perc-39 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-39 1s linear forwards 1s;
+}
+.perc-40 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-40 1s linear forwards 1s;
+}
+.perc-41 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-41 1s linear forwards 1s;
+}
+.perc-42 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-42 1s linear forwards 1s;
+}
+.perc-43 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-43 1s linear forwards 1s;
+}
+.perc-44 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-44 1s linear forwards 1s;
+}
+.perc-45 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-45 1s linear forwards 1s;
+}
+.perc-46 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-46 1s linear forwards 1s;
+}
+.perc-47 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-47 1s linear forwards 1s;
+}
+.perc-48 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-48 1s linear forwards 1s;
+}
+.perc-49 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-49 1s linear forwards 1s;
+}
+.perc-50 .progress-indicator-right > .progress-indicator-bar,
+.perc-51 .progress-indicator-right > .progress-indicator-bar,
+.perc-52 .progress-indicator-right > .progress-indicator-bar,
+.perc-53 .progress-indicator-right > .progress-indicator-bar,
+.perc-54 .progress-indicator-right > .progress-indicator-bar,
+.perc-55 .progress-indicator-right > .progress-indicator-bar,
+.perc-56 .progress-indicator-right > .progress-indicator-bar,
+.perc-57 .progress-indicator-right > .progress-indicator-bar,
+.perc-58 .progress-indicator-right > .progress-indicator-bar,
+.perc-59 .progress-indicator-right > .progress-indicator-bar,
+.perc-60 .progress-indicator-right > .progress-indicator-bar,
+.perc-61 .progress-indicator-right > .progress-indicator-bar,
+.perc-62 .progress-indicator-right > .progress-indicator-bar,
+.perc-63 .progress-indicator-right > .progress-indicator-bar,
+.perc-64 .progress-indicator-right > .progress-indicator-bar,
+.perc-65 .progress-indicator-right > .progress-indicator-bar,
+.perc-66 .progress-indicator-right > .progress-indicator-bar,
+.perc-67 .progress-indicator-right > .progress-indicator-bar,
+.perc-68 .progress-indicator-right > .progress-indicator-bar,
+.perc-69 .progress-indicator-right > .progress-indicator-bar,
+.perc-70 .progress-indicator-right > .progress-indicator-bar,
+.perc-71 .progress-indicator-right > .progress-indicator-bar,
+.perc-72 .progress-indicator-right > .progress-indicator-bar,
+.perc-73 .progress-indicator-right > .progress-indicator-bar,
+.perc-74 .progress-indicator-right > .progress-indicator-bar,
+.perc-75 .progress-indicator-right > .progress-indicator-bar,
+.perc-76 .progress-indicator-right > .progress-indicator-bar,
+.perc-77 .progress-indicator-right > .progress-indicator-bar,
+.perc-78 .progress-indicator-right > .progress-indicator-bar,
+.perc-79 .progress-indicator-right > .progress-indicator-bar,
+.perc-80 .progress-indicator-right > .progress-indicator-bar,
+.perc-81 .progress-indicator-right > .progress-indicator-bar,
+.perc-82 .progress-indicator-right > .progress-indicator-bar,
+.perc-83 .progress-indicator-right > .progress-indicator-bar,
+.perc-84 .progress-indicator-right > .progress-indicator-bar,
+.perc-85 .progress-indicator-right > .progress-indicator-bar,
+.perc-86 .progress-indicator-right > .progress-indicator-bar,
+.perc-87 .progress-indicator-right > .progress-indicator-bar,
+.perc-88 .progress-indicator-right > .progress-indicator-bar,
+.perc-89 .progress-indicator-right > .progress-indicator-bar,
+.perc-90 .progress-indicator-right > .progress-indicator-bar,
+.perc-91 .progress-indicator-right > .progress-indicator-bar,
+.perc-92 .progress-indicator-right > .progress-indicator-bar,
+.perc-93 .progress-indicator-right > .progress-indicator-bar,
+.perc-94 .progress-indicator-right > .progress-indicator-bar,
+.perc-95 .progress-indicator-right > .progress-indicator-bar,
+.perc-96 .progress-indicator-right > .progress-indicator-bar,
+.perc-97 .progress-indicator-right > .progress-indicator-bar,
+.perc-98 .progress-indicator-right > .progress-indicator-bar,
+.perc-99 .progress-indicator-right > .progress-indicator-bar,
+.perc-100 .progress-indicator-right > .progress-indicator-bar {
+	animation: perc-50 1s linear forwards 1s;
+}
+.perc-51 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-1 0.02s linear forwards 2s;
+}
+.perc-52 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-2 0.04s linear forwards 2s;
+}
+.perc-53 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-3 0.06s linear forwards 2s;
+}
+.perc-54 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-4 0.08s linear forwards 2s;
+}
+.perc-55 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-5 0.1s linear forwards 2s;
+}
+.perc-56 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-6 0.12s linear forwards 2s;
+}
+.perc-57 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-7 0.14s linear forwards 2s;
+}
+.perc-58 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-8 0.16s linear forwards 2s;
+}
+.perc-59 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-9 0.18s linear forwards 2s;
+}
+.perc-60 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-10 0.2s linear forwards 2s;
+}
+.perc-61 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-11 0.22s linear forwards 2s;
+}
+.perc-62 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-12 0.24s linear forwards 2s;
+}
+.perc-63 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-13 0.26s linear forwards 2s;
+}
+.perc-64 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-14 0.28s linear forwards 2s;
+}
+.perc-65 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-15 0.3s linear forwards 2s;
+}
+.perc-66 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-16 0.32s linear forwards 2s;
+}
+.perc-67 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-17 0.34s linear forwards 2s;
+}
+.perc-68 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-18 0.36s linear forwards 2s;
+}
+.perc-69 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-19 0.38s linear forwards 2s;
+}
+.perc-70 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-20 0.4s linear forwards 2s;
+}
+.perc-71 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-21 0.42s linear forwards 2s;
+}
+.perc-72 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-22 0.44s linear forwards 2s;
+}
+.perc-73 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-23 0.46s linear forwards 2s;
+}
+.perc-74 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-24 0.48s linear forwards 2s;
+}
+.perc-75 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-25 0.5s linear forwards 2s;
+}
+.perc-76 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-26 0.52s linear forwards 2s;
+}
+.perc-77 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-27 0.54s linear forwards 2s;
+}
+.perc-78 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-28 0.56s linear forwards 2s;
+}
+.perc-79 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-29 0.58s linear forwards 2s;
+}
+.perc-80 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-30 0.6s linear forwards 2s;
+}
+.perc-81 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-31 0.62s linear forwards 2s;
+}
+.perc-82 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-32 0.64s linear forwards 2s;
+}
+.perc-83 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-33 0.66s linear forwards 2s;
+}
+.perc-84 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-34 0.68s linear forwards 2s;
+}
+.perc-85 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-35 0.7s linear forwards 2s;
+}
+.perc-86 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-36 0.72s linear forwards 2s;
+}
+.perc-87 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-37 0.74s linear forwards 2s;
+}
+.perc-88 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-38 0.76s linear forwards 2s;
+}
+.perc-89 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-39 0.78s linear forwards 2s;
+}
+.perc-90 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-40 0.8s linear forwards 2s;
+}
+.perc-91 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-41 0.82s linear forwards 2s;
+}
+.perc-92 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-42 0.84s linear forwards 2s;
+}
+.perc-93 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-43 0.86s linear forwards 2s;
+}
+.perc-94 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-44 0.88s linear forwards 2s;
+}
+.perc-95 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-45 0.9s linear forwards 2s;
+}
+.perc-96 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-46 0.92s linear forwards 2s;
+}
+.perc-97 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-47 0.94s linear forwards 2s;
+}
+.perc-98 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-48 0.96s linear forwards 2s;
+}
+.perc-99 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-49 0.98s linear forwards 2s;
+}
+.perc-100 .progress-indicator-left > .progress-indicator-bar {
+	animation: perc-50 1s linear forwards 2s;
+}
+@keyframes perc-1 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(3.6deg); }
+}
+@keyframes perc-2 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(7.2deg); }
+}
+@keyframes perc-3 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(10.8deg); }
+}
+@keyframes perc-4 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(14.4deg); }
+}
+@keyframes perc-5 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(18deg); }
+}
+@keyframes perc-6 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(21.6deg); }
+}
+@keyframes perc-7 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(25.2deg); }
+}
+@keyframes perc-8 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(28.8deg); }
+}
+@keyframes perc-9 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(32.4deg); }
+}
+@keyframes perc-10 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(36deg); }
+}
+@keyframes perc-11 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(39.6deg); }
+}
+@keyframes perc-12 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(43.2deg); }
+}
+@keyframes perc-13 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(46.8deg); }
+}
+@keyframes perc-14 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(50.4deg); }
+}
+@keyframes perc-15 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(54deg); }
+}
+@keyframes perc-16 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(57.6deg); }
+}
+@keyframes perc-17 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(61.2deg); }
+}
+@keyframes perc-18 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(64.8deg); }
+}
+@keyframes perc-19 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(68.4deg); }
+}
+@keyframes perc-20 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(72deg); }
+}
+@keyframes perc-21 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(75.6deg); }
+}
+@keyframes perc-22 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(79.2deg); }
+}
+@keyframes perc-23 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(82.8deg); }
+}
+@keyframes perc-24 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(86.4deg); }
+}
+@keyframes perc-25 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(90deg); }
+}
+@keyframes perc-26 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(93.6deg); }
+}
+@keyframes perc-27 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(97.2deg); }
+}
+@keyframes perc-28 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(100.8deg); }
+}
+@keyframes perc-29 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(104.4deg); }
+}
+@keyframes perc-30 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(108deg); }
+}
+@keyframes perc-31 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(111.6deg); }
+}
+@keyframes perc-32 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(115.2deg); }
+}
+@keyframes perc-33 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(118.8deg); }
+}
+@keyframes perc-34 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(122.4deg); }
+}
+@keyframes perc-35 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(126deg); }
+}
+@keyframes perc-36 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(129.6deg); }
+}
+@keyframes perc-37 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(133.2deg); }
+}
+@keyframes perc-38 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(136.8deg); }
+}
+@keyframes perc-39 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(140.4deg); }
+}
+@keyframes perc-40 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(144deg); }
+}
+@keyframes perc-41 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(147.6deg); }
+}
+@keyframes perc-42 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(151.2deg); }
+}
+@keyframes perc-43 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(154.8deg); }
+}
+@keyframes perc-44 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(158.4deg); }
+}
+@keyframes perc-45 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(162deg); }
+}
+@keyframes perc-46 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(165.6deg); }
+}
+@keyframes perc-47 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(169.2deg); }
+}
+@keyframes perc-48 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(172.8deg); }
+}
+@keyframes perc-49 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(176.4deg); }
+}
+@keyframes perc-50 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(180deg); }
+}
+.indicator-rounded {
+	background-color: #fff;
+	border-radius: 50%;
+	font-size: 1.5rem;
+	font-weight: 600;
+	height: 13rem;
+	margin: .5rem auto;
+	padding: 1rem;
+	text-align: center;
+	width: 13rem;
+}
+
+/* Fix iOS horizontal scrolling */
+.table-responsive .sr-only {
+	position: fixed;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+	/* MENU TOP */
+	@supports ((position: -webkit-sticky) or (position: sticky)) {
+		.sticky-md-top {
+			position: -webkit-sticky;
+			position: sticky;
+			top: 0;
+			z-index: 1020;
+		}
+	}
+
+	/* ACCESSIBILITY */
+	a:focus,
+	.btn:focus,
+	.carousel-indicators li:focus {
+		outline: 2px solid #ff8c00 !important;
+		outline-offset: 1px;
+	}
+	.sr-md-only {
+		border: 0;
+		clip: rect(0,0,0,0);
+		height: 1px;
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		white-space: nowrap;
+		width: 1px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+	/* MENU TOP */
+	@supports ((position: -webkit-sticky) or (position: sticky)) {
+		.sticky-lg-top {
+			position: -webkit-sticky;
+			position: sticky;
+			top: 0;
+			z-index: 1020;
+		}
+	}
+
+	/* ACCESSIBILITY */
+	.sr-lg-only {
+		border: 0;
+		clip: rect(0,0,0,0);
+		height: 1px;
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		white-space: nowrap;
+		width: 1px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+	/* MENU TOP */
+	@supports ((position: -webkit-sticky) or (position: sticky)) {
+		.sticky-xl-top {
+			position: -webkit-sticky;
+			position: sticky;
+			top: 0;
+			z-index: 1020;
+		}
+	}
+
+	/* ACCESSIBILITY */
+	.sr-xl-only {
+		border: 0;
+		clip: rect(0,0,0,0);
+		height: 1px;
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		white-space: nowrap;
+		width: 1px;
+	}
+}

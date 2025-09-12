@@ -1,0 +1,91 @@
+/*!
+ * Sogei UI Kit 4
+ * author: dgalloppa
+ */
+
+/* IMAGE */
+.img-fluid {
+	width: auto;
+}
+
+/* CARD IMAGE */
+.card-image,
+.card-horizontal {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 500px;
+}
+.card-img-icon {
+	overflow: hidden;
+	position: relative;
+}
+.card-img-icon > .card-img-top {
+	height: 100%;
+}
+.card-img-icon > .fa-card {
+	color: #fff;
+	font-size: 6em;
+	left: 50%;
+	position: absolute;
+	text-shadow: .375rem .375rem 1rem rgba(0,0,0,.4);
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* CAROUSEL */
+.carousel-item .text-muted {
+	font-weight: 600;
+}
+.carousel-indicators {
+	bottom: 0;
+	margin: .75rem 0 1rem;
+	position: relative;
+}
+.carousel-indicators li {
+	background-color: #919294;
+	border: 0;
+	border-radius: 50%;
+	height: 16px;
+	margin: 0 .5rem;
+	text-indent: 0;
+	opacity: 1;
+	width: 16px;
+}
+.carousel-indicators li.carousel-btn {
+	background-color: transparent;
+	border-radius: 0;
+}
+.carousel-indicators li.carousel-btn > .btn-link {
+	border: 0;
+	padding: 0;
+	vertical-align: top;
+}
+.carousel-btn .fa-pause,
+.carousel-btn .fa-play {
+	vertical-align: top;
+}
+
+/* SLIDER */
+.carousel-control-next,
+.carousel-control-prev {
+	opacity: 1;
+	text-decoration: none !important;
+	width: auto;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	
+	/* CARD IMAGE */
+	.card-horizontal {
+		max-width: 100%;
+	}
+	.card-horizontal .card-img-top {
+		border-bottom-left-radius: calc(.25rem - 1px);
+		border-top-right-radius: 0;
+		max-width: 13rem;
+	}
+	.card-horizontal > .card-img-icon > .fa-card {
+		font-size: 3em;
+	}
+}

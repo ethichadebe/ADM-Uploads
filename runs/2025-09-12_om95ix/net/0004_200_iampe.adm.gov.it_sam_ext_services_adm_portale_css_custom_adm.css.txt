@@ -1,0 +1,859 @@
+/* utilities custom */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    color: #295c84;
+    font-weight: 700;
+}
+
+#page-header .logo {
+    min-width: 14rem !important;
+    height: auto;
+}
+
+#page-footer .list-inline a:hover,
+#page-footer h3 a:hover {
+    text-decoration: underline;
+}
+
+#page-footer a:hover,
+#page-footer .list-inline a:hover,
+#page-footer .link-list-wrapper ul li a:hover,
+#page-footer .list-inline a:hover span {
+    color: #BFD8ED;
+}
+
+.adm-btn-primary:focus {
+    color: #fff;
+    background: #32668f;
+}
+
+.btn.adm-btn-secondary {
+    text-decoration: none !important;
+}
+
+/* sezione hero - carousel-slider UIkit custom & sezione lavora con noi */
+.hero-adm-carousel .bg-overlay-dark,
+.section-overlay .bg-overlay-dark {
+    position: relative;
+    display: inline-block;
+    max-height: 100%;
+    margin: 0;
+}
+
+.hero-adm-carousel .bg-overlay-dark:after,
+.section-overlay .bg-overlay-dark:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-adm-carousel .img-hero-section,
+.section-overlay .img-hero-section {
+    margin: 0;
+    position: relative;
+    z-index: -1;
+    display: block;
+    background: no-repeat center center;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+
+.hero-adm-carousel .carousel-caption.caption-adm {
+    text-align: left;
+    left: 0;
+    padding-bottom: 2em;
+}
+
+.hero-adm-carousel .carousel-indicators {
+    position: absolute;
+    bottom: 2em;
+    justify-content: normal;
+    margin: 0;
+}
+
+.hero-adm-carousel .carousel-indicators li {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.hero-adm-carousel .carousel-indicators li:first-child {
+    margin-left: 0;
+}
+
+.carousel-indicators .active {
+    background-color: #fff !important;
+}
+
+.hero-adm-carousel .carousel-control-prev,
+.hero-adm-carousel .carousel-control-next {
+    text-decoration: none !important;
+}
+
+.hero-adm-carousel .carousel-control-prev i,
+.hero-adm-carousel .carousel-control-next i {
+    border: 1px solid #fff;
+    padding: .2em .3em;
+}
+
+.font-serif {
+    font-family: Lora, Georgia, serif;
+}
+
+@media (min-width: 1024px) {
+
+    .carousel-caption.caption-adm h1 a,
+    .carousel-caption.caption-adm h2 a,
+    .carousel-caption.caption-adm h3 a {
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+}
+
+/* mobile fix img */
+@media (max-width: 768px) {
+    .hero-adm-carousel .img-fluid {
+        max-width: 70em;
+    }
+
+}
+
+
+
+/* sezione i numeri - Uikit tabs custom */
+
+.tabs-contenuto .nav-tabs-reverse .nav-link.active,
+.nav-tabs-reverse .nav-link.active:focus,
+.nav-tabs-reverse .nav-link.active:hover {
+    border-bottom-color: #fff;
+    color: #fff;
+}
+
+.tabs-contenuto .nav-tabs-reverse .nav-link.active {
+    font-weight: 700;
+}
+
+.tabs-contenuto .nav-tabs-reverse .nav-link {
+    color: #fff;
+    font-weight: 400;
+    background: transparent;
+    letter-spacing: 0.063rem;
+    font-size: 16px;
+    text-decoration: none !important;
+}
+
+.nav-tabs-reverse .nav-link:focus,
+.nav-tabs-reverse .nav-link:hover {
+    border-bottom-color: transparent;
+}
+
+/* mediaquery desktop */
+@media (min-width: 992px) {
+    .m-n-img-tab {
+        margin-top: -4.8em;
+    }
+
+}
+
+/*img tabs*/
+.img-tabcont-wrapper {
+    min-height: 380px;
+    position: relative;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.img-tabcont-wrapper.img-tabcont-small-size {
+    min-height: 230px;
+    margin-top: 15px;
+}
+
+.img-tabcont-wrapper .img-tabresponsive-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.img-tabresponsive-wrapper {
+    overflow: hidden;
+}
+
+.img-tabcont-wrapper .img-tabresponsive-wrapper .img-responsive {
+    padding-bottom: inherit;
+    height: 100%;
+    position: initial;
+}
+
+.img-tabresponsive-wrapper .img-responsive .img-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+/*tab content*/
+.adm-tabs .tabs-contenuto .tab-content h3 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+/* sezione calendario */
+.overflow-y-scroll {
+    overflow-y: scroll;
+    height: 250px;
+}
+
+ul.link-list.p-4.overflow-y-scroll {
+    padding-bottom: 0px !important;
+}
+
+@media (min-width: 768px) {
+
+    .img-tabcont-wrapper.img-tabcont-small-size {
+        min-height: 270px;
+    }
+
+}
+
+@media(min-width: 992px) {
+    .img-tabcont-wrapper.img-tabcont-small-size {
+        min-height: 100%;
+        margin-top: 0;
+
+    }
+
+    .overflow-y-scroll {
+        height: 380px;
+    }
+
+    ul.link-list.p-4.overflow-y-scroll > .list-item:last-child {
+        margin-bottom: 0 !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .overflow-y-scroll {
+        height: 395px;
+    }
+}
+
+/* OWL CAROUSEL ACCESSIBLE DOTS */
+
+.owl-dots .owl-dot {
+    background: #fff !important;
+    width: 16px;
+    height: 16px;
+    margin: .5em;
+    border-radius: 100%;
+}
+
+.owl-theme .owl-dots .owl-dot.active {
+    background: #3B76A4 !important;
+}
+
+
+/* Pagina ADM COMUNICA */
+.bg-adm-7 {
+    background: #E2E7ED;
+}
+
+.icon-bg-section span {
+    position: absolute;
+    right: -200px;
+    font-size: 350px;
+    top: -200px;
+}
+
+.icon-bg-section span i.fa-video {
+    color: #E2E7ED;
+}
+
+.icon-bg-section span i.fa-circle {
+    color: #F8FAFF;
+}
+
+/* Check moduli */
+.border-custom {
+    border-top: solid 2px #979797 !important;
+}
+
+.table-responsive .table td,
+.table-responsive .tabella_d td {
+    vertical-align: top;
+}
+
+.table-responsive .table td a:hover,
+.table-responsive .tabella_d td a:hover {
+    font-weight: inherit;
+    color: #204c70;
+}
+
+.table-responsive .table,
+.table-responsive .tabella_d {
+    border-top: 0 !important;
+
+}
+
+.table-responsive .table tr,
+.table-responsive .tabella_d tr {
+    border-top: 1px solid #295C84 !important;
+}
+
+.table-responsive .table tbody tr:last-child td,
+.table-responsive .tabella_d tbody tr:last-child td {
+    border-bottom: 1px solid #E3EEF5 !important;
+    ;
+}
+
+/* TABELLA custom per PORTLET GIOCHI */
+.table-responsive .tabella_d {
+    border-top: 1px solid #295C84 !important;
+    width: 100%;
+}
+
+.table-responsive .tabella_d,
+.table-responsive .tabella_d > tbody > tr > td,
+.table-responsive .tabella_d > tbody > tr > th,
+.table-responsive .tabella_d > tfoot > tr > td,
+.table-responsive .tabella_d > tfoot > tr > th,
+.table-responsive .tabella_d > thead > tr > td,
+.table-responsive .tabella_d > thead > tr > th {
+    border-color: #E3EEF5;
+}
+
+.table-responsive .tabella_d:not(.table-bordered),
+.table-responsive .tabella_d:not(.table-bordered) > thead > tr > th {
+    border-bottom: 1px solid transparent;
+}
+
+.table-responsive .tabella_d th {
+    color: #295C84 !important;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    border-top: 0;
+    border-bottom: 1px solid #E3EEF5 !important;
+}
+
+.table-responsive .tabella_d td {
+    font-family: Lora, Georgia, serif;
+    color: #646580;
+    font-size: 14px;
+    line-height: 18px;
+    border-top: 0;
+    border-bottom: 1px solid #E3EEF5 !important;
+}
+
+.table-responsive .tabella_d td a:hover {
+    color: #295C82;
+}
+
+.table-responsive .table-striped tbody tr:nth-of-type(odd) td,
+.table-responsive .table-striped tbody tr:nth-of-type(odd) th,
+.table-responsive .tabella_d tbody tr:nth-of-type(odd) td,
+.table-responsive .tabella_d tbody tr:nth-of-type(odd) th {
+    background-color: #F8FAFF;
+}
+
+.table-responsive .tabella_d:not(.table-sm) > thead > tr > th,
+.table-responsive .tabella_d:not(.table-sm) > tbody > tr > td,
+.table-responsive .tabella_d:not(.table-sm) > tbody > tr > th {
+    padding: .75rem .75rem;
+}
+
+/*
+.table-responsive .tabella_d tr:last-child tbody th,
+.table-responsive .tabella_d tbody tr:last-child td {
+    border-bottom: 0 !important;
+}
+*/
+
+table button,
+table .dropdown-menu {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+ul.custom-list {
+    list-style-type: square;
+}
+
+ul.custom-list li {
+    line-height: 1rem
+}
+
+ul.custom-list li::before {
+    content: "\2022";
+    color: #295c84;
+    font-weight: bold;
+    display: inline-table;
+    width: 1em;
+    font-size: 1.2em;
+}
+
+.custom-list-group .list-group-item {
+    border: none;
+    background: #f8faff;
+    font-size: 2em;
+    padding: .2em .4em;
+    margin: .3em;
+    width: 2em;
+    text-align: center;
+}
+
+.custom-list-group .list-group-item:first-child {
+    margin-left: 0;
+}
+
+.w-35 {
+    width: 35% !important;
+}
+
+.bg-table-light {
+    background-color: #F8FAFF !important;
+}
+
+.custom-checkbox label {
+    display: inline-block;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.media-object {
+    display: block;
+}
+
+select.btn-group .dropdown-menu li .media-body {
+    vertical-align: middle;
+    white-space: normal;
+}
+
+.media-body,
+.media-left,
+.media-right {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.media-body {
+    width: 10000px;
+}
+
+.media,
+.media-body {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.media-left,
+.media > .pull-left {
+    padding-right: 10px;
+}
+
+h4.h6 {
+    font-size: 1.1em !important;
+}
+
+/* card per giochi */
+.card-slim {
+    border-radius: .25rem !important;
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 10%);
+    border: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px;
+    border-radius: .25rem;
+    background-color: #E3EEF5;
+    min-height: 100px;
+}
+
+.card-slim:hover {
+    background-color: #F4F7FD;
+    cursor: pointer;
+}
+
+.card-slim > .card-body {
+    padding: 0rem 1rem;
+}
+
+.img-card .card-slim .img-responsive-wrapper {
+    height: 100%;
+    min-width: 100px;
+    display: block;
+
+}
+
+.img-card .card-slim .img-responsive-wrapper .img-responsive {
+    position: relative;
+    height: 100%;
+    padding: 0 0 0 0;
+}
+
+.card-slim .card-body .card-title a {
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 24px;
+    color: #295c84;
+    font-weight: 700;
+}
+
+.img-responsive-wrapper .img-responsive .img-wrapper-100{
+    position: absolute;
+    top: 0;
+    width: 95%;
+    height: 100%;
+    right: 0;
+
+}
+.img-responsive-wrapper .img-responsive .img-wrapper-75{
+    position: absolute;
+    top: 0;
+    width: 95%;
+    height: 75%;
+    right: 0;
+
+}
+.img-responsive-wrapper .img-responsive .img-wrapper-75-invert{
+    position: absolute;
+    top: 0;
+    width: 95%;
+    height: 75%;
+    left: 0;
+
+}
+.img-responsive-wrapper .img-responsive-vertical {
+    width: 100%;
+    height: 400px;
+}
+.img-responsive-wrapper .img-responsive-vertical-invert {
+    width: 100%;
+    height: 400px;
+}
+.img-responsive-wrapper .img-responsive-vertical-invert > .img-wrapper > .fill{
+    width: 92%;
+}
+.img-responsive-wrapper .img-responsive-vertical .img-wrapper-100{
+    position: absolute;
+    top: 0;
+    width: 92%;
+    height: 100%;
+    right: 0;
+
+}
+ul.list-number{
+    list-style: decimal;
+    margin-left: 15px;
+}
+
+/* card img overlay bg con testo sovrapposto - card incontri con studenti entrypoint foto */
+
+.card-overlay-link {
+    position: relative;
+    display: inline-block;
+    max-height: 100%;
+    margin: 0;
+}
+
+.card-overlay-link:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    border-radius: 5px;
+    /***  CSS Gradient  ***/
+    /*  Chrome 1-9 and Safari 4-5.0  */
+    background-image: -webkit-gradient(linear, left top, left bottom,
+            color-stop(0.0, rgba(0, 0, 0, 0.000)),
+            color-stop(1.0, rgba(0, 0, 0, 0.650)));
+
+    /*  Chrome 10+ Safari 5.1+ Mobile Safari  */
+    background-image: -webkit-linear-gradient(top,
+            rgba(0, 0, 0, 0.000),
+            rgba(0, 0, 0, 0.650));
+
+    /*  Firefox 3.6+  */
+    background-image: -moz-linear-gradient(top,
+            rgba(0, 0, 0, 0.000),
+            rgba(0, 0, 0, 0.650));
+
+    /*  IE 10+  */
+    background-image: -ms-linear-gradient(top,
+            rgba(0, 0, 0, 0.000),
+            rgba(0, 0, 0, 0.650));
+
+    /*  Opera 11.10+  */
+    background-image: -o-linear-gradient(top,
+            rgba(0, 0, 0, 0.000),
+            rgba(0, 0, 0, 0.650));
+
+    /*  W3C  */
+    background-image: linear-gradient(top,
+            rgba(0, 0, 0, 0.000),
+            rgba(0, 0, 0, 0.650));
+}
+
+.card-overlay-link span {
+    z-index: 9999;
+}
+
+.card-default > .card-header {
+    background-color: #f8faff;
+}
+
+.img-wrapper.h-card-custom {
+    max-height: 10em;
+}
+
+.card-bg-adm-4 .title-card h2,
+.card-bg-adm-4 .title-card h3,
+.card-bg-adm-4 .title-card h4 {
+    background: #E3EEF5;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    font-size: 1.5em;
+    padding: 1rem;
+}
+
+.link-list-custom ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.link-list-custom ul li:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0da";
+    color: #295c84;
+    margin-right: .3em;
+}
+
+.link-list-custom ul li a {
+    display: inline-block;
+}
+
+.link-list-custom ul li a h1,
+.link-list-custom ul li a h2,
+.link-list-custom ul li a h3 {
+    color: #005EFF;
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: .3em auto;
+}
+
+.link-list-custom ul li a h1:hover,
+.link-list-custom ul li a h2:hover,
+.link-list-custom ul li a h3:hover {
+    color: #295c84;
+}
+
+.link-list-custom ul li ul {
+    padding-left: 1.5em;
+}
+
+.link-list-custom a {
+    padding-bottom: .5em;
+}
+
+/* pagina verifica la giocata */
+.form-group.form-search-adm .search-play-adm {
+    background-color: transparent;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0;
+}
+
+.form-group.form-search-adm .custom-tooltip {
+    text-align: right;
+    padding: .2em .5em;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+}
+
+.form-group.form-search-adm .form-control {
+    padding: 30px 16px 30px 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.form-group.form-search-adm .fonticon-input input[type="text"] {
+    position: relative;
+}
+
+.form-group.form-search-adm .fonticon-input:before {
+    font-family: 'FontAwesome';
+    font-size: 1.2em;
+    color: #295c84;
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    content: "\f002";
+    display: inline-block;
+    z-index: 999;
+}
+
+fieldset.chapta-custom {
+    background: #fff;
+}
+
+fieldset.chapta-custom legend {
+    color: #2C5F88;
+}
+
+fieldset.chapta-custom .form-group label {
+    background: transparent;
+    padding-left: 0;
+}
+
+/* FORM SELECT CUSTOM CON ICONE */
+
+/*bootstrap select*/
+.bootstrap-select {
+    width: 100% !important;
+}
+
+.bootstrap-select > .dropdown-toggle {
+    border-bottom: solid 1px #2C5F86;
+    border-radius: 0px !important;
+}
+
+.bootstrap-select > .dropdown-toggle::after {
+    float: right;
+    color: #2C5F86;
+}
+
+.bootstrap-select > .dropdown-toggle > .filter-option {
+    font-style: italic;
+    color: #2c5f86;
+}
+
+.bootstrap-select.btn-group .dropdown-menu li .media {
+    display: inline-block;
+}
+
+.media-object {
+    display: block;
+}
+
+select.btn-group .dropdown-menu li .media-body {
+    vertical-align: middle;
+    white-space: normal;
+}
+
+.media-body,
+.media-left,
+.media-right {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.media-body {
+    width: 10000px;
+}
+
+.media,
+.media-body {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.media-left,
+.media > .pull-left {
+    padding-right: 10px;
+}
+
+/* Select custom*/
+.btn.dropdown-toggle:hover {
+    border-bottom: solid 1px #2C5F86;
+    background-color: transparent;
+}
+
+.dropdown.bootstrap-select .dropdown-item.active,
+.dropdown.bootstrap-select .dropdown-menu > li > a.active {
+    background-color: #f0f5ff;
+}
+
+.bootstrap-select.btn-group .dropdown-menu.inner {
+    position: static;
+    float: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.bootstrap-select.btn-group .dropdown-menu {
+    min-width: 100%;
+    z-index: 1035;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bootstrap-select .dropdown-menu.show {
+    top: auto;
+    bottom: 100%;
+    margin-bottom: 2px;
+    display: inline-table;
+    overflow: hidden;
+    height: 100%;
+}
+
+.selectpicker [class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-size: 1.5em;
+}
+
+/* AGENZIA */
+.pb-xl-custom {
+    padding-bottom: 18em;
+}
+
+.mt-n-custom {
+    margin-top: -15em !important;
+}
+
+/* Autoesclusione dal gioco pagina */
+.bg-icon-giochi {
+    background: url(../img/hero-giochi.svg);
+    background-size: 28%;
+    background-position: -25px 0px;
+    background-repeat: no-repeat;
+    min-height: 270px;
+}
