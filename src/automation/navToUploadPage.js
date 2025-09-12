@@ -4,6 +4,7 @@ import path from "path";
 import { dismissCookies } from "./helpers/dismissCookies.js";
 import { waitForDashboard } from "./helpers/waitForDashboard.js";
 import { createRunLogger } from "../utils/logger.js";
+import { waitForSettled } from "./helpers/waitForSettled.js";
 
 export async function navToUploadPage({ username, password }, runDir, loggerParam) {
   const LOGIN_URL = "https://iampe.adm.gov.it/sam/UI/Login?realm=/adm&locale=en";
@@ -26,9 +27,27 @@ export async function navToUploadPage({ username, password }, runDir, loggerPara
   const page = await context.newPage();
   logger.attachPage(page);
 
+  async function gotoWithRetry(url, label, attempts = 3, timeout = 60000) {
+    let lastErr = null;
+    for (let i = 1; i <= attempts; i++) {
+      try {
+        logger.info(`goto:${label}:try`, { url, attempt: i });
+        await page.goto(url, { waitUntil: "domcontentloaded", timeout });
+        await page.waitForLoadState("networkidle").catch(() => {});
+        return true;
+      } catch (e) {
+        lastErr = e;
+        logger.warn(`goto:${label}:failed`, { attempt: i, reason: e?.message || String(e) });
+        await page.waitForTimeout(1000);
+      }
+    }
+    throw lastErr || new Error(`goto-failed:${label}`);
+  }
+
   // 1) Login
   logger.info("nav:login:goto", { url: LOGIN_URL });
-  await page.goto(LOGIN_URL, { waitUntil: "domcontentloaded", timeout: 30000 });
+  await gotoWithRetry(LOGIN_URL, "login", 3, 60000);
+  await waitForSettled(page, 60000);
   await page.screenshot({ path: shots.login, fullPage: true });
   await logger.snapshotDom(page, "00_login_page");
   await page.fill("#userName1", username);
@@ -48,14 +67,16 @@ export async function navToUploadPage({ username, password }, runDir, loggerPara
 
   // 4) SSO jump
   logger.info("nav:sso:goto", { url: SSO_JUMP });
-  await page.goto(SSO_JUMP, { waitUntil: "domcontentloaded", timeout: 30000 });
+  await gotoWithRetry(SSO_JUMP, "sso", 3, 60000);
+  await waitForSettled(page, 60000);
   await page.waitForLoadState("networkidle").catch(() => {});
   await page.screenshot({ path: shots.afterSSO, fullPage: true });
   await logger.snapshotDom(page, "03_after_sso");
 
   // 5) Upload page
   logger.info("nav:upload:goto", { url: UPLOAD_PAGE });
-  await page.goto(UPLOAD_PAGE, { waitUntil: "domcontentloaded", timeout: 30000 });
+  await gotoWithRetry(UPLOAD_PAGE, "upload", 2, 60000);
+  await waitForSettled(page, 60000);
   await page.waitForLoadState("networkidle").catch(() => {});
   await page.screenshot({ path: shots.onUpload, fullPage: true });
   await logger.snapshotDom(page, "04_upload_page");

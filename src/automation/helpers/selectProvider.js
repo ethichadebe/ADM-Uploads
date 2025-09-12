@@ -20,8 +20,12 @@ export async function selectProvider(page, providerTarget, screenshotPath, logge
 
   // Trigger JSF change
   await page.dispatchEvent(SELECT, "change").catch(() => {});
-  await page.waitForLoadState("networkidle").catch(() => {});
-  await page.waitForTimeout(200);
+  try { await page.waitForLoadState("networkidle"); } catch {}
+  try {
+    const { waitForSettled } = await import('./waitForSettled.js');
+    await waitForSettled(page, 40000);
+  } catch {}
+  await page.waitForTimeout(150);
   if (screenshotPath) await page.screenshot({ path: screenshotPath, fullPage: true });
 
   // After provider change, radios are often re-rendered. Ensure Gioco exists.

@@ -36,10 +36,13 @@ export async function selectLastVersion(page, screenshotPath, logger, timeoutMs 
   await page.selectOption(SEL, { value: chosen.value });
   await page.dispatchEvent(SEL, 'change').catch(() => {});
   await page.waitForLoadState('networkidle').catch(() => {});
-  await page.waitForTimeout(250);
+  try {
+    const { waitForSettled } = await import('./waitForSettled.js');
+    await waitForSettled(page, 40000);
+  } catch {}
+  await page.waitForTimeout(200);
 
   if (screenshotPath) await page.screenshot({ path: screenshotPath, fullPage: true });
   logger?.info?.('version:selected', { chosen });
   return { ok: true, chosen, available };
 }
-

@@ -1,5 +1,6 @@
 // src/automation/helpers/selectProjectFromValues.js
 import { waitForProjectList } from "./waitForProjectList.js";
+import { waitForSettled } from "./waitForSettled.js";
 
 // Picks the first projectValue that exists in the list.
 // Returns { ok, chosen, available } where chosen is the selected {value,label} or null.
@@ -30,7 +31,8 @@ export async function selectProjectFromValues(page, projectValues, screenshotPat
   await page.selectOption(SEL, { value: match.value });
   await page.dispatchEvent(SEL, "change").catch(() => {});
   await page.waitForLoadState("networkidle").catch(() => {});
-  await page.waitForTimeout(200);
+  await waitForSettled(page, 40000).catch(() => {});
+  await page.waitForTimeout(150);
 
   if (screenshotPath) await page.screenshot({ path: screenshotPath, fullPage: true });
   logger?.info?.("project:selected", { chosen: match });

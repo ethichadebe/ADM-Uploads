@@ -1,0 +1,1271 @@
+{
+  "t": "2025-09-12T05:13:19.150Z",
+  "url": "https://odv.adm.gov.it/ODV_GAD/pages/acquisizioneCertificazione.xhtml",
+  "title": "ODV_GAD - Acquisizione certificazione",
+  "state": {
+    "providers": {
+      "disabled": false,
+      "optionsCount": 50,
+      "options": [
+        {
+          "value": "",
+          "label": "Selezionare il concessionario:",
+          "disabled": false
+        },
+        {
+          "value": "15003",
+          "label": "15003 - DOMUS BET S.R.L",
+          "disabled": false
+        },
+        {
+          "value": "15007",
+          "label": "15007 - BETFLAG S.P.A.",
+          "disabled": false
+        },
+        {
+          "value": "15011",
+          "label": "15011 - LEO VEGAS GAMING P.L.C.",
+          "disabled": false
+        },
+        {
+          "value": "15014",
+          "label": "15014 - 888 ITALIA LIMITED",
+          "disabled": false
+        },
+        {
+          "value": "15015",
+          "label": "15015 - BPG S.R.L.",
+          "disabled": false
+        },
+        {
+          "value": "15016",
+          "label": "15016 - EUROBET ITALIA S.R.L. UNIPERSONALE",
+          "disabled": false
+        },
+        {
+          "value": "15017",
+          "label": "15017 - GOLDBET BETTER ORGANIZATION ITALY S.P.A. IN BREVE GBO ITALY S.P.A.",
+          "disabled": false
+        },
+        {
+          "value": "15023",
+          "label": "15023 - TSG ITALY SRL",
+          "disabled": false
+        },
+        {
+          "value": "15026",
+          "label": "15026 - EUROBET ITALIA S.R.L. UNIPERSONALE",
+          "disabled": false
+        },
+        {
+          "value": "15028",
+          "label": "15028 - EUROBET ITALIA S.R.L. UNIPERSONALE",
+          "disabled": false
+        },
+        {
+          "value": "15038",
+          "label": "15038 - WILLIAM HILL MALTA PLC",
+          "disabled": false
+        },
+        {
+          "value": "15075",
+          "label": "15075 - HIT D.D. NOVA GORICA S.P.A.",
+          "disabled": false
+        },
+        {
+          "value": "15096",
+          "label": "15096 - ADMIRAL SPORT S.R.L.",
+          "disabled": false
+        },
+        {
+          "value": "15099",
+          "label": "15099 - TOTOSI' S.R.L.",
+          "disabled": false
+        },
+        {
+          "value": "15112",
+          "label": "15112 - MICROGAME S.P.A.",
+          "disabled": false
+        },
+        {
+          "value": "15125",
+          "label": "15125 - SCOMMETTENDO S.R.L.",
+          "disabled": false
+        },
+        {
+          "value": "15131",
+          "label": "15131 - BETPOINT S.R.L.",
+          "disabled": false
+        },
+        {
+          "value": "15133",
+          "label": "15133 - MULTIGIOCO S.R.L.",
+          "disabled": false
+        },
+        {
+          "value": "15155",
+          "label": "15155 - SISAL ITALIA S.P.A.",
+          "disabled": false
+        },
+        {
+          "value": "15200",
+          "label": "15200 - VINCITU' S.R.L.",
+          "disabled": false
+        },
+        {
+          "value": "15201",
+          "label": "15201 - VINCITU' S.R.L.",
+          "disabled": false
+        },
+        {
+          "value": "15202",
+          "label": "15202 - AZZURRI LIMITED",
+          "disabled": false
+        },
+        {
+          "value": "15210",
+          "label": "15210 - BET CLASS ITALIA S.R.L.",
+          "disabled": false
+        },
+        {
+          "value": "15211",
+          "label": "15211 - BETFAIR ITALIA S.R.L.",
+          "disabled": false
+        },
+        {
+          "value": "15215",
+          "label": "15215 - SNAITECH SPA",
+          "disabled": false
+        },
+        {
+          "value": "15216",
+          "label": "15216 - BETWAY LIMITED",
+          "disabled": false
+        },
+        {
+          "value": "15220",
+          "label": "15220 - E-PLAY24 ITALIA S.R.L.",
+          "disabled": false
+        },
+        {
+          "value": "15221",
+          "label": "15221 - HBG ON LINE GAMING S.R.L",
+          "disabled": false
+        },
+        {
+          "value": "15226",
+          "label": "15226 - GOLDBET BETTER ORGANIZATION ITALY S.P.A. IN BREVE GBO ITALY S.P.A.",
+          "disabled": false
+        },
+        {
+          "value": "15227",
+          "label": "15227 - GI.LU.PI. S.R.L.",
+          "disabled": false
+        },
+        {
+          "value": "15228",
+          "label": "15228 - UNIBET (ITALIA) LTD",
+          "disabled": false
+        },
+        {
+          "value": "15230",
+          "label": "15230 - AZZURRI LIMITED",
+          "disabled": false
+        },
+        {
+          "value": "15232",
+          "label": "15232 - E-PLAY 24 ITA LIMITED",
+          "disabled": false
+        },
+        {
+          "value": "15234",
+          "label": "15234 - REPLATZ S.R.L.",
+          "disabled": false
+        },
+        {
+          "value": "15235",
+          "label": "15235 - APOLLO ENTERTAINMENT LTD",
+          "disabled": false
+        },
+        {
+          "value": "15237",
+          "label": "15237 - STAKE ITALY S.R.L.",
+          "disabled": false
+        },
+        {
+          "value": "15241",
+          "label": "15241 - UNIBET (ITALIA) LTD",
+          "disabled": false
+        },
+        {
+          "value": "15242",
+          "label": "15242 - PWO S.P.A.",
+          "disabled": false
+        },
+        {
+          "value": "15247",
+          "label": "15247 - STANLEYBET MALTA LIMITED",
+          "disabled": false
+        },
+        {
+          "value": "15252",
+          "label": "15252 - BGAME S.P.A. SOCIETA' BENEFIT",
+          "disabled": false
+        },
+        {
+          "value": "15253",
+          "label": "15253 - HILLSIDE (NEW MEDIA MALTA) PLC",
+          "disabled": false
+        },
+        {
+          "value": "15427",
+          "label": "15427 - VIDEOSLOTS LTD",
+          "disabled": false
+        },
+        {
+          "value": "15432",
+          "label": "15432 - NETWIN ITALIA S.P.A.",
+          "disabled": false
+        },
+        {
+          "value": "15442",
+          "label": "15442 - GAME DIVISION ITALY SRL",
+          "disabled": false
+        },
+        {
+          "value": "15454",
+          "label": "15454 - SPORTBET S.R.L.",
+          "disabled": false
+        },
+        {
+          "value": "15455",
+          "label": "15455 - SOGNO DI TOLOSA LTD",
+          "disabled": false
+        },
+        {
+          "value": "15463",
+          "label": "15463 - BI & BI SRLS",
+          "disabled": false
+        },
+        {
+          "value": "15464",
+          "label": "15464 - IFLEX LIMITED",
+          "disabled": false
+        },
+        {
+          "value": "15469",
+          "label": "15469 - SLOT PLUS S.R.L.",
+          "disabled": false
+        }
+      ]
+    },
+    "giocoPresent": true,
+    "giocoChecked": true,
+    "projects": {
+      "disabled": false,
+      "optionsCount": 207,
+      "options": [
+        {
+          "value": "",
+          "label": "Selezionare un progetto:",
+          "disabled": false
+        },
+        {
+          "value": "22134",
+          "label": "22134 - LIVE ROULETTE",
+          "disabled": false
+        },
+        {
+          "value": "23147",
+          "label": "23147 - PLAYBOY",
+          "disabled": false
+        },
+        {
+          "value": "23148",
+          "label": "23148 - LOST VEGAS",
+          "disabled": false
+        },
+        {
+          "value": "23150",
+          "label": "23150 - 108 HEROES MULTIPLIER FORTUNES",
+          "disabled": false
+        },
+        {
+          "value": "23151",
+          "label": "23151 - BAR BAR BLACK SHEEP - 5 REEL",
+          "disabled": false
+        },
+        {
+          "value": "23152",
+          "label": "23152 - BEAUTIFUL BONES",
+          "disabled": false
+        },
+        {
+          "value": "23153",
+          "label": "23153 - BIKINI PARTY",
+          "disabled": false
+        },
+        {
+          "value": "23154",
+          "label": "23154 - COOL BUCK - 5 REEL",
+          "disabled": false
+        },
+        {
+          "value": "23155",
+          "label": "23155 - DRAGON DANCE",
+          "disabled": false
+        },
+        {
+          "value": "23156",
+          "label": "23156 - EMOTICOINS",
+          "disabled": false
+        },
+        {
+          "value": "23157",
+          "label": "23157 - FORBIDDEN THRONE",
+          "disabled": false
+        },
+        {
+          "value": "23158",
+          "label": "23158 - FORTUNE GIRL",
+          "disabled": false
+        },
+        {
+          "value": "23159",
+          "label": "23159 - HALLOWEEN",
+          "disabled": false
+        },
+        {
+          "value": "23161",
+          "label": "23161 - JURASSIC WORLD",
+          "disabled": false
+        },
+        {
+          "value": "23162",
+          "label": "23162 - MEGA MONEY MULTIPLIER",
+          "disabled": false
+        },
+        {
+          "value": "23163",
+          "label": "23163 - OINK COUNTRY LOVE",
+          "disabled": false
+        },
+        {
+          "value": "23164",
+          "label": "23164 - SIX ACROBATS",
+          "disabled": false
+        },
+        {
+          "value": "23165",
+          "label": "23165 - SUGAR PARADE",
+          "disabled": false
+        },
+        {
+          "value": "23166",
+          "label": "23166 - THE PHANTOM OF THE OPERA",
+          "disabled": false
+        },
+        {
+          "value": "23167",
+          "label": "23167 - HIGHLANDER",
+          "disabled": false
+        },
+        {
+          "value": "23168",
+          "label": "23168 - GOLDWYN&#039;S FAIRIES",
+          "disabled": false
+        },
+        {
+          "value": "23169",
+          "label": "23169 - LOADED",
+          "disabled": false
+        },
+        {
+          "value": "23170",
+          "label": "23170 - LUCKY LITTLE GODS",
+          "disabled": false
+        },
+        {
+          "value": "23172",
+          "label": "23172 - PLAYBOY GOLD",
+          "disabled": false
+        },
+        {
+          "value": "23173",
+          "label": "23173 - TOMB RAIDER",
+          "disabled": false
+        },
+        {
+          "value": "23528",
+          "label": "23528 - ACES & FACES",
+          "disabled": false
+        },
+        {
+          "value": "23529",
+          "label": "23529 - ALASKAN FISHING",
+          "disabled": false
+        },
+        {
+          "value": "23530",
+          "label": "23530 - AVALON",
+          "disabled": false
+        },
+        {
+          "value": "23531",
+          "label": "23531 - BASKETBALL STAR",
+          "disabled": false
+        },
+        {
+          "value": "23532",
+          "label": "23532 - BREAK DA BANK AGAIN",
+          "disabled": false
+        },
+        {
+          "value": "23533",
+          "label": "23533 - BURNING DESIRE",
+          "disabled": false
+        },
+        {
+          "value": "23534",
+          "label": "23534 - EUROPEAN ROULETTE GOLD",
+          "disabled": false
+        },
+        {
+          "value": "23535",
+          "label": "23535 - GAME OF THRONES - 243 WAYS",
+          "disabled": false
+        },
+        {
+          "value": "23536",
+          "label": "23536 - HITMAN",
+          "disabled": false
+        },
+        {
+          "value": "23537",
+          "label": "23537 - JUNGLE JIM - EL DORADO",
+          "disabled": false
+        },
+        {
+          "value": "23538",
+          "label": "23538 - KINGS OF CASH",
+          "disabled": false
+        },
+        {
+          "value": "23539",
+          "label": "23539 - MERMAIDS MILLIONS",
+          "disabled": false
+        },
+        {
+          "value": "23540",
+          "label": "23540 - PURE PLATINUM",
+          "disabled": false
+        },
+        {
+          "value": "23541",
+          "label": "23541 - STASH OF THE TITANS",
+          "disabled": false
+        },
+        {
+          "value": "23542",
+          "label": "23542 - THE TWISTED CIRCUS",
+          "disabled": false
+        },
+        {
+          "value": "23543",
+          "label": "23543 - THUNDERSTRUCK",
+          "disabled": false
+        },
+        {
+          "value": "23544",
+          "label": "23544 - THUNDERSTRUCK II",
+          "disabled": false
+        },
+        {
+          "value": "23545",
+          "label": "23545 - VEGAS SINGLE DECK BLACKJACK GOLD",
+          "disabled": false
+        },
+        {
+          "value": "38162",
+          "label": "38162 - BIG BAD WOLF",
+          "disabled": false
+        },
+        {
+          "value": "39422",
+          "label": "39422 - ACTION OPS: SNOW &AMP;AMP; SABLE",
+          "disabled": false
+        },
+        {
+          "value": "39423",
+          "label": "39423 - AGENT JANE BLONDE RETURNS",
+          "disabled": false
+        },
+        {
+          "value": "39424",
+          "label": "39424 - AMERICAN ROULETTE",
+          "disabled": false
+        },
+        {
+          "value": "39425",
+          "label": "39425 - ANCIENT FORTUNES: ZEUS",
+          "disabled": false
+        },
+        {
+          "value": "39426",
+          "label": "39426 - ARCTIC VALOR",
+          "disabled": false
+        },
+        {
+          "value": "39427",
+          "label": "39427 - ASTRO LEGENDS: LYRA AND ERION",
+          "disabled": false
+        },
+        {
+          "value": "39429",
+          "label": "39429 - BOOK OF OZ_OLD",
+          "disabled": false
+        },
+        {
+          "value": "39430",
+          "label": "39430 - BOOKIE OF ODDS",
+          "disabled": false
+        },
+        {
+          "value": "39431",
+          "label": "39431 - CABARET ROYALE",
+          "disabled": false
+        },
+        {
+          "value": "39432",
+          "label": "39432 - DECO DIAMONDS",
+          "disabled": false
+        },
+        {
+          "value": "39433",
+          "label": "39433 - DIAMOND EMPIRE",
+          "disabled": false
+        },
+        {
+          "value": "39434",
+          "label": "39434 - DRAGON SHARD",
+          "disabled": false
+        },
+        {
+          "value": "39435",
+          "label": "39435 - DREAM DATE",
+          "disabled": false
+        },
+        {
+          "value": "39436",
+          "label": "39436 - EUROPEAN BLACKJACK",
+          "disabled": false
+        },
+        {
+          "value": "39437",
+          "label": "39437 - EXOTIC CATS",
+          "disabled": false
+        },
+        {
+          "value": "39439",
+          "label": "39439 - FORTUNIUM",
+          "disabled": false
+        },
+        {
+          "value": "39452",
+          "label": "39452 - HOLLY JOLLY PENGUINS",
+          "disabled": false
+        },
+        {
+          "value": "39453",
+          "label": "39453 - ICY GEMS",
+          "disabled": false
+        },
+        {
+          "value": "39454",
+          "label": "39454 - KING TUSK",
+          "disabled": false
+        },
+        {
+          "value": "39455",
+          "label": "39455 - LARA CROFT: TEMPLES AND TOMBS_OLD",
+          "disabled": false
+        },
+        {
+          "value": "39456",
+          "label": "39456 - LE KAFFEE BAR",
+          "disabled": false
+        },
+        {
+          "value": "39457",
+          "label": "39457 - LUCHA LEGENDS",
+          "disabled": false
+        },
+        {
+          "value": "39458",
+          "label": "39458 - MONSTER WHEELS",
+          "disabled": false
+        },
+        {
+          "value": "39459",
+          "label": "39459 - OUR DAYS",
+          "disabled": false
+        },
+        {
+          "value": "39460",
+          "label": "39460 - REEL SPLITTER",
+          "disabled": false
+        },
+        {
+          "value": "39461",
+          "label": "39461 - REEL TALENT",
+          "disabled": false
+        },
+        {
+          "value": "39462",
+          "label": "39462 - ROBIN OF SHERWOOD",
+          "disabled": false
+        },
+        {
+          "value": "39463",
+          "label": "39463 - ROCKABILLY WOLVES",
+          "disabled": false
+        },
+        {
+          "value": "39464",
+          "label": "39464 - ROMANOV RICHES",
+          "disabled": false
+        },
+        {
+          "value": "39465",
+          "label": "39465 - ROULETTE",
+          "disabled": false
+        },
+        {
+          "value": "39466",
+          "label": "39466 - RUBY CASINO QUEEN",
+          "disabled": false
+        },
+        {
+          "value": "39467",
+          "label": "39467 - SECRET ROMANCE",
+          "disabled": false
+        },
+        {
+          "value": "39468",
+          "label": "39468 - SHOGUN OF TIME",
+          "disabled": false
+        },
+        {
+          "value": "39469",
+          "label": "39469 - SHOWDOWN SALOON",
+          "disabled": false
+        },
+        {
+          "value": "39470",
+          "label": "39470 - THE GREAT ALBINI",
+          "disabled": false
+        },
+        {
+          "value": "39471",
+          "label": "39471 - WICKED TALES: DARK RED",
+          "disabled": false
+        },
+        {
+          "value": "39472",
+          "label": "39472 - WILD SCARABS",
+          "disabled": false
+        },
+        {
+          "value": "39473",
+          "label": "39473 - ZOMBIE HOARD",
+          "disabled": false
+        },
+        {
+          "value": "39474",
+          "label": "39474 - TWEETHEARTS",
+          "disabled": false
+        },
+        {
+          "value": "39475",
+          "label": "39475 - BOOK OF OZ: LOCK N SPIN",
+          "disabled": false
+        },
+        {
+          "value": "39476",
+          "label": "39476 - SAPPHIRE ROULETTE",
+          "disabled": false
+        },
+        {
+          "value": "39477",
+          "label": "39477 - EXTRA CHILLI",
+          "disabled": false
+        },
+        {
+          "value": "39478",
+          "label": "39478 - BOOM PIRATES",
+          "disabled": false
+        },
+        {
+          "value": "39479",
+          "label": "39479 - RABBIT IN THE HAT",
+          "disabled": false
+        },
+        {
+          "value": "39480",
+          "label": "39480 - DECO DIAMONDS DELUXE",
+          "disabled": false
+        },
+        {
+          "value": "39481",
+          "label": "39481 - 9 MASKS OF FIRE_OLD",
+          "disabled": false
+        },
+        {
+          "value": "39482",
+          "label": "39482 - A DARK MATTER",
+          "disabled": false
+        },
+        {
+          "value": "39483",
+          "label": "39483 - LONG MU FORTUNES",
+          "disabled": false
+        },
+        {
+          "value": "39484",
+          "label": "39484 - JUNGLE JIM AND THE LOST SPHINX",
+          "disabled": false
+        },
+        {
+          "value": "39485",
+          "label": "39485 - STACKS OF PEARLS",
+          "disabled": false
+        },
+        {
+          "value": "39486",
+          "label": "39486 - LOCK-A-LUCK",
+          "disabled": false
+        },
+        {
+          "value": "39487",
+          "label": "39487 - RISING ROYALS",
+          "disabled": false
+        },
+        {
+          "value": "39488",
+          "label": "39488 - TIKI MANIA",
+          "disabled": false
+        },
+        {
+          "value": "39489",
+          "label": "39489 - PLAYBOY GOLD: JACKPOTS",
+          "disabled": false
+        },
+        {
+          "value": "39490",
+          "label": "39490 - IVORY CITADEL",
+          "disabled": false
+        },
+        {
+          "value": "39492",
+          "label": "39492 - AURORA WILDS",
+          "disabled": false
+        },
+        {
+          "value": "39493",
+          "label": "39493 - BANANA ODYSSEY",
+          "disabled": false
+        },
+        {
+          "value": "39494",
+          "label": "39494 - BONANZA",
+          "disabled": false
+        },
+        {
+          "value": "39495",
+          "label": "39495 - BREAK AWAY DELUXE",
+          "disabled": false
+        },
+        {
+          "value": "39496",
+          "label": "39496 - BREAK DA BANK AGAIN RESPIN",
+          "disabled": false
+        },
+        {
+          "value": "39497",
+          "label": "39497 - EUROPEAN ROULETTE GOLD",
+          "disabled": false
+        },
+        {
+          "value": "39498",
+          "label": "39498 - LUCKY FIRECRACKER",
+          "disabled": false
+        },
+        {
+          "value": "39499",
+          "label": "39499 - MAGIC OF SAHARA",
+          "disabled": false
+        },
+        {
+          "value": "39500",
+          "label": "39500 - QUEEN OF THE CRYSTAL RAYS",
+          "disabled": false
+        },
+        {
+          "value": "39501",
+          "label": "39501 - RELIC SEEKERS",
+          "disabled": false
+        },
+        {
+          "value": "39502",
+          "label": "39502 - SHERLOCK OF LONDON",
+          "disabled": false
+        },
+        {
+          "value": "39503",
+          "label": "39503 - TIKI VIKINGS",
+          "disabled": false
+        },
+        {
+          "value": "39504",
+          "label": "39504 - VILLAGE PEOPLE MACHO MOVES",
+          "disabled": false
+        },
+        {
+          "value": "39505",
+          "label": "39505 - MILLIONAIRE",
+          "disabled": false
+        },
+        {
+          "value": "39633",
+          "label": "39633 - AGENT JANE BLONDE",
+          "disabled": false
+        },
+        {
+          "value": "39634",
+          "label": "39634 - ALASKAN FISHING",
+          "disabled": false
+        },
+        {
+          "value": "39635",
+          "label": "39635 - ARCTIC MAGIC",
+          "disabled": false
+        },
+        {
+          "value": "39636",
+          "label": "39636 - ARIANA",
+          "disabled": false
+        },
+        {
+          "value": "39637",
+          "label": "39637 - AVALON",
+          "disabled": false
+        },
+        {
+          "value": "39638",
+          "label": "39638 - BASKETBALL STAR",
+          "disabled": false
+        },
+        {
+          "value": "39639",
+          "label": "39639 - BIG TOP",
+          "disabled": false
+        },
+        {
+          "value": "39640",
+          "label": "39640 - BREAK AWAY",
+          "disabled": false
+        },
+        {
+          "value": "39641",
+          "label": "39641 - BREAK DA BANK AGAIN RESPIN",
+          "disabled": false
+        },
+        {
+          "value": "39642",
+          "label": "39642 - BRIDESMAIDS",
+          "disabled": false
+        },
+        {
+          "value": "39643",
+          "label": "39643 - BURNING DESIRE",
+          "disabled": false
+        },
+        {
+          "value": "39644",
+          "label": "39644 - CARNAVAL",
+          "disabled": false
+        },
+        {
+          "value": "39645",
+          "label": "39645 - CASH OF KINGDOMS",
+          "disabled": false
+        },
+        {
+          "value": "39647",
+          "label": "39647 - EAGLE&#039;S WINGS",
+          "disabled": false
+        },
+        {
+          "value": "39648",
+          "label": "39648 - FESTIVE INDULGENCE",
+          "disabled": false
+        },
+        {
+          "value": "39649",
+          "label": "39649 - GAME OF THRONES 243 WAYS",
+          "disabled": false
+        },
+        {
+          "value": "39650",
+          "label": "39650 - JUNGLE JIM - EL DORADO",
+          "disabled": false
+        },
+        {
+          "value": "39651",
+          "label": "39651 - LUCKY LEPRECHAUN",
+          "disabled": false
+        },
+        {
+          "value": "39652",
+          "label": "39652 - MERMAIDS MILLIONS",
+          "disabled": false
+        },
+        {
+          "value": "39653",
+          "label": "39653 - NORTH STORM",
+          "disabled": false
+        },
+        {
+          "value": "39654",
+          "label": "39654 - PURE PLATINUM",
+          "disabled": false
+        },
+        {
+          "value": "39655",
+          "label": "39655 - SPRING BREAK",
+          "disabled": false
+        },
+        {
+          "value": "39656",
+          "label": "39656 - STUMPY MCDOODLES",
+          "disabled": false
+        },
+        {
+          "value": "39657",
+          "label": "39657 - THE TWISTED CIRCUS",
+          "disabled": false
+        },
+        {
+          "value": "39658",
+          "label": "39658 - THUNDERSTRUCK",
+          "disabled": false
+        },
+        {
+          "value": "39659",
+          "label": "39659 - THUNDERSTRUCK II",
+          "disabled": false
+        },
+        {
+          "value": "39660",
+          "label": "39660 - TREASURES OF LION CITY",
+          "disabled": false
+        },
+        {
+          "value": "39661",
+          "label": "39661 - VOLATILE SLOT",
+          "disabled": false
+        },
+        {
+          "value": "39662",
+          "label": "39662 - WACKY PANDA",
+          "disabled": false
+        },
+        {
+          "value": "67489",
+          "label": "67489 - BAKING BONANZA",
+          "disabled": false
+        },
+        {
+          "value": "67490",
+          "label": "67490 - BLACKJACK XCHANGE",
+          "disabled": false
+        },
+        {
+          "value": "67493",
+          "label": "67493 - SLINGO ANTE UP",
+          "disabled": false
+        },
+        {
+          "value": "67499",
+          "label": "67499 - SLINGO EXTREME",
+          "disabled": false
+        },
+        {
+          "value": "67501",
+          "label": "67501 - SLINGO LUCKY STREAK",
+          "disabled": false
+        },
+        {
+          "value": "67506",
+          "label": "67506 - SLINGO SHOWDOWN",
+          "disabled": false
+        },
+        {
+          "value": "98607",
+          "label": "98607 - SLINGO LUCKYLINES",
+          "disabled": false
+        },
+        {
+          "value": "109086",
+          "label": "109086 - MINES",
+          "disabled": false
+        },
+        {
+          "value": "109087",
+          "label": "109087 - COINS",
+          "disabled": false
+        },
+        {
+          "value": "126389",
+          "label": "126389 - PLINKO",
+          "disabled": false
+        },
+        {
+          "value": "188471",
+          "label": "188471 - PLINBALL - ORIGINALS",
+          "disabled": false
+        },
+        {
+          "value": "202595",
+          "label": "202595 - INVICTUS",
+          "disabled": false
+        },
+        {
+          "value": "202596",
+          "label": "202596 - EYE OF MEDUSA",
+          "disabled": false
+        },
+        {
+          "value": "211119",
+          "label": "211119 - BASH BROS",
+          "disabled": false
+        },
+        {
+          "value": "211121",
+          "label": "211121 - THE COUNT",
+          "disabled": false
+        },
+        {
+          "value": "211122",
+          "label": "211122 - SUN PRINCESS",
+          "disabled": false
+        },
+        {
+          "value": "213356",
+          "label": "213356 - BISON MOON POWER COMBO",
+          "disabled": false
+        },
+        {
+          "value": "213357",
+          "label": "213357 - WHEEL - THE ORIGINALS",
+          "disabled": false
+        },
+        {
+          "value": "213379",
+          "label": "213379 - KENO - THE ORIGINALS",
+          "disabled": false
+        },
+        {
+          "value": "213381",
+          "label": "213381 - GRIDIRON LEGENDS X UP",
+          "disabled": false
+        },
+        {
+          "value": "213384",
+          "label": "213384 - KNIGHTS OF THE GOLDEN EGG MULTIPLIER RICHES",
+          "disabled": false
+        },
+        {
+          "value": "213388",
+          "label": "213388 - LARA CROFT: FORTUNE OF THE ECLIPSE MULTICHASE",
+          "disabled": false
+        },
+        {
+          "value": "213389",
+          "label": "213389 - PRIZE LADDER",
+          "disabled": false
+        },
+        {
+          "value": "213396",
+          "label": "213396 - 3 LUCKY HIPPOS 2",
+          "disabled": false
+        },
+        {
+          "value": "213401",
+          "label": "213401 - BLAZING BISON GOLD BLITZ ULTIMATE DOUBLE X",
+          "disabled": false
+        },
+        {
+          "value": "213475",
+          "label": "213475 - SLINGUINI SLINGO",
+          "disabled": false
+        },
+        {
+          "value": "213476",
+          "label": "213476 - SLINGO MINE FRENZY",
+          "disabled": false
+        },
+        {
+          "value": "215406",
+          "label": "215406 - PINK ELEPHANTS TRINITY",
+          "disabled": false
+        },
+        {
+          "value": "215407",
+          "label": "215407 - ESQUELETO EXPLOSIVO FELIZ NAVIDEAD",
+          "disabled": false
+        },
+        {
+          "value": "215661",
+          "label": "215661 - LE COWBOY",
+          "disabled": false
+        },
+        {
+          "value": "215662",
+          "label": "215662 - SPEAR OF ATHENA",
+          "disabled": false
+        },
+        {
+          "value": "215663",
+          "label": "215663 - LE SANTA",
+          "disabled": false
+        },
+        {
+          "value": "215664",
+          "label": "215664 - ARMY OF ARES",
+          "disabled": false
+        },
+        {
+          "value": "215665",
+          "label": "215665 - JAWS OF JUSTICE",
+          "disabled": false
+        },
+        {
+          "value": "215666",
+          "label": "215666 - DONNY AND DANNY",
+          "disabled": false
+        },
+        {
+          "value": "216185",
+          "label": "216185 - AREA LINK PHOENIX FIRESTORM",
+          "disabled": false
+        },
+        {
+          "value": "216186",
+          "label": "216186 - BOOK OF OZ",
+          "disabled": false
+        },
+        {
+          "value": "216190",
+          "label": "216190 - BONANZA RUSH EXPRESS",
+          "disabled": false
+        },
+        {
+          "value": "216193",
+          "label": "216193 - GOLD BLITZ EXTREME",
+          "disabled": false
+        },
+        {
+          "value": "216196",
+          "label": "216196 - LARA CROFT: TEMPLES AND TOMBS",
+          "disabled": false
+        },
+        {
+          "value": "216198",
+          "label": "216198 - 12 MASKS OF FIRE DRUMS",
+          "disabled": false
+        },
+        {
+          "value": "216200",
+          "label": "216200 - AREA LINK BANK BLAST",
+          "disabled": false
+        },
+        {
+          "value": "216202",
+          "label": "216202 - LINKS OF RA CASHINGO",
+          "disabled": false
+        },
+        {
+          "value": "216203",
+          "label": "216203 - DRAGONS OF ARCANE WILD",
+          "disabled": false
+        },
+        {
+          "value": "216205",
+          "label": "216205 - CASH N RICHES MEGAWAYS",
+          "disabled": false
+        },
+        {
+          "value": "216206",
+          "label": "216206 - ROME FIGHT FOR GOLD ETERNAL EMPIRE",
+          "disabled": false
+        },
+        {
+          "value": "216212",
+          "label": "216212 - 9 MASKS OF FIRE",
+          "disabled": false
+        },
+        {
+          "value": "216947",
+          "label": "216947 - MILLION 777 COINS",
+          "disabled": false
+        },
+        {
+          "value": "216950",
+          "label": "216950 - MEGA COINS",
+          "disabled": false
+        },
+        {
+          "value": "216961",
+          "label": "216961 - FLAMING BELLS: HOLD AND WIN",
+          "disabled": false
+        },
+        {
+          "value": "216988",
+          "label": "216988 - BILL &AMP;AMP; COIN 2",
+          "disabled": false
+        },
+        {
+          "value": "216989",
+          "label": "216989 - SWEET GUMMY",
+          "disabled": false
+        },
+        {
+          "value": "216990",
+          "label": "216990 - BACON BANKROLL",
+          "disabled": false
+        },
+        {
+          "value": "216991",
+          "label": "216991 - MASKED TREASURE",
+          "disabled": false
+        },
+        {
+          "value": "216992",
+          "label": "216992 - MISTER PAYMAN",
+          "disabled": false
+        },
+        {
+          "value": "216993",
+          "label": "216993 - MOW MONEY",
+          "disabled": false
+        },
+        {
+          "value": "216994",
+          "label": "216994 - FRANKS DINER",
+          "disabled": false
+        }
+      ]
+    }
+  }
+}

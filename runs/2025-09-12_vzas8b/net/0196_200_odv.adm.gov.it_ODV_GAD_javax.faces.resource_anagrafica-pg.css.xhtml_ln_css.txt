@@ -1,0 +1,118 @@
+.anagrafica-pg .last-fs {
+	margin-bottom: 100px !important;
+	position: relative;
+}
+.anagrafica-pg .label-pg{
+	 text-align: left !important;
+    border-bottom: 3px solid #f3cb50 !important;
+}
+.anagrafica-pg .last-fs .ui-corner-bottom {
+	background: none !important;
+	border: none !important;
+}
+
+.anagrafica-pg .last-fs .ui-corner-bottom .btn-confer {
+	bottom: -100px !important;
+	position: absolute;
+	left: 50% !important;
+	transform: translateX(-50%) !important;
+	height: 40px !important;
+    width: 150px !important;
+    border-radius: 10px !important;
+    cursor: pointer !important;
+    outline: none !important;
+    text-transform: none !important;
+    background: #5cb85c !important;
+    text-shadow: none !important;
+    color: black !important;
+    border: none !important;
+    font-weight: lighter !important;
+}
+.anagrafica-pg .modal-pg table{
+  border: 1px solid grey !important;
+}
+.anagrafica-pg .modal-pg table tbody tr td{
+    border-bottom: 1px solid grey !important;
+}
+.anagrafica-pg .modal-pg table tbody tr:last-child td{
+    border-bottom: none !important;
+}
+.anagrafica-pg {
+  margin-top: 30px;
+  display: inline-block !important;
+  width: 100% !important;
+   }
+
+  .anagrafica-pg h2 {
+    margin-top: 0px !important; }
+  .anagrafica-pg .msg {
+    margin: 30px 0 !important; }
+    .anagrafica-pg .msg ul li {
+      background-image: none !important; }
+  .anagrafica-pg h2 {
+    border: none !important;
+    background-image: none !important;
+    padding: 0 !important; }
+  .anagrafica-pg hr {
+    width: 99%;
+    float: left;
+    margin: 0;
+    height: 2px;
+    background: #f3cb50; }
+  .anagrafica-pg br {
+    display: none !important; }
+  .anagrafica-pg form fieldset {
+    margin-top: 20px; 
+    padding-right: 0px;}
+    .anagrafica-pg form fieldset legend {
+      padding: .2em 1em !important;
+      background: #f3cb50 !important;
+      border: none !important;
+      color: black !important;
+      font-weight: lighter !important;
+      text-shadow: none !important;
+      box-shadow: 2px 2px 2px #bdbdbd !important;
+      border-radius: 0px !important;
+      width: auto !important; }
+    .anagrafica-pg form fieldset table {
+      width: 100%; }
+      .anagrafica-pg form fieldset table thead th{
+      	background-color: #e2e2e2;
+		color: #ad4e41 !important;
+		height: 45px;
+      }
+      .anagrafica-pg form fieldset table thead th span{
+      	background-color: #e2e2e2 !important;
+      }
+      .anagrafica-pg form fieldset table tbody tr {
+        transition: all ease 0.2s; }
+        .anagrafica-pg form fieldset table tbody tr:hover {
+          background: #cccccc; }
+        .anagrafica-pg form fieldset table tbody tr td {
+          padding: 5px !important;
+          }
+          .anagrafica-pg form fieldset table tbody tr td:first-child {
+            width: 40% !important; }
+          .anagrafica-pg form fieldset table tbody tr td:last-child {
+            
+            font-size: 13px !important; }
+  .anagrafica-pg .modal-pg {
+    transform: translateX(-50%) translateY(-50%) !important;
+    left: 50% !important;
+    top: 50% !important;
+    position: absolute !important;
+    width: 60% !important; }
+    .anagrafica-pg .modal-pg table {
+      width: 100% !important;
+      margin: 20px 0; }
+      .anagrafica-pg .modal-pg table tbody tr td {
+        padding: 5px !important;
+        border-radius: 0 !important;
+        color: grey; }
+.anagrafica-pg form fieldset table.tipologiaFldset tbody tr td:last-child {
+       font-size: inherit !important; }
+       
+.anagrafica-pg .radiobtnText {
+	font-size: 13px !important;
+}
+/*# sourceMappingURL=anagrafica-pg.css.map */
